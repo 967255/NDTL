@@ -53,19 +53,22 @@ jupyter notebook notebooks/demo.ipynb
 
 ## 📂 Project Structure
 
-```text
+```NDTL
 ├── README.md         
-├── LICENSE           
-├── data/             
-├── notebooks/       
-├── src/             
-│   ├── train.py
-│   ├── evaluate.py
+├── LICENSE                             
+├── Lorenz_like/             
+│   ├── ode.py
+│   ├── pre-train.py
 │   └── ...
-├── tests/            
-├── requirements.txt  
-├── .github/     
-└── docs/      
+├── RCP/             
+│   ├── ode.py
+│   ├── pre_train.py
+│   └── ...
+├── SEIRS/             
+│   ├── ode.py
+│   ├── pre-train.py
+│   └── ...     
+└── ...      
 ```
 
 ---
