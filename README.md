@@ -68,7 +68,7 @@ jupyter notebook notebooks/demo.ipynb
 │   ├── ode.py
 │   ├── pre-train.py
 │   └── ...     
-└── ...      
+└── docs/      
 ```
 
 ---
@@ -76,7 +76,7 @@ jupyter notebook notebooks/demo.ipynb
 ## 📝 Examples & Results
 
 
-![Result Example](docs/images/result.png)
+![Result Example](docs/images/rcp.png)
 
 ---
 
