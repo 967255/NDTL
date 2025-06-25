@@ -76,7 +76,7 @@ jupyter notebook notebooks/demo.ipynb
 ## 📝 Examples & Results
 
 
-![Result Example](docs/images/rcp.png)
+![Result Example](docs/rcp.png)
 
 ---
 
