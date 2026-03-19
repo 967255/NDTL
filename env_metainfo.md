@@ -1,0 +1,3 @@
+# Environment
+
+conda env: dino
