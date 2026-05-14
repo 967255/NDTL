@@ -86,7 +86,7 @@ If you use this repository, please cite:
 
 ```bibtex
 @misc{ge2025ndtl,
-  author       = {Qiyang Ge, He Ma, Celso Grebogi, and Wei Lin},
+  author       = {He Ma, Qiyang Ge, Yu Meng, Celso Grebogi, and Wei Lin},
   title        = {{NDTL: Code for “Dynamics Creation through Neural Dynamical Transfer Learning”}},
   year         = {2025},
   howpublished = {\url{https://github.com/967255/NDTL}},
