@@ -7,7 +7,7 @@ This code implements “Dynamics Creation through Neural Dynamical Transfer Lear
 ## 📖 Overview
 
 - **Paper**: "Dynamics Creation through Neural Dynamical Transfer Learning" (under review, 2025)
-- **Authors**: Qiyang Ge*, He Ma*, Celso Grebogi, and Wei Lin†.
+- **Authors**: He Ma*, Qiyang Ge*, Yu Meng, Celso Grebogi, and Wei Lin†.
 - **DOI**: To appear.
 
 ---
