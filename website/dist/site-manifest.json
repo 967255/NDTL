@@ -1,0 +1,146 @@
+{
+  ".nojekyll": {
+    "bytes": 1,
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  "app.js": {
+    "bytes": 36134,
+    "sha256": "eb556768b58b9c8eebb46f0efd2fbe083db75afbeae526d35ce4d262b039a348"
+  },
+  "assets/favicon.svg": {
+    "bytes": 302,
+    "sha256": "f7b8ba6f765a4d4dfe02654569ef1d9a41df7f446152c564d9e48d6bcb41fd6a"
+  },
+  "assets/figures/content-style-transformations.pdf": {
+    "bytes": 17017,
+    "sha256": "eea043597e981873625a6edc2d8b227c4137b03b0fdf1ddc863f69606337063a"
+  },
+  "assets/figures/content-style-transformations.png": {
+    "bytes": 92325,
+    "sha256": "da12229ca49e7b735ed97fe7a10ab3994fd39de5a5056cafa8af009d2b50bdf3"
+  },
+  "assets/figures/content-style-transformations.svg": {
+    "bytes": 30476,
+    "sha256": "11ccf82ac97293b17c17804d505fcf4f7264952327579dc230ee3a46869ac043"
+  },
+  "assets/figures/encryption-benchmark.pdf": {
+    "bytes": 16143,
+    "sha256": "41564968b8d04578a8bf170ae3bd152cbac39e1f2ed869918ef8fcc60bda56b9"
+  },
+  "assets/figures/encryption-benchmark.png": {
+    "bytes": 84309,
+    "sha256": "bdd0bad04b9ef29c341389b01731bfb4cf084663da7f8002f360c3f2cdd6f797"
+  },
+  "assets/figures/encryption-benchmark.svg": {
+    "bytes": 21444,
+    "sha256": "1d7fdd5081dcb11a932885c2877d6580906895cf72f8e4cfdc370934847476c6"
+  },
+  "assets/figures/hp-coexistence.pdf": {
+    "bytes": 39039,
+    "sha256": "f982091bb315aed756add3a1268759c0aab94a6c2ae376c9686596d70a1155cd"
+  },
+  "assets/figures/hp-coexistence.png": {
+    "bytes": 502532,
+    "sha256": "479bdfbeee87161e378e9362e4f63f6ced3768c1a61663f274fb10159372f440"
+  },
+  "assets/figures/hp-coexistence.svg": {
+    "bytes": 99327,
+    "sha256": "e1fb5b90b3d943be00c58bfa492874c46bad9065a114763f10bbb8bb872dcc9e"
+  },
+  "assets/figures/layerwise-perturbation.pdf": {
+    "bytes": 21457,
+    "sha256": "aa422bef4a62388076e72e7f37b23a0bee66b8c8a983905a2cae77f5f948bd32"
+  },
+  "assets/figures/layerwise-perturbation.png": {
+    "bytes": 204330,
+    "sha256": "715a668a7484d4c794b0fdc8be94cddb03b0cb264b4d7d858fd5edcf2cfc7f77"
+  },
+  "assets/figures/layerwise-perturbation.svg": {
+    "bytes": 70521,
+    "sha256": "8672d33405e837cd950ad4ac013f16ce0137faa7936ab0633e1b804b209d253b"
+  },
+  "assets/motivation/fusion-illustration-prompt.txt": {
+    "bytes": 1176,
+    "sha256": "381bf0601bc5c3ec713045810f738dca59a0200533e16225b2e16073c5f9e9f8"
+  },
+  "assets/motivation/generated-illustration.txt": {
+    "bytes": 1375,
+    "sha256": "4e9f81efd63620dbb048bb05a31801d8e144aee306509f31ff2b41bfa64eb10d"
+  },
+  "assets/motivation/mona-lisa-cubist-illustration.png": {
+    "bytes": 3242912,
+    "sha256": "8c51a0e879e54fd1a620cef129d73928a72b6cedce570155ab934cda35505949"
+  },
+  "assets/motivation/mona-lisa-gris-fusion.png": {
+    "bytes": 3313771,
+    "sha256": "d44f47d50e958fbb732b2b437ce2e24ff7f4de8e80d152b33c6937328bfdfa26"
+  },
+  "assets/motivation/mona-lisa-public-domain.jpg": {
+    "bytes": 1487536,
+    "sha256": "9d26d6d244c5700d813f23b6d11e5e0bf61758dbedcebdc5610dfbd6e2edba82"
+  },
+  "assets/motivation/sources.json": {
+    "bytes": 5028,
+    "sha256": "88b90199854daccaa886582a128e7c810089a481c516aa6347c3914aab84cea6"
+  },
+  "assets/motivation/style-reference.jpg": {
+    "bytes": 422318,
+    "sha256": "d5e9cec369a90c3aba96756a0cb3728da73fb885813b347286b6a3b324636ff2"
+  },
+  "assets/paper/fig7-hp-original.png": {
+    "bytes": 433831,
+    "sha256": "05ee4acd0db93157e47e18820ea73c0167fb4a1848d32e88aaa97df1ba57b23b"
+  },
+  "assets/paper/fig8-seirs-original.png": {
+    "bytes": 212541,
+    "sha256": "418d2f4b95b66fba1fff106f728ffc13ebe02a0f41c4c221470897ca3ba63b2c"
+  },
+  "assets/paper/fig9-encryption-original.png": {
+    "bytes": 396502,
+    "sha256": "a4435c56772eb43fff81bfa1441e0ac1c4dec51cdbd31894f716f8c0fa8004d9"
+  },
+  "assets/paper/ndtl-prr-2026.pdf": {
+    "bytes": 6606527,
+    "sha256": "8033933e7070e5864b793730fbe31492ceeb1fdb2cce6efe081350bf28f6894b"
+  },
+  "data/applications.json": {
+    "bytes": 7306,
+    "sha256": "d9a0f8dde8a5c23d055cf5b26d117a9151088c66410e914bd472b484186597f2"
+  },
+  "data/classification-landscape.json": {
+    "bytes": 1119126,
+    "sha256": "d1201b283e180f95aa4a1e5872800dd20250edc1667524771803eb84c523a691"
+  },
+  "data/classification.json": {
+    "bytes": 43225,
+    "sha256": "b1f28b1b375122f1c08ddfe0280bba5e4774f50a7c7d0981b3e2acb9a9494961"
+  },
+  "data/data-audit.json": {
+    "bytes": 5245,
+    "sha256": "97174b8b8086800f395d9a9d02d5b345b9609bc9dff4e5f2dd96143af9004266"
+  },
+  "data/feature-analysis.json": {
+    "bytes": 210223,
+    "sha256": "8c1af032e83f8362e30e1e85760af38d3a378dd38d3d3fb09b52264c96e70274"
+  },
+  "data/fusion.json": {
+    "bytes": 3119461,
+    "sha256": "b30d0519a253272975c2c0d451540c2784923c2e9875805188ea43ac8cbc6158"
+  },
+  "data/hp-trajectories.json": {
+    "bytes": 292446,
+    "sha256": "b6bd8f1cf0a56776524cb7bff05657a181bf529304005beb4971a5dd1677e14e"
+  },
+  "data/research-data.js": {
+    "bytes": 4499429,
+    "sha256": "640dd9fca25af380d38795d5705eec31475fea1d6e35b15a7139e7c1b75da56e"
+  },
+  "index.html": {
+    "bytes": 18291,
+    "sha256": "b2593a21f6ee5203c24a0bd076ebece0fe254e152ec026458a9ae3ea089a5c13"
+  },
+  "styles.css": {
+    "bytes": 24825,
+    "sha256": "9006d82c64f56cf5c609f7eb812478af75692ba5a767156e847c497224d0ed73"
+  }
+}

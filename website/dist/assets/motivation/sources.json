@@ -1,0 +1,80 @@
+{
+  "checked_on": "2026-10-17",
+  "assets": [
+    {
+      "file": "mona-lisa-public-domain.jpg",
+      "title": "Mona Lisa",
+      "creator": "Leonardo da Vinci (1452–1519)",
+      "date": "between 1503 and 1506 (date stated by the Wikimedia Commons record)",
+      "collection": "Musée du Louvre, Paris",
+      "source_record": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Mona_Lisa.jpg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Leonardo_da_Vinci_-_Mona_Lisa.jpg",
+      "source_as_recorded": "Musée du Louvre, Au plus près des oeuvres (2010 upload)",
+      "source_link_as_recorded": "http://musee.louvre.fr/zoom/index.html",
+      "rights_label": "Public Domain Mark 1.0; PD-Art on Wikimedia Commons",
+      "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "pixel_width": 2403,
+      "pixel_height": 3591,
+      "modifications": "None",
+      "suggested_credit": "Leonardo da Vinci, Mona Lisa. Musée du Louvre; image via Wikimedia Commons, Public Domain Mark 1.0."
+    },
+    {
+      "file": "style-reference.jpg",
+      "role": "Style reference for the site's illustrative Content + Style → Fusion analogy",
+      "title": "Fantômas",
+      "creator": "Juan Gris (1887–1927)",
+      "date": "1915",
+      "collection": "National Gallery of Art, Washington",
+      "accession_number": "1976.59.1",
+      "credit_line": "Chester Dale Fund",
+      "source_record": "https://www.nga.gov/artworks/56101-fantomas",
+      "download_url": "https://api.nga.gov/iiif/dd10b4c4-bc3b-430f-8c6f-918a3ef2cb3b/full/1200,/0/default.jpg",
+      "full_resolution_download_url": "https://api.nga.gov/iiif/dd10b4c4-bc3b-430f-8c6f-918a3ef2cb3b/full/full/0/default.jpg?attachment_filename=fantomas_1976.59.1.jpg",
+      "rights_label": "Object page explicitly marks its media as free and in the public domain; NGA Open Access policy releases these digital images under CC0.",
+      "rights_url": "https://www.nga.gov/terms-and-notices#open-access-policy",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "pixel_width": 1200,
+      "pixel_height": 992,
+      "modifications": "Requested a 1200-pixel-wide derivative from the museum's IIIF image service; no crop or color edits.",
+      "suggested_credit": "Juan Gris, Fantômas, 1915. Chester Dale Fund, 1976.59.1. Courtesy National Gallery of Art, Washington (CC0).",
+      "important_distinction": "This is a Juan Gris painting, not a Pablo Picasso painting, and it is not the style reference used in Gatys et al. Figure 2."
+    }
+  ],
+  "historical_reference": {
+    "title": "A Neural Algorithm of Artistic Style",
+    "authors": [
+      "Leon A. Gatys",
+      "Alexander S. Ecker",
+      "Matthias Bethge"
+    ],
+    "year": 2015,
+    "paper_url": "https://arxiv.org/abs/1508.06576",
+    "pdf_url": "https://arxiv.org/pdf/1508.06576",
+    "author_source": "https://bethgelab.org/publication/2015_08_gatys/",
+    "verified_figure": "Figure 2",
+    "content_source": "Photograph of the Neckarfront in Tübingen, Germany, credited to Andreas Praefcke",
+    "picasso_style_source": "Femme nue assise, Pablo Picasso, 1910",
+    "important_distinction": "The paper's Figure 2 is not a Mona Lisa example. A Mona Lisa / Cubist pairing on this website should be identified as an illustrative analogy created for the site."
+  },
+  "suggested_copy": {
+    "heading": "What if dynamical systems could be recombined?",
+    "intro": "Neural style transfer showed how an image could preserve its content while adopting visual features from another. NDTL asks a related question: can learned representations of dynamical systems be recombined to create new dynamics?",
+    "illustration_label": "Illustrative analogy inspired by neural style transfer; not a figure from Gatys et al. (2015).",
+    "content_label": "Content · Mona Lisa",
+    "style_label": "Style · Juan Gris, Fantômas (1915)",
+    "generated_label": "Illustrative recombination",
+    "generated_disclosure_if_imagegen_used": "AI-generated conceptual illustration, not a neural style transfer experiment."
+  },
+  "optional_generated_art_brief": "Create a separate conceptual illustration that preserves the seated pose, folded hands and frontal portrait arrangement of Mona Lisa while using a generic Cubist visual language: geometric planes, fractured perspective, muted ochre and lavender. Avoid copying a named modern artist's individual painting. If generated, display it as an illustrative analogy, not an actual Gatys or NDTL output.",
+  "fusionIllustrationV2": {
+    "file": "mona-lisa-gris-fusion.png",
+    "type": "AI-generated conceptual illustration",
+    "mode": "Built-in ImageGen",
+    "contentReference": "mona-lisa-public-domain.jpg",
+    "styleReference": "style-reference.jpg",
+    "styleArtist": "Juan Gris",
+    "styleWork": "Fantômas (1915)",
+    "prompt": "fusion-illustration-prompt.txt",
+    "scientificStatus": "Conceptual analogy; not a neural style transfer experiment or NDTL output."
+  }
+}

@@ -1,0 +1,5 @@
+Mode: Built-in ImageGen; two reference images.
+Output: mona-lisa-gris-fusion.png
+References: mona-lisa-public-domain.jpg (content), style-reference.jpg (style).
+
+Use case: style-transfer. Asset: one portrait illustration for a scientific website's Content + Style -> Fusion triptych. Image 1 is the CONTENT reference: preserve Mona Lisa's recognizable face, enigmatic smile, seated three-quarter pose, folded hands, dark dress, and distant landscape composition. Image 2 is the STYLE reference: Juan Gris, Fantomas (1915). Reinterpret the content using that painting's flat overlapping angular collage geometry, ochre wood-grain brown, black, creamy white, muted violet, and small cobalt/green/yellow accents, with fine white contour strokes and painted paper texture. Make the recombination of the two references visibly obvious. The overall subject and composition must still read immediately as Mona Lisa. Create a finished vertical portrait, similar framing to Image 1, no border. Do not insert bottles, instruments, extra people, signatures, labels, or readable words. This is a newly generated conceptual illustration, not a scientific neural style-transfer experiment.

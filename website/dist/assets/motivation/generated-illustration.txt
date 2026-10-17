@@ -1,0 +1,7 @@
+Asset: mona-lisa-cubist-illustration.png
+Mode: built-in ImageGen, style-transfer using the public-domain Mona Lisa as content reference.
+Use: an illustrative analogy; not an experimental output of Gatys neural style transfer or NDTL.
+Content source and creator: see sources.json in this directory.
+
+Prompt:
+Use case: style-transfer. Asset type: a portrait illustration used in the motivation section of an academic website about neural style transfer and dynamical systems. Input image is the public-domain Mona Lisa by Leonardo da Vinci, used as the content reference. Create a new Cubist interpretation of this portrait, inspired by the geometric visual vocabulary of early analytical Cubism and Picasso: faceted planes, multiple viewpoints gently merged, angular contours, layered geometric segmentation. Keep Mona Lisa recognizable, with the same seated upper-body composition, folded hands at the bottom, head centered, dark clothes, and distant landscape. Use restrained charcoal, slate gray, muted lavender, warm cream, and ochre-gold paint, with convincing painted surface texture. Maintain the same portrait aspect ratio and full composition. No text, no signatures, no captions, no border, no watermark. This is a newly created conceptual illustration, not a reproduction of a particular Picasso painting and not a claimed historical result of the Gatys algorithm.
