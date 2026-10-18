@@ -1,0 +1,902 @@
+{
+  "lorenz": {
+    "label": "Lorenz",
+    "source": "existing",
+    "x0": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "bbox_h": 0.005,
+    "bbox_burn": 5000,
+    "bbox_steps": 25000,
+    "bbox_status": "Normal",
+    "retained_points": 25000,
+    "estimated_grid_limits": [
+      [
+        -22.323984015904035,
+        21.50878185306149
+      ],
+      [
+        -30.384260500941476,
+        28.848460116850045
+      ],
+      [
+        -0.4476657307246388,
+        50.264792915169465
+      ]
+    ],
+    "normalized_grid_limits": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "target_velocity": 5.0,
+    "normalized_system_velocity": 5.0,
+    "lyap_h": 0.01
+  },
+  "chen": {
+    "label": "Chen",
+    "source": "existing",
+    "x0": [
+      3.2689697,
+      5.2990458,
+      19.435349
+    ],
+    "bbox_h": 0.0015,
+    "bbox_burn": 5000,
+    "bbox_steps": 25000,
+    "bbox_status": "Normal",
+    "retained_points": 25000,
+    "estimated_grid_limits": [
+      [
+        -27.301083026428635,
+        31.027340538924914
+      ],
+      [
+        -30.876428801621472,
+        35.867633272184435
+      ],
+      [
+        0.8353704107709312,
+        55.071285003496016
+      ]
+    ],
+    "normalized_grid_limits": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "target_velocity": 5.0,
+    "normalized_system_velocity": 5.0,
+    "lyap_h": 0.01
+  },
+  "lv": {
+    "label": "Lv",
+    "source": "existing",
+    "x0": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "bbox_h": 0.0015,
+    "bbox_burn": 5000,
+    "bbox_steps": 25000,
+    "bbox_status": "Normal",
+    "retained_points": 25000,
+    "estimated_grid_limits": [
+      [
+        -31.789091852320134,
+        28.2948890624714
+      ],
+      [
+        -36.57148351105293,
+        31.901662091255467
+      ],
+      [
+        7.948942600680339,
+        58.49978040625268
+      ]
+    ],
+    "normalized_grid_limits": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "target_velocity": 5.0,
+    "normalized_system_velocity": 5.0,
+    "lyap_h": 0.01
+  },
+  "rossler": {
+    "label": "Rossler",
+    "source": "existing",
+    "x0": [
+      6.5134412,
+      0.4772013,
+      0.34164294
+    ],
+    "bbox_h": 0.01,
+    "bbox_burn": 5000,
+    "bbox_steps": 25000,
+    "bbox_status": "Normal",
+    "retained_points": 25000,
+    "estimated_grid_limits": [
+      [
+        -11.158384680246925,
+        13.48562689631043
+      ],
+      [
+        -12.652458675801878,
+        9.70243302680927
+      ],
+      [
+        -2.2691452597737416,
+        25.122938148965797
+      ]
+    ],
+    "normalized_grid_limits": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "target_velocity": 5.0,
+    "normalized_system_velocity": 5.0,
+    "lyap_h": 0.01
+  },
+  "burke_shaw": {
+    "label": "Burke-Shaw",
+    "source": "existing",
+    "x0": [
+      -0.79153188,
+      0.65244479,
+      0.22517831
+    ],
+    "bbox_h": 0.0015,
+    "bbox_burn": 5000,
+    "bbox_steps": 25000,
+    "bbox_status": "Normal",
+    "retained_points": 25000,
+    "estimated_grid_limits": [
+      [
+        -2.027707312232613,
+        2.0241092305038313
+      ],
+      [
+        -2.683425716299373,
+        2.6898054360327683
+      ],
+      [
+        -2.2332926824781767,
+        2.2141503974453345
+      ]
+    ],
+    "normalized_grid_limits": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "target_velocity": 5.0,
+    "normalized_system_velocity": 5.0,
+    "lyap_h": 0.01
+  },
+  "dequan_li": {
+    "label": "Dequan Li",
+    "source": "existing",
+    "x0": [
+      -11.395722,
+      -104.12614,
+      202.46173
+    ],
+    "bbox_h": 0.0002,
+    "bbox_burn": 8000,
+    "bbox_steps": 30000,
+    "bbox_status": "Normal",
+    "retained_points": 30000,
+    "estimated_grid_limits": [
+      [
+        -161.23493323415076,
+        161.23555775038025
+      ],
+      [
+        -211.57818087252832,
+        211.356590596583
+      ],
+      [
+        -61.224281445481815,
+        262.7085994095081
+      ]
+    ],
+    "normalized_grid_limits": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "target_velocity": 5.0,
+    "normalized_system_velocity": 5.0,
+    "lyap_h": 0.01
+  },
+  "genesio_tesi": {
+    "label": "Genesio-Tesi",
+    "source": "existing",
+    "x0": [
+      -0.053772565,
+      -0.26162564,
+      0.33501557
+    ],
+    "bbox_h": 0.01,
+    "bbox_burn": 5000,
+    "bbox_steps": 25000,
+    "bbox_status": "Normal",
+    "retained_points": 25000,
+    "estimated_grid_limits": [
+      [
+        -0.6551517792965237,
+        1.3354104227645829
+      ],
+      [
+        -0.768832779153921,
+        1.0570564776219957
+      ],
+      [
+        -0.920718046341807,
+        1.0628292442401819
+      ]
+    ],
+    "normalized_grid_limits": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "target_velocity": 5.0,
+    "normalized_system_velocity": 5.0,
+    "lyap_h": 0.01
+  },
+  "hadley": {
+    "label": "Hadley",
+    "source": "existing",
+    "x0": [
+      0.1,
+      0.0,
+      0.0
+    ],
+    "bbox_h": 0.005,
+    "bbox_burn": 5000,
+    "bbox_steps": 25000,
+    "bbox_status": "Normal",
+    "retained_points": 25000,
+    "estimated_grid_limits": [
+      [
+        -0.7898657819866279,
+        2.4439902624964596
+      ],
+      [
+        -2.4152881719967776,
+        2.0729092602941455
+      ],
+      [
+        -2.1725593541022974,
+        2.12101437707281
+      ]
+    ],
+    "normalized_grid_limits": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "target_velocity": 5.0,
+    "normalized_system_velocity": 5.0,
+    "lyap_h": 0.01
+  },
+  "halvorsen": {
+    "label": "Halvorsen",
+    "source": "existing",
+    "x0": [
+      -8.6807408,
+      -2.4741399,
+      0.070775762
+    ],
+    "bbox_h": 0.0015,
+    "bbox_burn": 5000,
+    "bbox_steps": 25000,
+    "bbox_status": "Normal",
+    "retained_points": 25000,
+    "estimated_grid_limits": [
+      [
+        -15.188919872370084,
+        8.297715943550243
+      ],
+      [
+        -15.179857248455734,
+        8.29918412875955
+      ],
+      [
+        -15.23607201795562,
+        8.27012634804382
+      ]
+    ],
+    "normalized_grid_limits": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "target_velocity": 5.0,
+    "normalized_system_velocity": 5.0,
+    "lyap_h": 0.01
+  },
+  "newton_leipnik": {
+    "label": "Newton-Leipnik",
+    "source": "existing",
+    "x0": [
+      0.29430753,
+      0.10649486,
+      0.29081125
+    ],
+    "bbox_h": 0.005,
+    "bbox_burn": 5000,
+    "bbox_steps": 25000,
+    "bbox_status": "Normal",
+    "retained_points": 25000,
+    "estimated_grid_limits": [
+      [
+        -0.8185612392331623,
+        1.0333393407141078
+      ],
+      [
+        -0.3829322003387201,
+        0.4323816021536907
+      ],
+      [
+        -0.210118456304125,
+        0.6239858562273624
+      ]
+    ],
+    "normalized_grid_limits": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "target_velocity": 5.0,
+    "normalized_system_velocity": 5.0,
+    "lyap_h": 0.01
+  },
+  "nose_hoover": {
+    "label": "Nose-Hoover",
+    "source": "existing",
+    "x0": [
+      -1.9758582,
+      0.24647527,
+      0.79024299
+    ],
+    "bbox_h": 0.01,
+    "bbox_burn": 5000,
+    "bbox_steps": 25000,
+    "bbox_status": "Normal",
+    "retained_points": 25000,
+    "estimated_grid_limits": [
+      [
+        -3.519430121378793,
+        1.490960613322556
+      ],
+      [
+        -4.685612174334387,
+        4.683785190375435
+      ],
+      [
+        -4.009698583902895,
+        4.0591261626490756
+      ]
+    ],
+    "normalized_grid_limits": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "target_velocity": 5.0,
+    "normalized_system_velocity": 5.0,
+    "lyap_h": 0.01
+  },
+  "rucklidge": {
+    "label": "Rucklidge",
+    "source": "existing",
+    "x0": [
+      1.9257158,
+      3.1923835,
+      5.7829655
+    ],
+    "bbox_h": 0.005,
+    "bbox_burn": 5000,
+    "bbox_steps": 25000,
+    "bbox_status": "Normal",
+    "retained_points": 25000,
+    "estimated_grid_limits": [
+      [
+        -10.259615854349201,
+        11.493346308952171
+      ],
+      [
+        -6.52170191787474,
+        6.231780089646859
+      ],
+      [
+        -0.933146708609321,
+        16.479227005263112
+      ]
+    ],
+    "normalized_grid_limits": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "target_velocity": 5.0,
+    "normalized_system_velocity": 5.0,
+    "lyap_h": 0.01
+  },
+  "sakarya": {
+    "label": "Sakarya",
+    "source": "existing",
+    "x0": [
+      -2.8976045,
+      3.8877978,
+      3.07465
+    ],
+    "bbox_h": 0.003,
+    "bbox_burn": 5000,
+    "bbox_steps": 25000,
+    "bbox_status": "Normal",
+    "retained_points": 25000,
+    "estimated_grid_limits": [
+      [
+        -22.828263919739307,
+        26.6503270704271
+      ],
+      [
+        -12.097621533695554,
+        12.815911433004123
+      ],
+      [
+        -8.269199753368127,
+        12.556622356179364
+      ]
+    ],
+    "normalized_grid_limits": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "target_velocity": 5.0,
+    "normalized_system_velocity": 5.0,
+    "lyap_h": 0.01
+  },
+  "shimizu_morioka": {
+    "label": "Shimizu-Morioka",
+    "source": "existing",
+    "x0": [
+      0.016838697,
+      0.03489384,
+      0.35346848
+    ],
+    "bbox_h": 0.01,
+    "bbox_burn": 5000,
+    "bbox_steps": 25000,
+    "bbox_status": "Normal",
+    "retained_points": 25000,
+    "estimated_grid_limits": [
+      [
+        -1.645568111513853,
+        1.6332830132579823
+      ],
+      [
+        -1.1264299545570702,
+        1.1477984076135215
+      ],
+      [
+        -0.1965183360854574,
+        2.481528714583494
+      ]
+    ],
+    "normalized_grid_limits": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "target_velocity": 5.0,
+    "normalized_system_velocity": 5.0,
+    "lyap_h": 0.01
+  },
+  "dadras": {
+    "label": "Dadras",
+    "source": "DYSTS",
+    "x0": [
+      1.0284085,
+      -3.5348655,
+      -0.72081646
+    ],
+    "bbox_h": 0.003,
+    "bbox_burn": 5000,
+    "bbox_steps": 25000,
+    "bbox_status": "Normal",
+    "retained_points": 25000,
+    "estimated_grid_limits": [
+      [
+        -13.632036991974186,
+        18.866700658097578
+      ],
+      [
+        -11.217522621954306,
+        7.1867744997693315
+      ],
+      [
+        -13.264071023361266,
+        8.744787855199284
+      ]
+    ],
+    "normalized_grid_limits": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "target_velocity": 5.0,
+    "normalized_system_velocity": 5.0,
+    "lyap_h": 0.01
+  },
+  "rikitake_dynamo": {
+    "label": "Rikitake Dynamo",
+    "source": "DYSTS",
+    "x0": [
+      -0.7791562791136255,
+      -0.6302244598741468,
+      2.671200187214492
+    ],
+    "bbox_h": 0.005,
+    "bbox_burn": 5000,
+    "bbox_steps": 25000,
+    "bbox_status": "Normal",
+    "retained_points": 25000,
+    "estimated_grid_limits": [
+      [
+        -4.629037891173398,
+        4.129886469975549
+      ],
+      [
+        -3.755356186705857,
+        3.284435422397839
+      ],
+      [
+        -1.7160114740249564,
+        5.075677353214086
+      ]
+    ],
+    "normalized_grid_limits": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "target_velocity": 5.0,
+    "normalized_system_velocity": 5.0,
+    "lyap_h": 0.01
+  },
+  "pehlivan_wei": {
+    "label": "Pehlivan-Wei",
+    "source": "DYSTS",
+    "x0": [
+      0.21665608,
+      0.86710502,
+      0.50627859
+    ],
+    "bbox_h": 0.005,
+    "bbox_burn": 5000,
+    "bbox_steps": 25000,
+    "bbox_status": "Normal",
+    "retained_points": 25000,
+    "estimated_grid_limits": [
+      [
+        -5.776407458226872,
+        5.934882468759242
+      ],
+      [
+        -6.428906168828351,
+        6.6370865026100825
+      ],
+      [
+        -7.870032177126561,
+        2.9153605804974108
+      ]
+    ],
+    "normalized_grid_limits": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "target_velocity": 5.0,
+    "normalized_system_velocity": 5.0,
+    "lyap_h": 0.01
+  },
+  "chen_lee": {
+    "label": "Chen-Lee",
+    "source": "DYSTS",
+    "x0": [
+      0.17177112,
+      0.10360479,
+      6.2553878
+    ],
+    "bbox_h": 0.003,
+    "bbox_burn": 5000,
+    "bbox_steps": 25000,
+    "bbox_status": "Normal",
+    "retained_points": 25000,
+    "estimated_grid_limits": [
+      [
+        -17.84442026537747,
+        17.725134671567808
+      ],
+      [
+        -14.587082651287663,
+        14.476135526996746
+      ],
+      [
+        3.121244101697563,
+        15.114630377447625
+      ]
+    ],
+    "normalized_grid_limits": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "target_velocity": 5.0,
+    "normalized_system_velocity": 5.0,
+    "lyap_h": 0.01
+  },
+  "finance": {
+    "label": "Finance",
+    "source": "DYSTS",
+    "x0": [
+      -0.51664739,
+      -3.9568707,
+      0.0012893581
+    ],
+    "bbox_h": 0.003,
+    "bbox_burn": 5000,
+    "bbox_steps": 25000,
+    "bbox_status": "Normal",
+    "retained_points": 25000,
+    "estimated_grid_limits": [
+      [
+        -2.6524010159185814,
+        2.8508897762035996
+      ],
+      [
+        -6.400356255274909,
+        -2.42704872551307
+      ],
+      [
+        -1.6158184238103677,
+        1.529790992132041
+      ]
+    ],
+    "normalized_grid_limits": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "target_velocity": 5.0,
+    "normalized_system_velocity": 5.0,
+    "lyap_h": 0.01
+  },
+  "sprott_b": {
+    "label": "Sprott B",
+    "source": "DYSTS",
+    "x0": [
+      1.6878282,
+      1.4848132,
+      -0.53706628
+    ],
+    "bbox_h": 0.01,
+    "bbox_burn": 5000,
+    "bbox_steps": 25000,
+    "bbox_status": "Normal",
+    "retained_points": 25000,
+    "estimated_grid_limits": [
+      [
+        -5.588127885941006,
+        6.968974274974325
+      ],
+      [
+        -3.282723864062534,
+        3.967955931449113
+      ],
+      [
+        -6.6817080201645345,
+        6.107777063606011
+      ]
+    ],
+    "normalized_grid_limits": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "target_velocity": 5.0,
+    "normalized_system_velocity": 5.0,
+    "lyap_h": 0.01
+  }
+}

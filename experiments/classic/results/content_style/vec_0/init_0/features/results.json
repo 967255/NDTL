@@ -1,0 +1,27 @@
+{
+  "init_point": [
+    0.3,
+    0.3,
+    0.5
+  ],
+  "sim_status": "Exploded on variable x!",
+  "sim_length": 1223,
+  "h": 0.01,
+  "intrinsic_dimension_twonn": 20.59677697922253,
+  "lyapunov_spectrum": [
+    -1.0542618503042536,
+    -2.061697607820484,
+    -5.054853610998999
+  ],
+  "kaplan_yorke_dimension": 0.0,
+  "dt": 0.01,
+  "lyap_used_steps": 1223,
+  "traj_full_shape": [
+    1223,
+    3
+  ],
+  "traj_used_shape": [
+    145,
+    3
+  ]
+}

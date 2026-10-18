@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "winner": {
+    "source_name": "fusion_vec_6",
+    "source_kind": "fusion",
+    "candidate_index": 6,
+    "lyapunov_max_prior": 0.37024613812939644,
+    "status": "ok",
+    "perturbed_status": "ok",
+    "keystream_byte_entropy": 7.9992677833576735,
+    "keystream_lag1_abs_corr": 0.00034055431430053446,
+    "keystream_approx_entropy_bits_m2": 0.6930847371442399,
+    "num_images": 3,
+    "cipher_entropy_mean": 7.99932498036555,
+    "cipher_entropy_std": 1.3255350295645846e-05,
+    "hist_chi_square_mean": 245.47200520833314,
+    "hist_chi_square_std": 4.919790277878663,
+    "adj_corr_abs_mean_mean": 0.0013062012749691001,
+    "adj_corr_abs_mean_std": 0.00025134673526574434,
+    "npcr_mean": 99.61318969726562,
+    "npcr_std": 0.005394796609394436,
+    "uaci_mean": 33.44828636817683,
+    "uaci_std": 0.015389725136659396,
+    "key_npcr_mean": 99.61357116699219,
+    "key_npcr_std": 0.015423206787166651,
+    "key_uaci_mean": 33.474866580339814,
+    "key_uaci_std": 0.036902260399307676,
+    "wrong_decrypt_npcr_mean": 99.60581461588542,
+    "wrong_decrypt_npcr_std": 0.008734092590878498,
+    "wrong_decrypt_uaci_mean": 31.081924438476562,
+    "wrong_decrypt_uaci_std": 3.7661267491680928,
+    "crypto_score_mean": 0.9994843188553079,
+    "crypto_score_std": 0.00014027228607758864
+  },
+  "beats_parent_score": {
+    "lorenz_unit_nv": true,
+    "chen_unit_nv": true
+  },
+  "core_metric_wins_out_of_3": {
+    "lorenz_unit_nv": 1,
+    "chen_unit_nv": 3
+  },
+  "passes_claim_gate": false,
+  "claim_gate_note": "Fusion must beat both parents by mean score and win at least 2 of 3 core dimensions: NPCR/UACI sensitivity, entropy, adjacent correlation."
+}

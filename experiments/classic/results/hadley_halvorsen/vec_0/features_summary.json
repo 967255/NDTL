@@ -1,0 +1,17 @@
+{
+  "n_success": 2,
+  "intrinsic_dimension_twonn_mean": 2.065792983634517,
+  "intrinsic_dimension_twonn_std": 0.014618724040968312,
+  "kaplan_yorke_dimension_mean": 2.089233888449013,
+  "kaplan_yorke_dimension_std": 0.008319184531741408,
+  "lyapunov_spectrum_mean": [
+    0.7690178402506154,
+    -0.2343292937984024,
+    -5.987348951916374
+  ],
+  "lyapunov_spectrum_std": [
+    0.015108737020616603,
+    0.03914306837525988,
+    0.04977867362009647
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "grid_limits": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "grid_shape": [
+    48,
+    48,
+    48
+  ],
+  "input_dimension": 3,
+  "batch_size": 12,
+  "depth": 64,
+  "turb_scale": 0.1,
+  "kernel_size": [
+    5,
+    3,
+    3
+  ],
+  "strides": [
+    3,
+    2,
+    2
+  ],
+  "cae_max_batches": 5000,
+  "cae_num_logs": 10,
+  "cae_learning_rate": 0.001,
+  "cae_reduce_factor": 0.8,
+  "cae_reduce_patience": 100,
+  "cae_early_stopping_rate": 1e-06,
+  "transfer_max_iters": 200000,
+  "transfer_num_logs": 1000,
+  "transfer_learning_rate": 0.1,
+  "transfer_reduce_factor": 0.5,
+  "transfer_reduce_patience": 500,
+  "transfer_early_stopping_rate": 1e-06
+}

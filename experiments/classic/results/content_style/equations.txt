@@ -1,0 +1,164 @@
+[2026-02-21 00:45:29,873] INFO: vecs.shape = (9, 1, 48, 48, 48, 3)
+[2026-02-21 00:45:29,873] INFO: num_vecs = 9
+[2026-02-21 00:45:29,873] INFO: === start vec index 0 ===
+[2026-02-21 00:45:29,873] INFO: vec[0].shape = (1, 48, 48, 48, 3)
+[2026-02-21 00:45:29,956] INFO: [vec 0] config saved to ./experiments/classic/results/content_style/vec_0/config.json
+[2026-02-21 00:45:29,957] INFO: [vec 0] ode_hat info: dx/dt = 0.984 + -9.16x + 0.718y + 2.284z + -4.611xx + 16.458xy + 1.171xz + -5.466yy + 6.144yz + -2.123zz
+dy/dt = 1.141 + -7.835x + 0.775y + 1.918z + -4.204xx + 14.738xy + -1.11xz + -5.595yy + 5.542yz + -0.727zz
+dz/dt = 2.172 + -6.962x + -0.705y + -1.852z + 1.912xx + 5.605xy + 2.116xz + -0.311yy + -2.791yz + 1.316zz
+name = ode_hat_0
+grid_limits = None
+system_velocity(avg) = None
+[2026-02-21 00:45:29,957] INFO: [vec 0] ode info saved to ./experiments/classic/results/content_style/vec_0/ode_info.txt
+[2026-02-21 00:45:32,176] INFO: [vec 0] trajectory for init_0=(0.3, 0.3, 0.5) saved under ./experiments/classic/results/content_style/vec_0/init_0
+[2026-02-21 00:45:36,708] INFO: [vec 0] features done for init_0=(0.3, 0.3, 0.5): ID=20.5968, KY=0.0000, spectrum=[-1.05426185 -2.06169761 -5.05485361]
+[2026-02-21 00:45:37,746] INFO: [vec 0] trajectory for init_1=(0.1, 0.2, 0.8) saved under ./experiments/classic/results/content_style/vec_0/init_1
+[2026-02-21 00:45:37,795] ERROR: [vec 0] features FAILED for init_1=(0.1, 0.2, 0.8): Trajectory ended early (len=55) with status=Exploded on variable x!
+Traceback (most recent call last):
+  File "eval_fusion.py", line 154, in <module>
+    res = compute_system_features(
+  File "utils_eval.py", line 653, in compute_system_features
+    raise RuntimeError(f"Trajectory ended early (len={traj.shape[0]}) with status={status}")
+RuntimeError: Trajectory ended early (len=55) with status=Exploded on variable x!
+[2026-02-21 00:45:40,025] INFO: [vec 0] trajectory for init_2=(0.1, 0.0, 0.0) saved under ./experiments/classic/results/content_style/vec_0/init_2
+[2026-02-21 00:45:44,982] INFO: [vec 0] features done for init_2=(0.1, 0.0, 0.0): ID=21.4413, KY=0.0000, spectrum=[-4.82671585 -5.19071995 -8.22299575]
+[2026-02-21 00:45:44,983] INFO: [vec 0] features summary saved: {'n_success': 2, 'intrinsic_dimension_twonn_mean': 21.019041572459358, 'intrinsic_dimension_twonn_std': 0.42226459323682697, 'kaplan_yorke_dimension_mean': 0.0, 'kaplan_yorke_dimension_std': 0.0, 'lyapunov_spectrum_mean': array([-2.94048885, -3.62620878, -6.63892468]), 'lyapunov_spectrum_std': array([1.886227  , 1.56451117, 1.58407107])}
+[2026-02-21 00:45:44,983] INFO: === start vec index 1 ===
+[2026-02-21 00:45:44,983] INFO: vec[1].shape = (1, 48, 48, 48, 3)
+[2026-02-21 00:45:45,062] INFO: [vec 1] config saved to ./experiments/classic/results/content_style/vec_1/config.json
+[2026-02-21 00:45:45,062] INFO: [vec 1] ode_hat info: dx/dt = -2.005 + -4.939x + 9.057y + 3.406z + 0.287xx + 0.583xy + -6.395xz + -1.01yy + -0.877yz + 0.145zz
+dy/dt = -11.167 + 20.575x + 2.321y + 19.671z + -0.542xx + -0.12xy + -38.436xz + -0.971yy + -0.315yz + -0.027zz
+dz/dt = 7.825 + -15.017x + -15.416y + -2.027z + -0.687xx + 30.803xy + 0.086xz + 0.071yy + -0.021yz + 0.331zz
+name = ode_hat_1
+grid_limits = None
+system_velocity(avg) = None
+[2026-02-21 00:45:45,062] INFO: [vec 1] ode info saved to ./experiments/classic/results/content_style/vec_1/ode_info.txt
+[2026-02-21 00:45:50,648] INFO: [vec 1] trajectory for init_0=(0.3, 0.3, 0.5) saved under ./experiments/classic/results/content_style/vec_1/init_0
+[2026-02-21 00:46:08,077] INFO: [vec 1] features done for init_0=(0.3, 0.3, 0.5): ID=3.3279, KY=1.0394, spectrum=[ 6.53814253e-03 -1.65875256e-01 -8.31883320e+00]
+[2026-02-21 00:46:13,638] INFO: [vec 1] trajectory for init_1=(0.1, 0.2, 0.8) saved under ./experiments/classic/results/content_style/vec_1/init_1
+[2026-02-21 00:46:31,064] INFO: [vec 1] features done for init_1=(0.1, 0.2, 0.8): ID=1.4554, KY=0.0000, spectrum=[-0.112276  -0.200951  -8.2664514]
+[2026-02-21 00:46:36,649] INFO: [vec 1] trajectory for init_2=(0.1, 0.0, 0.0) saved under ./experiments/classic/results/content_style/vec_1/init_2
+[2026-02-21 00:46:54,166] INFO: [vec 1] features done for init_2=(0.1, 0.0, 0.0): ID=2.6397, KY=1.5950, spectrum=[ 0.10589681 -0.17797111 -8.32863023]
+[2026-02-21 00:46:54,166] INFO: [vec 1] features summary saved: {'n_success': 3, 'intrinsic_dimension_twonn_mean': 2.4743276433967423, 'intrinsic_dimension_twonn_std': 0.7733344182507613, 'kaplan_yorke_dimension_mean': 0.8781461775338876, 'kaplan_yorke_dimension_std': 0.6610749705549649, 'lyapunov_spectrum_mean': array([ 5.29847568e-05, -1.81599120e-01, -8.30463828e+00]), 'lyapunov_spectrum_std': array([0.08918665, 0.01454759, 0.02729681])}
+[2026-02-21 00:46:54,166] INFO: === start vec index 2 ===
+[2026-02-21 00:46:54,167] INFO: vec[2].shape = (1, 48, 48, 48, 3)
+[2026-02-21 00:46:54,236] INFO: [vec 2] config saved to ./experiments/classic/results/content_style/vec_2/config.json
+[2026-02-21 00:46:54,237] INFO: [vec 2] ode_hat info: dx/dt = -8.119x + 7.735y + 0.201z + 0.683xx + 0.937xy + -0.076xz + -0.842yy + -0.433yz + 0.038zz
+dy/dt = -9.864 + 19.966x + -0.34y + 17.906z + 0.01xx + 0.162xy + -35.843xz + -0.225yy + -0.001yz + 0.15zz
+dz/dt = 8.768 + -17.236x + -17.389y + -2.107z + -0.343xx + 34.63xy + -0.006xz + 0.177yy + -0.088yz + 0.323zz
+name = ode_hat_2
+grid_limits = None
+system_velocity(avg) = None
+[2026-02-21 00:46:54,237] INFO: [vec 2] ode info saved to ./experiments/classic/results/content_style/vec_2/ode_info.txt
+[2026-02-21 00:46:59,853] INFO: [vec 2] trajectory for init_0=(0.3, 0.3, 0.5) saved under ./experiments/classic/results/content_style/vec_2/init_0
+[2026-02-21 00:47:17,400] INFO: [vec 2] features done for init_0=(0.3, 0.3, 0.5): ID=1.3257, KY=2.0174, spectrum=[ 0.22034351 -0.05670074 -9.41717798]
+[2026-02-21 00:47:23,048] INFO: [vec 2] trajectory for init_1=(0.1, 0.2, 0.8) saved under ./experiments/classic/results/content_style/vec_2/init_1
+[2026-02-21 00:47:40,454] INFO: [vec 2] features done for init_1=(0.1, 0.2, 0.8): ID=1.6823, KY=2.0232, spectrum=[ 0.35489926 -0.1357999  -9.4354208 ]
+[2026-02-21 00:47:46,035] INFO: [vec 2] trajectory for init_2=(0.1, 0.0, 0.0) saved under ./experiments/classic/results/content_style/vec_2/init_2
+[2026-02-21 00:48:03,526] INFO: [vec 2] features done for init_2=(0.1, 0.0, 0.0): ID=1.5064, KY=2.0174, spectrum=[ 0.30066923 -0.13714036 -9.39361606]
+[2026-02-21 00:48:03,527] INFO: [vec 2] features summary saved: {'n_success': 3, 'intrinsic_dimension_twonn_mean': 1.5047782499113687, 'intrinsic_dimension_twonn_std': 0.1455999217356554, 'kaplan_yorke_dimension_mean': 2.0193355013112364, 'kaplan_yorke_dimension_std': 0.0027474521572657127, 'lyapunov_spectrum_mean': array([ 0.29197067, -0.10988033, -9.41540495]), 'lyapunov_spectrum_std': array([0.05527544, 0.03760763, 0.0171127 ])}
+[2026-02-21 00:48:03,527] INFO: === start vec index 3 ===
+[2026-02-21 00:48:03,527] INFO: vec[3].shape = (1, 48, 48, 48, 3)
+[2026-02-21 00:48:03,597] INFO: [vec 3] config saved to ./experiments/classic/results/content_style/vec_3/config.json
+[2026-02-21 00:48:03,597] INFO: [vec 3] ode_hat info: dx/dt = 0.152 + -8.37x + 7.64y + -0.053z + 0.706xx + 0.96xy + 0.425xz + -0.822yy + -0.401yz + 0.034zz
+dy/dt = -9.778 + 19.935x + -0.542y + 17.786z + 0.072xx + 0.16xy + -35.675xz + -0.149yy + 0.016yz + 0.168zz
+dz/dt = 8.837 + -17.426x + -17.567y + -2.075z + -0.324xx + 35.006xy + -0.03xz + 0.173yy + -0.099yz + 0.302zz
+name = ode_hat_3
+grid_limits = None
+system_velocity(avg) = None
+[2026-02-21 00:48:03,597] INFO: [vec 3] ode info saved to ./experiments/classic/results/content_style/vec_3/ode_info.txt
+[2026-02-21 00:48:09,230] INFO: [vec 3] trajectory for init_0=(0.3, 0.3, 0.5) saved under ./experiments/classic/results/content_style/vec_3/init_0
+[2026-02-21 00:48:26,698] INFO: [vec 3] features done for init_0=(0.3, 0.3, 0.5): ID=2.1195, KY=2.0151, spectrum=[ 0.23403667 -0.09065359 -9.48557804]
+[2026-02-21 00:48:32,365] INFO: [vec 3] trajectory for init_1=(0.1, 0.2, 0.8) saved under ./experiments/classic/results/content_style/vec_3/init_1
+[2026-02-21 00:48:49,727] INFO: [vec 3] features done for init_1=(0.1, 0.2, 0.8): ID=2.7889, KY=2.0225, spectrum=[ 0.36131801 -0.14718153 -9.53157654]
+[2026-02-21 00:48:55,306] INFO: [vec 3] trajectory for init_2=(0.1, 0.0, 0.0) saved under ./experiments/classic/results/content_style/vec_3/init_2
+[2026-02-21 00:49:12,851] INFO: [vec 3] features done for init_2=(0.1, 0.0, 0.0): ID=1.7762, KY=2.0186, spectrum=[ 0.36796444 -0.1918433  -9.47864054]
+[2026-02-21 00:49:12,851] INFO: [vec 3] features summary saved: {'n_success': 3, 'intrinsic_dimension_twonn_mean': 2.2282038446524886, 'intrinsic_dimension_twonn_std': 0.4205091918760923, 'kaplan_yorke_dimension_mean': 2.018720918613125, 'kaplan_yorke_dimension_std': 0.0030023022999170266, 'lyapunov_spectrum_mean': array([ 0.32110637, -0.14322614, -9.49859837]), 'lyapunov_spectrum_std': array([0.06162734, 0.0414051 , 0.02349045])}
+[2026-02-21 00:49:12,851] INFO: === start vec index 4 ===
+[2026-02-21 00:49:12,851] INFO: vec[4].shape = (1, 48, 48, 48, 3)
+[2026-02-21 00:49:12,921] INFO: [vec 4] config saved to ./experiments/classic/results/content_style/vec_4/config.json
+[2026-02-21 00:49:12,921] INFO: [vec 4] ode_hat info: dx/dt = 0.204 + -8.455x + 7.61y + -0.141z + 0.713xx + 0.967xy + 0.596xz + -0.817yy + -0.389yz + 0.033zz
+dy/dt = -9.752 + 19.93x + -0.607y + 17.744z + 0.091xx + 0.156xy + -35.621xz + -0.124yy + 0.022yz + 0.176zz
+dz/dt = 8.86 + -17.488x + -17.631y + -2.06z + -0.318xx + 35.135xy + -0.041xz + 0.172yy + -0.1yz + 0.291zz
+name = ode_hat_4
+grid_limits = None
+system_velocity(avg) = None
+[2026-02-21 00:49:12,922] INFO: [vec 4] ode info saved to ./experiments/classic/results/content_style/vec_4/ode_info.txt
+[2026-02-21 00:49:18,531] INFO: [vec 4] trajectory for init_0=(0.3, 0.3, 0.5) saved under ./experiments/classic/results/content_style/vec_4/init_0
+[2026-02-21 00:49:35,974] INFO: [vec 4] features done for init_0=(0.3, 0.3, 0.5): ID=1.8859, KY=2.0152, spectrum=[ 0.27067647 -0.12433194 -9.6076153 ]
+[2026-02-21 00:49:41,644] INFO: [vec 4] trajectory for init_1=(0.1, 0.2, 0.8) saved under ./experiments/classic/results/content_style/vec_4/init_1
+[2026-02-21 00:49:59,086] INFO: [vec 4] features done for init_1=(0.1, 0.2, 0.8): ID=1.4991, KY=2.0218, spectrum=[ 0.33631186 -0.12827414 -9.53186273]
+[2026-02-21 00:50:04,689] INFO: [vec 4] trajectory for init_2=(0.1, 0.0, 0.0) saved under ./experiments/classic/results/content_style/vec_4/init_2
+[2026-02-21 00:50:22,153] INFO: [vec 4] features done for init_2=(0.1, 0.0, 0.0): ID=2.7168, KY=2.0171, spectrum=[ 0.34775475 -0.18425525 -9.54514158]
+[2026-02-21 00:50:22,153] INFO: [vec 4] features summary saved: {'n_success': 3, 'intrinsic_dimension_twonn_mean': 2.033938691723733, 'intrinsic_dimension_twonn_std': 0.508049386877056, 'kaplan_yorke_dimension_mean': 2.0180622415074483, 'kaplan_yorke_dimension_std': 0.0027714274724336668, 'lyapunov_spectrum_mean': array([ 0.31824769, -0.14562044, -9.56153987]), 'lyapunov_spectrum_std': array([0.03396077, 0.0273663 , 0.03302818])}
+[2026-02-21 00:50:22,153] INFO: === start vec index 5 ===
+[2026-02-21 00:50:22,153] INFO: vec[5].shape = (1, 48, 48, 48, 3)
+[2026-02-21 00:50:22,223] INFO: [vec 5] config saved to ./experiments/classic/results/content_style/vec_5/config.json
+[2026-02-21 00:50:22,224] INFO: [vec 5] ode_hat info: dx/dt = 0.221 + -8.483x + 7.601y + -0.17z + 0.715xx + 0.968xy + 0.653xz + -0.816yy + -0.386yz + 0.032zz
+dy/dt = -9.744 + 19.931x + -0.628y + 17.73z + 0.097xx + 0.153xy + -35.604xz + -0.115yy + 0.023yz + 0.181zz
+dz/dt = 8.868 + -17.511x + -17.654y + -2.055z + -0.316xx + 35.181xy + -0.045xz + 0.172yy + -0.1yz + 0.287zz
+name = ode_hat_5
+grid_limits = None
+system_velocity(avg) = None
+[2026-02-21 00:50:22,224] INFO: [vec 5] ode info saved to ./experiments/classic/results/content_style/vec_5/ode_info.txt
+[2026-02-21 00:50:27,865] INFO: [vec 5] trajectory for init_0=(0.3, 0.3, 0.5) saved under ./experiments/classic/results/content_style/vec_5/init_0
+[2026-02-21 00:50:45,340] INFO: [vec 5] features done for init_0=(0.3, 0.3, 0.5): ID=1.5421, KY=2.0125, spectrum=[ 0.24653856 -0.12639296 -9.62929526]
+[2026-02-21 00:50:51,007] INFO: [vec 5] trajectory for init_1=(0.1, 0.2, 0.8) saved under ./experiments/classic/results/content_style/vec_5/init_1
+[2026-02-21 00:51:08,414] INFO: [vec 5] features done for init_1=(0.1, 0.2, 0.8): ID=1.6643, KY=2.0212, spectrum=[ 0.33545779 -0.13258588 -9.5832288 ]
+[2026-02-21 00:51:14,002] INFO: [vec 5] trajectory for init_2=(0.1, 0.0, 0.0) saved under ./experiments/classic/results/content_style/vec_5/init_2
+[2026-02-21 00:51:31,549] INFO: [vec 5] features done for init_2=(0.1, 0.0, 0.0): ID=2.5605, KY=2.0171, spectrum=[ 0.33227912 -0.16925358 -9.52736665]
+[2026-02-21 00:51:31,550] INFO: [vec 5] features summary saved: {'n_success': 3, 'intrinsic_dimension_twonn_mean': 1.9223041189173637, 'intrinsic_dimension_twonn_std': 0.4540463288628381, 'kaplan_yorke_dimension_mean': 2.0169192854892963, 'kaplan_yorke_dimension_std': 0.00355124654283035, 'lyapunov_spectrum_mean': array([ 0.30475849, -0.14274414, -9.57996357]), 'lyapunov_spectrum_std': array([0.04118816, 0.01891474, 0.04167619])}
+[2026-02-21 00:51:31,550] INFO: === start vec index 6 ===
+[2026-02-21 00:51:31,550] INFO: vec[6].shape = (1, 48, 48, 48, 3)
+[2026-02-21 00:51:31,620] INFO: [vec 6] config saved to ./experiments/classic/results/content_style/vec_6/config.json
+[2026-02-21 00:51:31,620] INFO: [vec 6] ode_hat info: dx/dt = 0.226 + -8.493x + 7.6y + -0.179z + 0.716xx + 0.968xy + 0.673xz + -0.815yy + -0.386yz + 0.031zz
+dy/dt = -9.742 + 19.933x + -0.635y + 17.725z + 0.098xx + 0.152xy + -35.6xz + -0.111yy + 0.024yz + 0.182zz
+dz/dt = 8.873 + -17.522x + -17.665y + -2.054z + -0.314xx + 35.198xy + -0.045xz + 0.173yy + -0.099yz + 0.286zz
+name = ode_hat_6
+grid_limits = None
+system_velocity(avg) = None
+[2026-02-21 00:51:31,620] INFO: [vec 6] ode info saved to ./experiments/classic/results/content_style/vec_6/ode_info.txt
+[2026-02-21 00:51:37,373] INFO: [vec 6] trajectory for init_0=(0.3, 0.3, 0.5) saved under ./experiments/classic/results/content_style/vec_6/init_0
+[2026-02-21 00:51:54,889] INFO: [vec 6] features done for init_0=(0.3, 0.3, 0.5): ID=2.5628, KY=2.0126, spectrum=[ 0.24736078 -0.12640317 -9.60975817]
+[2026-02-21 00:52:00,563] INFO: [vec 6] trajectory for init_1=(0.1, 0.2, 0.8) saved under ./experiments/classic/results/content_style/vec_6/init_1
+[2026-02-21 00:52:18,238] INFO: [vec 6] features done for init_1=(0.1, 0.2, 0.8): ID=1.9341, KY=2.0258, spectrum=[ 0.40382509 -0.1558789  -9.60589714]
+[2026-02-21 00:52:23,817] INFO: [vec 6] trajectory for init_2=(0.1, 0.0, 0.0) saved under ./experiments/classic/results/content_style/vec_6/init_2
+[2026-02-21 00:52:41,268] INFO: [vec 6] features done for init_2=(0.1, 0.0, 0.0): ID=1.2930, KY=2.0196, spectrum=[ 0.45955255 -0.2703923  -9.64870726]
+[2026-02-21 00:52:41,269] INFO: [vec 6] features summary saved: {'n_success': 3, 'intrinsic_dimension_twonn_mean': 1.9299351256153547, 'intrinsic_dimension_twonn_std': 0.5184050236741642, 'kaplan_yorke_dimension_mean': 2.0193345175784025, 'kaplan_yorke_dimension_std': 0.0054024288814714504, 'lyapunov_spectrum_mean': array([ 0.37024614, -0.18422479, -9.62145419]), 'lyapunov_spectrum_std': array([0.08982203, 0.06210655, 0.01933519])}
+[2026-02-21 00:52:41,269] INFO: === start vec index 7 ===
+[2026-02-21 00:52:41,269] INFO: vec[7].shape = (1, 48, 48, 48, 3)
+[2026-02-21 00:52:41,348] INFO: [vec 7] config saved to ./experiments/classic/results/content_style/vec_7/config.json
+[2026-02-21 00:52:41,348] INFO: [vec 7] ode_hat info: dx/dt = 0.228 + -8.497x + 7.6y + -0.183z + 0.716xx + 0.967xy + 0.683xz + -0.815yy + -0.387yz + 0.031zz
+dy/dt = -9.741 + 19.934x + -0.639y + 17.724z + 0.098xx + 0.151xy + -35.598xz + -0.11yy + 0.024yz + 0.183zz
+dz/dt = 8.875 + -17.527x + -17.67y + -2.055z + -0.313xx + 35.206xy + -0.045xz + 0.174yy + -0.099yz + 0.286zz
+name = ode_hat_7
+grid_limits = None
+system_velocity(avg) = None
+[2026-02-21 00:52:41,348] INFO: [vec 7] ode info saved to ./experiments/classic/results/content_style/vec_7/ode_info.txt
+[2026-02-21 00:52:46,994] INFO: [vec 7] trajectory for init_0=(0.3, 0.3, 0.5) saved under ./experiments/classic/results/content_style/vec_7/init_0
+[2026-02-21 00:53:04,445] INFO: [vec 7] features done for init_0=(0.3, 0.3, 0.5): ID=2.0569, KY=2.0172, spectrum=[ 0.30536252 -0.14069257 -9.591464  ]
+[2026-02-21 00:53:10,077] INFO: [vec 7] trajectory for init_1=(0.1, 0.2, 0.8) saved under ./experiments/classic/results/content_style/vec_7/init_1
+[2026-02-21 00:53:27,543] INFO: [vec 7] features done for init_1=(0.1, 0.2, 0.8): ID=2.0361, KY=2.0220, spectrum=[ 0.3442233  -0.13405753 -9.56005913]
+[2026-02-21 00:53:33,124] INFO: [vec 7] trajectory for init_2=(0.1, 0.0, 0.0) saved under ./experiments/classic/results/content_style/vec_7/init_2
+[2026-02-21 00:53:50,624] INFO: [vec 7] features done for init_2=(0.1, 0.0, 0.0): ID=2.0905, KY=2.0159, spectrum=[ 0.34614808 -0.19442676 -9.54743936]
+[2026-02-21 00:53:50,624] INFO: [vec 7] features summary saved: {'n_success': 3, 'intrinsic_dimension_twonn_mean': 2.0611889424230063, 'intrinsic_dimension_twonn_std': 0.022399962623689748, 'kaplan_yorke_dimension_mean': 2.018347809142647, 'kaplan_yorke_dimension_std': 0.0026233156115745924, 'lyapunov_spectrum_mean': array([ 0.3319113 , -0.15639228, -9.56632083]), 'lyapunov_spectrum_std': array([0.01878926, 0.0270305 , 0.01851034])}
+[2026-02-21 00:53:50,624] INFO: === start vec index 8 ===
+[2026-02-21 00:53:50,624] INFO: vec[8].shape = (1, 48, 48, 48, 3)
+[2026-02-21 00:53:50,705] INFO: [vec 8] config saved to ./experiments/classic/results/content_style/vec_8/config.json
+[2026-02-21 00:53:50,706] INFO: [vec 8] ode_hat info: dx/dt = 0.224 + -8.497x + 7.611y + -0.181z + 0.717xx + 0.964xy + 0.685xz + -0.818yy + -0.394yz + 0.032zz
+dy/dt = -9.745 + 19.943x + -0.644y + 17.733z + 0.094xx + 0.151xy + -35.605xz + -0.105yy + 0.022yz + 0.179zz
+dz/dt = 8.888 + -17.542x + -17.689y + -2.066z + -0.309xx + 35.22xy + -0.04xz + 0.179yy + -0.092yz + 0.291zz
+name = ode_hat_8
+grid_limits = None
+system_velocity(avg) = None
+[2026-02-21 00:53:50,706] INFO: [vec 8] ode info saved to ./experiments/classic/results/content_style/vec_8/ode_info.txt
+[2026-02-21 00:53:56,368] INFO: [vec 8] trajectory for init_0=(0.3, 0.3, 0.5) saved under ./experiments/classic/results/content_style/vec_8/init_0
+[2026-02-21 00:54:13,836] INFO: [vec 8] features done for init_0=(0.3, 0.3, 0.5): ID=2.0522, KY=2.0154, spectrum=[ 0.28844662 -0.14034931 -9.6048647 ]
+[2026-02-21 00:54:19,481] INFO: [vec 8] trajectory for init_1=(0.1, 0.2, 0.8) saved under ./experiments/classic/results/content_style/vec_8/init_1
+[2026-02-21 00:54:36,952] INFO: [vec 8] features done for init_1=(0.1, 0.2, 0.8): ID=1.6925, KY=2.0211, spectrum=[ 0.35381978 -0.15075087 -9.60269097]
+[2026-02-21 00:54:42,557] INFO: [vec 8] trajectory for init_2=(0.1, 0.0, 0.0) saved under ./experiments/classic/results/content_style/vec_8/init_2
+[2026-02-21 00:55:00,183] INFO: [vec 8] features done for init_2=(0.1, 0.0, 0.0): ID=2.3671, KY=2.0164, spectrum=[ 0.36011507 -0.20320384 -9.55152755]
+[2026-02-21 00:55:00,184] INFO: [vec 8] features summary saved: {'n_success': 3, 'intrinsic_dimension_twonn_mean': 2.037277038831531, 'intrinsic_dimension_twonn_std': 0.2756116616203885, 'kaplan_yorke_dimension_mean': 2.0176646466914567, 'kaplan_yorke_dimension_std': 0.0024966622266442496, 'lyapunov_spectrum_mean': array([ 0.33412716, -0.16476801, -9.58636107]), 'lyapunov_spectrum_std': array([0.0324031 , 0.02750798, 0.024647  ])}
+[2026-02-21 00:55:00,840] INFO: Saved per-init feature figure to ./experiments/classic/results/content_style/init_0_features.png
+[2026-02-21 00:55:01,440] INFO: Saved per-init feature figure to ./experiments/classic/results/content_style/init_1_features.png
+[2026-02-21 00:55:02,035] INFO: Saved per-init feature figure to ./experiments/classic/results/content_style/init_2_features.png

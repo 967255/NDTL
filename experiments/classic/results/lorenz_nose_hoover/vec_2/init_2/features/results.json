@@ -1,0 +1,27 @@
+{
+  "init_point": [
+    0.1,
+    0.0,
+    0.0
+  ],
+  "sim_status": "Normal",
+  "sim_length": 5000,
+  "h": 0.01,
+  "intrinsic_dimension_twonn": 17.765907637843288,
+  "lyapunov_spectrum": [
+    -1.401554445464808,
+    -1.9691223878523008,
+    -2.0022206045479116
+  ],
+  "kaplan_yorke_dimension": 0.0,
+  "dt": 0.01,
+  "lyap_used_steps": 5000,
+  "traj_full_shape": [
+    5000,
+    3
+  ],
+  "traj_used_shape": [
+    900,
+    3
+  ]
+}

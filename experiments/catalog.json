@@ -1,0 +1,307 @@
+{
+  "schema_version": 1,
+  "paper_doi": "10.1103/ccgv-hgjb",
+  "paths_relative_to": "repository root",
+  "experiments": [
+    {
+      "id": "E01",
+      "name": "Lorenz-Lv content fusion",
+      "paper": "Fig. 2, PDF p. 4",
+      "kind": "numerical",
+      "code": [
+        "experiments/classic/run.py",
+        "experiments/classic/evaluate.py",
+        "experiments/classic/plot.py"
+      ],
+      "results": [
+        "experiments/classic/results/lorenz_lv"
+      ]
+    },
+    {
+      "id": "E02",
+      "name": "Lorenz-Chen content fusion",
+      "paper": "Fig. 11, PDF p. 14",
+      "kind": "numerical",
+      "code": [
+        "experiments/classic/run.py",
+        "experiments/classic/evaluate.py",
+        "experiments/classic/plot.py"
+      ],
+      "results": [
+        "experiments/classic/results/lorenz_chen"
+      ]
+    },
+    {
+      "id": "E03",
+      "name": "Lorenz-Halvorsen content fusion",
+      "paper": "Fig. 12, PDF p. 14",
+      "kind": "numerical",
+      "code": [
+        "experiments/classic/run.py",
+        "experiments/classic/evaluate.py",
+        "experiments/classic/plot.py"
+      ],
+      "results": [
+        "experiments/classic/results/lorenz_halvorsen"
+      ]
+    },
+    {
+      "id": "E04",
+      "name": "Lorenz-Nose-Hoover content fusion",
+      "paper": "Fig. 13, PDF p. 14",
+      "kind": "numerical",
+      "code": [
+        "experiments/classic/run.py",
+        "experiments/classic/evaluate.py",
+        "experiments/classic/plot.py"
+      ],
+      "results": [
+        "experiments/classic/results/lorenz_nose_hoover"
+      ]
+    },
+    {
+      "id": "E05",
+      "name": "Lv-Rossler content fusion",
+      "paper": "Fig. 14, PDF p. 14",
+      "kind": "numerical",
+      "code": [
+        "experiments/classic/run.py",
+        "experiments/classic/evaluate.py",
+        "experiments/classic/plot.py"
+      ],
+      "results": [
+        "experiments/classic/results/lv_rossler"
+      ]
+    },
+    {
+      "id": "E06",
+      "name": "Hadley-Halvorsen content fusion",
+      "paper": "Fig. 15, PDF p. 15",
+      "kind": "numerical",
+      "code": [
+        "experiments/classic/run.py",
+        "experiments/classic/evaluate.py",
+        "experiments/classic/plot.py"
+      ],
+      "results": [
+        "experiments/classic/results/hadley_halvorsen"
+      ]
+    },
+    {
+      "id": "E07",
+      "name": "Nose-Hoover-Rucklidge content fusion",
+      "paper": "Fig. 16, PDF p. 16",
+      "kind": "numerical",
+      "code": [
+        "experiments/classic/run.py",
+        "experiments/classic/evaluate.py",
+        "experiments/classic/plot.py"
+      ],
+      "results": [
+        "experiments/classic/results/nose_hoover_rucklidge"
+      ]
+    },
+    {
+      "id": "E08",
+      "name": "Lorenz content and Chen style weight scan",
+      "paper": "Table I, PDF p. 4; Sec. III D",
+      "kind": "numerical",
+      "code": [
+        "experiments/classic/run.py",
+        "experiments/classic/evaluate.py"
+      ],
+      "results": [
+        "experiments/classic/results/content_style"
+      ]
+    },
+    {
+      "id": "E09",
+      "name": "Content and Gram feature transformations",
+      "paper": "Table II, Appendix  B, PDF p. 12",
+      "kind": "numerical",
+      "code": [
+        "experiments/perturbation/transformations.py",
+        "ndtl/fields.py"
+      ],
+      "results": [
+        "experiments/perturbation/results/transformations/transform_content_style.txt",
+        "experiments/perturbation/results/transformations"
+      ]
+    },
+    {
+      "id": "E10",
+      "name": "Layer perturbation and feature interpretation",
+      "paper": "Fig. 3, Sec. III E, PDF p. 5",
+      "kind": "numerical",
+      "code": [
+        "experiments/perturbation/run.py",
+        "experiments/perturbation/analyze.py"
+      ],
+      "results": [
+        "experiments/perturbation/results/layer_noise"
+      ]
+    },
+    {
+      "id": "E11",
+      "name": "Representative Lyapunov spectrum landscapes",
+      "paper": "Fig. 4, PDF p. 5",
+      "kind": "numerical",
+      "code": [
+        "experiments/classification/plot_spectra.py"
+      ],
+      "results": [
+        "experiments/classification/results/systems52"
+      ]
+    },
+    {
+      "id": "E12",
+      "name": "52-system classification",
+      "paper": "Fig. 5, Sec. IV B, PDF p. 7",
+      "kind": "numerical",
+      "code": [
+        "experiments/classification/train52.py",
+        "experiments/classification/train20.py",
+        "experiments/classification/plot_landscape.py"
+      ],
+      "results": [
+        "experiments/classification/results/systems52",
+        "experiments/classification/results/systems20"
+      ]
+    },
+    {
+      "id": "E13",
+      "name": "Hierarchical and spectral clustering",
+      "paper": "Fig. 6, Sec. IV C, PDF p. 7",
+      "kind": "numerical",
+      "code": [
+        "experiments/classification/plot_strips.py",
+        "experiments/classification/plot_hierarchy.py"
+      ],
+      "results": [
+        "experiments/classification/results/systems52/distance_matrix.csv"
+      ]
+    },
+    {
+      "id": "E14",
+      "name": "52-system reordered distance matrix",
+      "paper": "Fig. 18, Appendix  E, PDF p. 17",
+      "kind": "numerical",
+      "code": [
+        "experiments/classification/plot_spectral.py"
+      ],
+      "results": [
+        "experiments/classification/results/systems52/distance_matrix.csv"
+      ]
+    },
+    {
+      "id": "E15",
+      "name": "20-system classification",
+      "paper": "Fig. 19, Appendix  E, PDF p. 17",
+      "kind": "numerical",
+      "code": [
+        "experiments/classification/train20.py",
+        "experiments/classification/plot_spectral.py"
+      ],
+      "results": [
+        "experiments/classification/results/systems20"
+      ]
+    },
+    {
+      "id": "E16",
+      "name": "3D similarity landscape",
+      "paper": "Fig. 20, Appendix  E, PDF p. 17",
+      "kind": "numerical",
+      "code": [
+        "experiments/classification/plot_landscape.py"
+      ],
+      "results": [
+        "experiments/classification/results/systems52/distance_matrix.csv"
+      ]
+    },
+    {
+      "id": "E17",
+      "name": "Hastings-Powell ecology",
+      "paper": "Fig. 7; Table III, IV; Sec. V A and Appendix  F; PDF p. 8, 18",
+      "kind": "numerical",
+      "code": [
+        "experiments/hp/run.py",
+        "experiments/hp/pipeline.py",
+        "experiments/hp/fit.py",
+        "experiments/hp/plot.py"
+      ],
+      "results": [
+        "experiments/hp/results/main",
+        "experiments/hp/results/main/stable_to_chaotic"
+      ]
+    },
+    {
+      "id": "E18",
+      "name": "Raw and projected HP multistart validation",
+      "paper": "Table V, Appendix  F d, PDF p. 19",
+      "kind": "numerical",
+      "code": [
+        "experiments/hp/validate_multistart.py"
+      ],
+      "results": [
+        "experiments/hp/results/validation/fixed02_stable_to_chaotic_alpha0p50_multistart.json"
+      ]
+    },
+    {
+      "id": "E19",
+      "name": "Saved HP periodic-orbit validation",
+      "paper": "Appendix  F e, PDF p. 19",
+      "kind": "reference",
+      "code": [],
+      "results": [
+        "experiments/hp/results/validation/fixed02_stable_to_chaotic_alpha0p50_holling_fit_floquet.json"
+      ]
+    },
+    {
+      "id": "E20",
+      "name": "SEIRS interpretable models",
+      "paper": "Fig. 8; Sec. V B and Appendix  C; PDF p. 8, 9, 15",
+      "kind": "numerical",
+      "code": [
+        "experiments/seirs/run.py",
+        "experiments/seirs/analyze.py",
+        "experiments/seirs/polynomial.py",
+        "experiments/seirs/plot.py"
+      ],
+      "results": [],
+      "configs": [
+        "experiments/seirs/configs/training.json",
+        "experiments/seirs/configs/coarse.json",
+        "experiments/seirs/configs/fine.json"
+      ]
+    },
+    {
+      "id": "E21",
+      "name": "Chaotic image encryption",
+      "paper": "Fig. 9, Table VI; Sec. V C and Appendix  G; PDF p. 9, 19",
+      "kind": "numerical",
+      "code": [
+        "experiments/encryption/run.py",
+        "experiments/classic/run.py"
+      ],
+      "results": [
+        "experiments/encryption/results"
+      ]
+    },
+    {
+      "id": "E23",
+      "name": "NDTL framework schematic",
+      "paper": "Fig. 1, PDF p. 2",
+      "kind": "reference",
+      "code": [],
+      "results": []
+    },
+    {
+      "id": "E25",
+      "name": "Hamiltonian feature interpretation",
+      "paper": "Sec. III B, PDF p. 3",
+      "kind": "reference",
+      "code": [],
+      "results": []
+    }
+  ]
+}

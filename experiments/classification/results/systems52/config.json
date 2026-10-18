@@ -1,0 +1,426 @@
+{
+  "experiment": "content_only_pair_specific_cae_dysts52",
+  "systems": [
+    {
+      "key": "lorenz",
+      "label": "Lorenz",
+      "source": "existing"
+    },
+    {
+      "key": "chen",
+      "label": "Chen",
+      "source": "existing"
+    },
+    {
+      "key": "lv",
+      "label": "Lv",
+      "source": "existing"
+    },
+    {
+      "key": "rossler",
+      "label": "Rossler",
+      "source": "existing"
+    },
+    {
+      "key": "burke_shaw",
+      "label": "Burke-Shaw",
+      "source": "existing"
+    },
+    {
+      "key": "dequan_li",
+      "label": "Dequan Li",
+      "source": "existing"
+    },
+    {
+      "key": "genesio_tesi",
+      "label": "Genesio-Tesi",
+      "source": "existing"
+    },
+    {
+      "key": "hadley",
+      "label": "Hadley",
+      "source": "existing"
+    },
+    {
+      "key": "halvorsen",
+      "label": "Halvorsen",
+      "source": "existing"
+    },
+    {
+      "key": "newton_leipnik",
+      "label": "Newton-Leipnik",
+      "source": "existing"
+    },
+    {
+      "key": "nose_hoover",
+      "label": "Nose-Hoover",
+      "source": "existing"
+    },
+    {
+      "key": "rucklidge",
+      "label": "Rucklidge",
+      "source": "existing"
+    },
+    {
+      "key": "sakarya",
+      "label": "Sakarya",
+      "source": "existing"
+    },
+    {
+      "key": "shimizu_morioka",
+      "label": "Shimizu-Morioka",
+      "source": "existing"
+    },
+    {
+      "key": "dadras",
+      "label": "Dadras",
+      "source": "DYSTS"
+    },
+    {
+      "key": "rikitake_dynamo",
+      "label": "Rikitake Dynamo",
+      "source": "DYSTS"
+    },
+    {
+      "key": "pehlivan_wei",
+      "label": "Pehlivan-Wei",
+      "source": "DYSTS"
+    },
+    {
+      "key": "chen_lee",
+      "label": "Chen-Lee",
+      "source": "DYSTS"
+    },
+    {
+      "key": "finance",
+      "label": "Finance",
+      "source": "DYSTS"
+    },
+    {
+      "key": "sprott_b",
+      "label": "Sprott B",
+      "source": "DYSTS"
+    },
+    {
+      "key": "atmospheric_regime",
+      "label": "AtmosphericRegime",
+      "source": "DYSTS"
+    },
+    {
+      "key": "liu_chen",
+      "label": "LiuChen",
+      "source": "DYSTS"
+    },
+    {
+      "key": "lorenz84",
+      "label": "Lorenz84",
+      "source": "DYSTS"
+    },
+    {
+      "key": "lu_chen",
+      "label": "LuChen",
+      "source": "DYSTS"
+    },
+    {
+      "key": "lu_chen_cheng",
+      "label": "LuChenCheng",
+      "source": "DYSTS"
+    },
+    {
+      "key": "pan_xu_zhou",
+      "label": "PanXuZhou",
+      "source": "DYSTS"
+    },
+    {
+      "key": "qi_chen",
+      "label": "QiChen",
+      "source": "DYSTS"
+    },
+    {
+      "key": "rayleigh_benard",
+      "label": "RayleighBenard",
+      "source": "DYSTS"
+    },
+    {
+      "key": "sprott_a",
+      "label": "SprottA",
+      "source": "DYSTS"
+    },
+    {
+      "key": "sprott_c",
+      "label": "SprottC",
+      "source": "DYSTS"
+    },
+    {
+      "key": "sprott_d",
+      "label": "SprottD",
+      "source": "DYSTS"
+    },
+    {
+      "key": "sprott_e",
+      "label": "SprottE",
+      "source": "DYSTS"
+    },
+    {
+      "key": "sprott_f",
+      "label": "SprottF",
+      "source": "DYSTS"
+    },
+    {
+      "key": "sprott_g",
+      "label": "SprottG",
+      "source": "DYSTS"
+    },
+    {
+      "key": "sprott_h",
+      "label": "SprottH",
+      "source": "DYSTS"
+    },
+    {
+      "key": "sprott_i",
+      "label": "SprottI",
+      "source": "DYSTS"
+    },
+    {
+      "key": "sprott_j",
+      "label": "SprottJ",
+      "source": "DYSTS"
+    },
+    {
+      "key": "sprott_jerk",
+      "label": "SprottJerk",
+      "source": "DYSTS"
+    },
+    {
+      "key": "sprott_k",
+      "label": "SprottK",
+      "source": "DYSTS"
+    },
+    {
+      "key": "sprott_l",
+      "label": "SprottL",
+      "source": "DYSTS"
+    },
+    {
+      "key": "sprott_m",
+      "label": "SprottM",
+      "source": "DYSTS"
+    },
+    {
+      "key": "sprott_n",
+      "label": "SprottN",
+      "source": "DYSTS"
+    },
+    {
+      "key": "sprott_o",
+      "label": "SprottO",
+      "source": "DYSTS"
+    },
+    {
+      "key": "sprott_p",
+      "label": "SprottP",
+      "source": "DYSTS"
+    },
+    {
+      "key": "sprott_q",
+      "label": "SprottQ",
+      "source": "DYSTS"
+    },
+    {
+      "key": "sprott_r",
+      "label": "SprottR",
+      "source": "DYSTS"
+    },
+    {
+      "key": "sprott_s",
+      "label": "SprottS",
+      "source": "DYSTS"
+    },
+    {
+      "key": "sprott_torus",
+      "label": "SprottTorus",
+      "source": "DYSTS"
+    },
+    {
+      "key": "tsucs2",
+      "label": "Tsucs2",
+      "source": "DYSTS"
+    },
+    {
+      "key": "vallis_el_nino",
+      "label": "VallisElNino",
+      "source": "DYSTS"
+    },
+    {
+      "key": "wang_sun",
+      "label": "WangSun",
+      "source": "DYSTS"
+    },
+    {
+      "key": "zhou_chen",
+      "label": "ZhouChen",
+      "source": "DYSTS"
+    }
+  ],
+  "reference_20_systems": [
+    "lorenz",
+    "chen",
+    "lv",
+    "rossler",
+    "burke_shaw",
+    "dequan_li",
+    "genesio_tesi",
+    "hadley",
+    "halvorsen",
+    "newton_leipnik",
+    "nose_hoover",
+    "rucklidge",
+    "sakarya",
+    "shimizu_morioka",
+    "dadras",
+    "rikitake_dynamo",
+    "pehlivan_wei",
+    "chen_lee",
+    "finance",
+    "sprott_b"
+  ],
+  "new_dysts_systems": [
+    "atmospheric_regime",
+    "liu_chen",
+    "lorenz84",
+    "lu_chen",
+    "lu_chen_cheng",
+    "pan_xu_zhou",
+    "qi_chen",
+    "rayleigh_benard",
+    "sprott_a",
+    "sprott_c",
+    "sprott_d",
+    "sprott_e",
+    "sprott_f",
+    "sprott_g",
+    "sprott_h",
+    "sprott_i",
+    "sprott_j",
+    "sprott_jerk",
+    "sprott_k",
+    "sprott_l",
+    "sprott_m",
+    "sprott_n",
+    "sprott_o",
+    "sprott_p",
+    "sprott_q",
+    "sprott_r",
+    "sprott_s",
+    "sprott_torus",
+    "tsucs2",
+    "vallis_el_nino",
+    "wang_sun",
+    "zhou_chen"
+  ],
+  "newton_key_policy": "newton_liepnik treated as newton_leipnik",
+  "target_grid_limits": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "target_velocity": 5.0,
+  "alphas": [
+    0.0,
+    0.125,
+    0.25,
+    0.375,
+    0.5,
+    0.625,
+    0.75,
+    0.875,
+    1.0
+  ],
+  "init_point": [
+    0.3,
+    0.3,
+    0.5
+  ],
+  "lyap_config": {
+    "h": 0.01,
+    "burn_steps": 1000,
+    "lyap_steps": 5000,
+    "fd_eps": null,
+    "max_abs": 100000.0
+  },
+  "cae_config": {
+    "grid_shape": [
+      48,
+      48,
+      48
+    ],
+    "depth": 64,
+    "strides": [
+      3,
+      2,
+      2
+    ],
+    "kernel_size": [
+      5,
+      3,
+      3
+    ],
+    "batch_size": 12,
+    "max_batches": 5000,
+    "lr": 0.001,
+    "turb_scale": 0.1,
+    "reduce_factor": 0.8,
+    "reduce_patience": 100,
+    "early_lr": 0.0001,
+    "log_every": 500
+  },
+  "transfer_config": {
+    "max_iters": 10000,
+    "lr": 0.1,
+    "reduce_factor": 0.5,
+    "reduce_patience": 500,
+    "early_lr": 1e-06,
+    "log_every": 1000
+  },
+  "feature_layers": "CAE encoder feature_layers only, all three layers",
+  "style_loss": "disabled",
+  "content_weights": "per layer: A=(1-alpha)/3, B=alpha/3",
+  "fusion_initialization": "linear homotopy tensor",
+  "closed_form_projection": "vec2ode linear regression, max_order=2",
+  "num_systems": 52,
+  "num_pairs_total": 1326,
+  "num_pairs_reused_from_reference_20": 190,
+  "num_pairs_to_compute": 1136,
+  "num_pairs_selected_this_run": 228,
+  "num_eval_records_expected_total": 11934,
+  "num_eval_records_to_compute": 10224,
+  "num_interior_fusions_to_compute": 7952,
+  "reference_results_dir": "experiments/classification/results/systems20",
+  "dysts_homotopy_results_dir": "experiments/classification/configs/dysts51",
+  "resume": true,
+  "seed": 20260603,
+  "distance_components": [
+    "endpoint_gap",
+    "barrier",
+    "roughness",
+    "chaos_loss"
+  ],
+  "distance_normalization": "percentile_rank_across_pairs",
+  "pair_order": "reference_20_internal, reference_20_to_new_dysts, new_dysts_internal",
+  "sharding": {
+    "pair_shard_index": 0,
+    "pair_shard_count": 5,
+    "pair_start": null,
+    "pair_end": null,
+    "limit_pairs": null
+  }
+}

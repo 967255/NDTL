@@ -1,0 +1,203 @@
+{
+  "experiment": "classification20_pairwise_cae",
+  "systems": [
+    {
+      "key": "lorenz",
+      "label": "Lorenz",
+      "source": "existing"
+    },
+    {
+      "key": "chen",
+      "label": "Chen",
+      "source": "existing"
+    },
+    {
+      "key": "lv",
+      "label": "Lv",
+      "source": "existing"
+    },
+    {
+      "key": "rossler",
+      "label": "Rossler",
+      "source": "existing"
+    },
+    {
+      "key": "burke_shaw",
+      "label": "Burke-Shaw",
+      "source": "existing"
+    },
+    {
+      "key": "dequan_li",
+      "label": "Dequan Li",
+      "source": "existing"
+    },
+    {
+      "key": "genesio_tesi",
+      "label": "Genesio-Tesi",
+      "source": "existing"
+    },
+    {
+      "key": "hadley",
+      "label": "Hadley",
+      "source": "existing"
+    },
+    {
+      "key": "halvorsen",
+      "label": "Halvorsen",
+      "source": "existing"
+    },
+    {
+      "key": "newton_leipnik",
+      "label": "Newton-Leipnik",
+      "source": "existing"
+    },
+    {
+      "key": "nose_hoover",
+      "label": "Nose-Hoover",
+      "source": "existing"
+    },
+    {
+      "key": "rucklidge",
+      "label": "Rucklidge",
+      "source": "existing"
+    },
+    {
+      "key": "sakarya",
+      "label": "Sakarya",
+      "source": "existing"
+    },
+    {
+      "key": "shimizu_morioka",
+      "label": "Shimizu-Morioka",
+      "source": "existing"
+    },
+    {
+      "key": "dadras",
+      "label": "Dadras",
+      "source": "DYSTS"
+    },
+    {
+      "key": "rikitake_dynamo",
+      "label": "Rikitake Dynamo",
+      "source": "DYSTS"
+    },
+    {
+      "key": "pehlivan_wei",
+      "label": "Pehlivan-Wei",
+      "source": "DYSTS"
+    },
+    {
+      "key": "chen_lee",
+      "label": "Chen-Lee",
+      "source": "DYSTS"
+    },
+    {
+      "key": "finance",
+      "label": "Finance",
+      "source": "DYSTS"
+    },
+    {
+      "key": "sprott_b",
+      "label": "Sprott B",
+      "source": "DYSTS"
+    }
+  ],
+  "target_grid_limits": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "target_velocity": 5.0,
+  "alphas": [
+    0.0,
+    0.125,
+    0.25,
+    0.375,
+    0.5,
+    0.625,
+    0.75,
+    0.875,
+    1.0
+  ],
+  "init_point": [
+    0.3,
+    0.3,
+    0.5
+  ],
+  "lyap_config": {
+    "h": 0.01,
+    "burn_steps": 1000,
+    "lyap_steps": 5000,
+    "fd_eps": null,
+    "max_abs": 100000.0
+  },
+  "cae_config": {
+    "grid_shape": [
+      48,
+      48,
+      48
+    ],
+    "depth": 64,
+    "strides": [
+      3,
+      2,
+      2
+    ],
+    "kernel_size": [
+      5,
+      3,
+      3
+    ],
+    "batch_size": 12,
+    "max_batches": 5000,
+    "lr": 0.001,
+    "turb_scale": 0.1,
+    "reduce_factor": 0.8,
+    "reduce_patience": 100,
+    "early_lr": 0.0001,
+    "log_every": 500
+  },
+  "transfer_config": {
+    "max_iters": 10000,
+    "lr": 0.1,
+    "reduce_factor": 0.5,
+    "reduce_patience": 500,
+    "early_lr": 1e-06,
+    "log_every": 1000
+  },
+  "feature_layers": "CAE encoder feature_layers only, all three layers",
+  "style_loss": "disabled",
+  "content_weights": "per layer: A=(1-alpha)/3, B=alpha/3",
+  "fusion_initialization": "linear homotopy tensor",
+  "closed_form_projection": "vec2ode linear regression, max_order=2",
+  "num_pairs_total": 190,
+  "num_pairs_selected_this_run": 48,
+  "num_eval_records_expected_total": 1710,
+  "num_interior_fusions_expected_total": 1330,
+  "homotopy_results_dir": "experiments/classification/configs/systems20",
+  "resume": true,
+  "seed": 20260603,
+  "distance_components": [
+    "endpoint_gap",
+    "barrier",
+    "roughness",
+    "chaos_loss"
+  ],
+  "distance_normalization": "percentile_rank_across_pairs",
+  "sharding": {
+    "pair_shard_index": 0,
+    "pair_shard_count": 4,
+    "pair_start": null,
+    "pair_end": null,
+    "limit_pairs": null
+  }
+}

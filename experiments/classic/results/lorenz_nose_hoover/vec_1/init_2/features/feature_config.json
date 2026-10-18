@@ -1,0 +1,16 @@
+{
+  "traj_length": 5000,
+  "omit_points": 0,
+  "h": null,
+  "burn_in": 500,
+  "stride": 5,
+  "twonn_approximate": false,
+  "twonn_theiler": 10,
+  "twonn_k_search": 64,
+  "lyap_tol": 1e-08,
+  "lyap_min_tpts": 10,
+  "lyap_fd_eps": null,
+  "save_traj_npz": true,
+  "save_lyap_npz": true,
+  "save_plots": true
+}

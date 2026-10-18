@@ -1,0 +1,187 @@
+[2025-12-06 15:25:39,866] INFO: vecs.shape = (5, 1, 48, 48, 48, 3)
+[2025-12-06 15:25:39,867] INFO: num_vecs = 5
+[2025-12-06 15:25:39,867] INFO: === start vec index 0 ===
+[2025-12-06 15:25:39,867] INFO: vec[0].shape = (1, 48, 48, 48, 3)
+[2025-12-06 15:25:39,983] INFO: [vec 0] config saved to ./experiments/classic/results/hadley_halvorsen/vec_0/config.json
+[2025-12-06 15:25:39,984] INFO: [vec 0] ode_hat info: dx/dt = -4.566 + -1.724x + 31.594y + -4.988z + 0.011xx + -0.274xy + 0.465xz + -27.199yy + -0.079yz + 0.168zz
+dy/dt = -4.518 + -4.515x + -1.863y + 31.001z + -0.332xx + 0.383xy + -0.061xz + 0.219yy + -0.428yz + -26.55zz
+dz/dt = -4.601 + 31.83x + -4.827y + -1.737z + -27.428xx + -0.238xy + -0.055xz + 0.072yy + 0.165yz + -0.082zz
+name = ode_hat_0
+grid_limits = None
+system_velocity(avg) = None
+[2025-12-06 15:25:39,984] INFO: [vec 0] ode info saved to ./experiments/classic/results/hadley_halvorsen/vec_0/ode_info.txt
+[2025-12-06 15:25:45,917] INFO: [vec 0] figure for init_0=(0.3, 0.3, 0.5) saved under ./experiments/classic/results/hadley_halvorsen/vec_0/init_0
+[2025-12-06 15:25:51,685] INFO: [vec 0] figure for init_1=(0.1, 0.2, 0.8) saved under ./experiments/classic/results/hadley_halvorsen/vec_0/init_1
+[2025-12-06 15:25:52,717] INFO: [vec 0] figure for init_2=(0.1, 0.0, 0.0) saved under ./experiments/classic/results/hadley_halvorsen/vec_0/init_2
+[2025-12-06 15:25:52,717] INFO: === start vec index 1 ===
+[2025-12-06 15:25:52,717] INFO: vec[1].shape = (1, 48, 48, 48, 3)
+[2025-12-06 15:25:52,836] INFO: [vec 1] config saved to ./experiments/classic/results/hadley_halvorsen/vec_1/config.json
+[2025-12-06 15:25:52,837] INFO: [vec 1] ode_hat info: dx/dt = -4.367 + -1.802x + 26.772y + -1.007z + -0.155xx + -0.279xy + 0.924xz + -23.492yy + 0.11yz + -2.963zz
+dy/dt = -5.35 + 0.744x + -3.456y + 28.461z + 0.486xx + 3.603xy + -11.896xz + 0.21yy + -0.739yz + -19.123zz
+dz/dt = 0.409 + 16.144x + -10.448y + -1.769z + -19.902xx + 11.779xy + 2.09xz + 1.092yy + -0.584yz + -0.738zz
+name = ode_hat_1
+grid_limits = None
+system_velocity(avg) = None
+[2025-12-06 15:25:52,837] INFO: [vec 1] ode info saved to ./experiments/classic/results/hadley_halvorsen/vec_1/ode_info.txt
+[2025-12-06 15:25:54,260] INFO: [vec 1] figure for init_0=(0.3, 0.3, 0.5) saved under ./experiments/classic/results/hadley_halvorsen/vec_1/init_0
+[2025-12-06 15:25:55,777] INFO: [vec 1] figure for init_1=(0.1, 0.2, 0.8) saved under ./experiments/classic/results/hadley_halvorsen/vec_1/init_1
+[2025-12-06 15:25:56,840] INFO: [vec 1] figure for init_2=(0.1, 0.0, 0.0) saved under ./experiments/classic/results/hadley_halvorsen/vec_1/init_2
+[2025-12-06 15:25:56,840] INFO: === start vec index 2 ===
+[2025-12-06 15:25:56,840] INFO: vec[2].shape = (1, 48, 48, 48, 3)
+[2025-12-06 15:25:56,942] INFO: [vec 2] config saved to ./experiments/classic/results/hadley_halvorsen/vec_2/config.json
+[2025-12-06 15:25:56,943] INFO: [vec 2] ode_hat info: dx/dt = -3.603 + -3.76x + 20.145y + 3.615z + 0.718xx + 0.778xy + 1.767xz + -18.542yy + 0.242yz + -6.503zz
+dy/dt = -5.984 + 6.602x + -4.801y + 25.218z + 0.231xx + 6.791xy + -23.203xz + -0.201yy + -0.817yz + -11.614zz
+dz/dt = 5.155 + 1.306x + -14.576y + -3.581z + -12.694xx + 22.597xy + 4.747xz + 1.185yy + -0.679yz + -0.358zz
+name = ode_hat_2
+grid_limits = None
+system_velocity(avg) = None
+[2025-12-06 15:25:56,943] INFO: [vec 2] ode info saved to ./experiments/classic/results/hadley_halvorsen/vec_2/ode_info.txt
+[2025-12-06 15:26:02,590] INFO: [vec 2] figure for init_0=(0.3, 0.3, 0.5) saved under ./experiments/classic/results/hadley_halvorsen/vec_2/init_0
+[2025-12-06 15:26:08,186] INFO: [vec 2] figure for init_1=(0.1, 0.2, 0.8) saved under ./experiments/classic/results/hadley_halvorsen/vec_2/init_1
+[2025-12-06 15:26:09,426] INFO: [vec 2] figure for init_2=(0.1, 0.0, 0.0) saved under ./experiments/classic/results/hadley_halvorsen/vec_2/init_2
+[2025-12-06 15:26:09,426] INFO: === start vec index 3 ===
+[2025-12-06 15:26:09,427] INFO: vec[3].shape = (1, 48, 48, 48, 3)
+[2025-12-06 15:26:09,599] INFO: [vec 3] config saved to ./experiments/classic/results/hadley_halvorsen/vec_3/config.json
+[2025-12-06 15:26:09,599] INFO: [vec 3] ode_hat info: dx/dt = -3.936 + -2.445x + 15.178y + 7.878z + 0.451xx + 0.792xy + 0.693xz + -14.407yy + -0.16yz + -8.871zz
+dy/dt = -6.403 + 11.085x + -6.426y + 22.487z + 0.12xx + 8.783xy + -32.216xz + -0.085yy + -0.399yz + -5.425zz
+dz/dt = 10.12 + -13.051x + -18.115y + -5.724z + -6.276xx + 32.906xy + 7.595xz + 0.368yy + 0.078yz + -0.432zz
+name = ode_hat_3
+grid_limits = None
+system_velocity(avg) = None
+[2025-12-06 15:26:09,599] INFO: [vec 3] ode info saved to ./experiments/classic/results/hadley_halvorsen/vec_3/ode_info.txt
+[2025-12-06 15:26:15,344] INFO: [vec 3] figure for init_0=(0.3, 0.3, 0.5) saved under ./experiments/classic/results/hadley_halvorsen/vec_3/init_0
+[2025-12-06 15:26:21,068] INFO: [vec 3] figure for init_1=(0.1, 0.2, 0.8) saved under ./experiments/classic/results/hadley_halvorsen/vec_3/init_1
+[2025-12-06 15:26:26,748] INFO: [vec 3] figure for init_2=(0.1, 0.0, 0.0) saved under ./experiments/classic/results/hadley_halvorsen/vec_3/init_2
+[2025-12-06 15:26:26,748] INFO: === start vec index 4 ===
+[2025-12-06 15:26:26,748] INFO: vec[4].shape = (1, 48, 48, 48, 3)
+[2025-12-06 15:26:26,871] INFO: [vec 4] config saved to ./experiments/classic/results/hadley_halvorsen/vec_4/config.json
+[2025-12-06 15:26:26,872] INFO: [vec 4] ode_hat info: dx/dt = -4.065 + -0.086x + 10.548y + 10.643z + -0.277xx + 0.141xy + -0.537xz + -10.743yy + 0.076yz + -10.383zz
+dy/dt = -6.832 + 14.802x + -8.637y + 20.637z + 0.122xx + 11.502xy + -40.953xz + 0.351yy + 0.094yz + -0.058zz
+dz/dt = 14.487 + -26.084x + -20.913y + -7.669z + -0.174xx + 41.919xy + 10.03xz + -0.203yy + 0.038yz + -0.132zz
+name = ode_hat_4
+grid_limits = None
+system_velocity(avg) = None
+[2025-12-06 15:26:26,872] INFO: [vec 4] ode info saved to ./experiments/classic/results/hadley_halvorsen/vec_4/ode_info.txt
+[2025-12-06 15:26:32,676] INFO: [vec 4] figure for init_0=(0.3, 0.3, 0.5) saved under ./experiments/classic/results/hadley_halvorsen/vec_4/init_0
+[2025-12-06 15:26:38,469] INFO: [vec 4] figure for init_1=(0.1, 0.2, 0.8) saved under ./experiments/classic/results/hadley_halvorsen/vec_4/init_1
+[2025-12-06 15:26:44,225] INFO: [vec 4] figure for init_2=(0.1, 0.0, 0.0) saved under ./experiments/classic/results/hadley_halvorsen/vec_4/init_2
+[2026-01-18 21:41:05,625] INFO: vecs.shape = (5, 1, 48, 48, 48, 3)
+[2026-01-18 21:41:05,625] INFO: num_vecs = 5
+[2026-01-18 21:41:05,625] INFO: === start vec index 0 ===
+[2026-01-18 21:41:05,625] INFO: vec[0].shape = (1, 48, 48, 48, 3)
+[2026-01-18 21:41:05,708] INFO: [vec 0] config saved to ./experiments/classic/results/hadley_halvorsen/vec_0/config.json
+[2026-01-18 21:41:05,708] INFO: [vec 0] ode_hat info: dx/dt = -4.566 + -1.724x + 31.594y + -4.988z + 0.011xx + -0.274xy + 0.465xz + -27.199yy + -0.079yz + 0.168zz
+dy/dt = -4.518 + -4.515x + -1.863y + 31.001z + -0.332xx + 0.383xy + -0.061xz + 0.219yy + -0.428yz + -26.55zz
+dz/dt = -4.601 + 31.83x + -4.827y + -1.737z + -27.428xx + -0.238xy + -0.055xz + 0.072yy + 0.165yz + -0.082zz
+name = ode_hat_0
+grid_limits = None
+system_velocity(avg) = None
+[2026-01-18 21:41:05,708] INFO: [vec 0] ode info saved to ./experiments/classic/results/hadley_halvorsen/vec_0/ode_info.txt
+[2026-01-18 21:41:11,472] INFO: [vec 0] trajectory for init_0=(0.3, 0.3, 0.5) saved under ./experiments/classic/results/hadley_halvorsen/vec_0/init_0
+[2026-01-18 21:41:29,015] INFO: [vec 0] features done for init_0=(0.3, 0.3, 0.5): ID=2.0804, KY=2.0809, spectrum=[ 0.7539091  -0.27347236 -5.93757028]
+[2026-01-18 21:41:34,726] INFO: [vec 0] trajectory for init_1=(0.1, 0.2, 0.8) saved under ./experiments/classic/results/hadley_halvorsen/vec_0/init_1
+[2026-01-18 21:41:52,270] INFO: [vec 0] features done for init_1=(0.1, 0.2, 0.8): ID=2.0512, KY=2.0976, spectrum=[ 0.78412658 -0.19518623 -6.03712763]
+[2026-01-18 21:41:53,272] INFO: [vec 0] trajectory for init_2=(0.1, 0.0, 0.0) saved under ./experiments/classic/results/hadley_halvorsen/vec_0/init_2
+[2026-01-18 21:41:53,283] ERROR: [vec 0] features FAILED for init_2=(0.1, 0.0, 0.0): Trajectory ended early (len=12) with status=Exploded on variable x!
+Traceback (most recent call last):
+  File "eval_fusion.py", line 154, in <module>
+    res = compute_system_features(
+  File "utils_eval.py", line 664, in compute_system_features
+    raise RuntimeError(f"Trajectory ended early (len={traj.shape[0]}) with status={status}")
+RuntimeError: Trajectory ended early (len=12) with status=Exploded on variable x!
+[2026-01-18 21:41:53,284] INFO: [vec 0] features summary saved: {'n_success': 2, 'intrinsic_dimension_twonn_mean': 2.065792983634517, 'intrinsic_dimension_twonn_std': 0.014618724040968312, 'kaplan_yorke_dimension_mean': 2.089233888449013, 'kaplan_yorke_dimension_std': 0.008319184531741408, 'lyapunov_spectrum_mean': array([ 0.76901784, -0.23432929, -5.98734895]), 'lyapunov_spectrum_std': array([0.01510874, 0.03914307, 0.04977867])}
+[2026-01-18 21:41:53,284] INFO: === start vec index 1 ===
+[2026-01-18 21:41:53,284] INFO: vec[1].shape = (1, 48, 48, 48, 3)
+[2026-01-18 21:41:53,366] INFO: [vec 1] config saved to ./experiments/classic/results/hadley_halvorsen/vec_1/config.json
+[2026-01-18 21:41:53,366] INFO: [vec 1] ode_hat info: dx/dt = -4.367 + -1.802x + 26.772y + -1.007z + -0.155xx + -0.279xy + 0.924xz + -23.492yy + 0.11yz + -2.963zz
+dy/dt = -5.35 + 0.744x + -3.456y + 28.461z + 0.486xx + 3.603xy + -11.896xz + 0.21yy + -0.739yz + -19.123zz
+dz/dt = 0.409 + 16.144x + -10.448y + -1.769z + -19.902xx + 11.779xy + 2.09xz + 1.092yy + -0.584yz + -0.738zz
+name = ode_hat_1
+grid_limits = None
+system_velocity(avg) = None
+[2026-01-18 21:41:53,367] INFO: [vec 1] ode info saved to ./experiments/classic/results/hadley_halvorsen/vec_1/ode_info.txt
+[2026-01-18 21:41:54,755] INFO: [vec 1] trajectory for init_0=(0.3, 0.3, 0.5) saved under ./experiments/classic/results/hadley_halvorsen/vec_1/init_0
+[2026-01-18 21:41:55,088] ERROR: [vec 1] features FAILED for init_0=(0.3, 0.3, 0.5): Trajectory ended early (len=373) with status=Exploded on variable x!
+Traceback (most recent call last):
+  File "eval_fusion.py", line 154, in <module>
+    res = compute_system_features(
+  File "utils_eval.py", line 664, in compute_system_features
+    raise RuntimeError(f"Trajectory ended early (len={traj.shape[0]}) with status={status}")
+RuntimeError: Trajectory ended early (len=373) with status=Exploded on variable x!
+[2026-01-18 21:41:56,584] INFO: [vec 1] trajectory for init_1=(0.1, 0.2, 0.8) saved under ./experiments/classic/results/hadley_halvorsen/vec_1/init_1
+[2026-01-18 21:41:57,087] ERROR: [vec 1] features FAILED for init_1=(0.1, 0.2, 0.8): Trajectory ended early (len=561) with status=Exploded on variable x!
+Traceback (most recent call last):
+  File "eval_fusion.py", line 154, in <module>
+    res = compute_system_features(
+  File "utils_eval.py", line 664, in compute_system_features
+    raise RuntimeError(f"Trajectory ended early (len={traj.shape[0]}) with status={status}")
+RuntimeError: Trajectory ended early (len=561) with status=Exploded on variable x!
+[2026-01-18 21:41:58,141] INFO: [vec 1] trajectory for init_2=(0.1, 0.0, 0.0) saved under ./experiments/classic/results/hadley_halvorsen/vec_1/init_2
+[2026-01-18 21:41:58,155] ERROR: [vec 1] features FAILED for init_2=(0.1, 0.0, 0.0): Trajectory ended early (len=16) with status=Exploded on variable x!
+Traceback (most recent call last):
+  File "eval_fusion.py", line 154, in <module>
+    res = compute_system_features(
+  File "utils_eval.py", line 664, in compute_system_features
+    raise RuntimeError(f"Trajectory ended early (len={traj.shape[0]}) with status={status}")
+RuntimeError: Trajectory ended early (len=16) with status=Exploded on variable x!
+[2026-01-18 21:41:58,155] INFO: [vec 1] features summary saved: {'n_success': 0}
+[2026-01-18 21:41:58,156] INFO: === start vec index 2 ===
+[2026-01-18 21:41:58,156] INFO: vec[2].shape = (1, 48, 48, 48, 3)
+[2026-01-18 21:41:58,248] INFO: [vec 2] config saved to ./experiments/classic/results/hadley_halvorsen/vec_2/config.json
+[2026-01-18 21:41:58,248] INFO: [vec 2] ode_hat info: dx/dt = -3.603 + -3.76x + 20.145y + 3.615z + 0.718xx + 0.778xy + 1.767xz + -18.542yy + 0.242yz + -6.503zz
+dy/dt = -5.984 + 6.602x + -4.801y + 25.218z + 0.231xx + 6.791xy + -23.203xz + -0.201yy + -0.817yz + -11.614zz
+dz/dt = 5.155 + 1.306x + -14.576y + -3.581z + -12.694xx + 22.597xy + 4.747xz + 1.185yy + -0.679yz + -0.358zz
+name = ode_hat_2
+grid_limits = None
+system_velocity(avg) = None
+[2026-01-18 21:41:58,248] INFO: [vec 2] ode info saved to ./experiments/classic/results/hadley_halvorsen/vec_2/ode_info.txt
+[2026-01-18 21:42:03,878] INFO: [vec 2] trajectory for init_0=(0.3, 0.3, 0.5) saved under ./experiments/classic/results/hadley_halvorsen/vec_2/init_0
+[2026-01-18 21:42:21,423] INFO: [vec 2] features done for init_0=(0.3, 0.3, 0.5): ID=4.1274, KY=0.0000, spectrum=[-0.23401794 -0.32912264 -5.19485799]
+[2026-01-18 21:42:26,968] INFO: [vec 2] trajectory for init_1=(0.1, 0.2, 0.8) saved under ./experiments/classic/results/hadley_halvorsen/vec_2/init_1
+[2026-01-18 21:42:44,469] INFO: [vec 2] features done for init_1=(0.1, 0.2, 0.8): ID=3.8823, KY=0.0000, spectrum=[-0.22397397 -0.41070533 -5.04356616]
+[2026-01-18 21:42:45,575] INFO: [vec 2] trajectory for init_2=(0.1, 0.0, 0.0) saved under ./experiments/classic/results/hadley_halvorsen/vec_2/init_2
+[2026-01-18 21:42:45,671] ERROR: [vec 2] features FAILED for init_2=(0.1, 0.0, 0.0): Trajectory ended early (len=108) with status=Exploded on variable x!
+Traceback (most recent call last):
+  File "eval_fusion.py", line 154, in <module>
+    res = compute_system_features(
+  File "utils_eval.py", line 664, in compute_system_features
+    raise RuntimeError(f"Trajectory ended early (len={traj.shape[0]}) with status={status}")
+RuntimeError: Trajectory ended early (len=108) with status=Exploded on variable x!
+[2026-01-18 21:42:45,672] INFO: [vec 2] features summary saved: {'n_success': 2, 'intrinsic_dimension_twonn_mean': 4.004827975050067, 'intrinsic_dimension_twonn_std': 0.12252883039873375, 'kaplan_yorke_dimension_mean': 0.0, 'kaplan_yorke_dimension_std': 0.0, 'lyapunov_spectrum_mean': array([-0.22899595, -0.36991399, -5.11921208]), 'lyapunov_spectrum_std': array([0.00502198, 0.04079135, 0.07564591])}
+[2026-01-18 21:42:45,672] INFO: === start vec index 3 ===
+[2026-01-18 21:42:45,672] INFO: vec[3].shape = (1, 48, 48, 48, 3)
+[2026-01-18 21:42:45,757] INFO: [vec 3] config saved to ./experiments/classic/results/hadley_halvorsen/vec_3/config.json
+[2026-01-18 21:42:45,758] INFO: [vec 3] ode_hat info: dx/dt = -3.936 + -2.445x + 15.178y + 7.878z + 0.451xx + 0.792xy + 0.693xz + -14.407yy + -0.16yz + -8.871zz
+dy/dt = -6.403 + 11.085x + -6.426y + 22.487z + 0.12xx + 8.783xy + -32.216xz + -0.085yy + -0.399yz + -5.425zz
+dz/dt = 10.12 + -13.051x + -18.115y + -5.724z + -6.276xx + 32.906xy + 7.595xz + 0.368yy + 0.078yz + -0.432zz
+name = ode_hat_3
+grid_limits = None
+system_velocity(avg) = None
+[2026-01-18 21:42:45,758] INFO: [vec 3] ode info saved to ./experiments/classic/results/hadley_halvorsen/vec_3/ode_info.txt
+[2026-01-18 21:42:51,495] INFO: [vec 3] trajectory for init_0=(0.3, 0.3, 0.5) saved under ./experiments/classic/results/hadley_halvorsen/vec_3/init_0
+[2026-01-18 21:43:09,102] INFO: [vec 3] features done for init_0=(0.3, 0.3, 0.5): ID=2.9087, KY=1.5964, spectrum=[ 0.88874899 -1.49026298 -1.79347196]
+[2026-01-18 21:43:14,752] INFO: [vec 3] trajectory for init_1=(0.1, 0.2, 0.8) saved under ./experiments/classic/results/hadley_halvorsen/vec_3/init_1
+[2026-01-18 21:43:32,139] INFO: [vec 3] features done for init_1=(0.1, 0.2, 0.8): ID=2.1018, KY=1.5832, spectrum=[ 1.00393693 -1.72150495 -1.92083454]
+[2026-01-18 21:43:37,767] INFO: [vec 3] trajectory for init_2=(0.1, 0.0, 0.0) saved under ./experiments/classic/results/hadley_halvorsen/vec_3/init_2
+[2026-01-18 21:43:55,287] INFO: [vec 3] features done for init_2=(0.1, 0.0, 0.0): ID=1.7408, KY=1.5590, spectrum=[ 0.95075224 -1.70075003 -1.95230349]
+[2026-01-18 21:43:55,288] INFO: [vec 3] features summary saved: {'n_success': 3, 'intrinsic_dimension_twonn_mean': 2.2504574793480963, 'intrinsic_dimension_twonn_std': 0.4882315853054986, 'kaplan_yorke_dimension_mean': 1.5795213207237204, 'kaplan_yorke_dimension_std': 0.015465755079294806, 'lyapunov_spectrum_mean': array([ 0.94781272, -1.63750599, -1.88887   ]), 'lyapunov_spectrum_std': array([0.0470712 , 0.10446074, 0.06866908])}
+[2026-01-18 21:43:55,288] INFO: === start vec index 4 ===
+[2026-01-18 21:43:55,288] INFO: vec[4].shape = (1, 48, 48, 48, 3)
+[2026-01-18 21:43:55,374] INFO: [vec 4] config saved to ./experiments/classic/results/hadley_halvorsen/vec_4/config.json
+[2026-01-18 21:43:55,374] INFO: [vec 4] ode_hat info: dx/dt = -4.065 + -0.086x + 10.548y + 10.643z + -0.277xx + 0.141xy + -0.537xz + -10.743yy + 0.076yz + -10.383zz
+dy/dt = -6.832 + 14.802x + -8.637y + 20.637z + 0.122xx + 11.502xy + -40.953xz + 0.351yy + 0.094yz + -0.058zz
+dz/dt = 14.487 + -26.084x + -20.913y + -7.669z + -0.174xx + 41.919xy + 10.03xz + -0.203yy + 0.038yz + -0.132zz
+name = ode_hat_4
+grid_limits = None
+system_velocity(avg) = None
+[2026-01-18 21:43:55,374] INFO: [vec 4] ode info saved to ./experiments/classic/results/hadley_halvorsen/vec_4/ode_info.txt
+[2026-01-18 21:44:01,160] INFO: [vec 4] trajectory for init_0=(0.3, 0.3, 0.5) saved under ./experiments/classic/results/hadley_halvorsen/vec_4/init_0
+[2026-01-18 21:44:18,617] INFO: [vec 4] features done for init_0=(0.3, 0.3, 0.5): ID=2.5260, KY=1.6943, spectrum=[ 0.61636738 -0.88771309 -1.85144855]
+[2026-01-18 21:44:24,541] INFO: [vec 4] trajectory for init_1=(0.1, 0.2, 0.8) saved under ./experiments/classic/results/hadley_halvorsen/vec_4/init_1
+[2026-01-18 21:44:42,193] INFO: [vec 4] features done for init_1=(0.1, 0.2, 0.8): ID=2.8427, KY=1.5919, spectrum=[ 0.56051357 -0.94702187 -1.54530063]
+[2026-01-18 21:44:47,952] INFO: [vec 4] trajectory for init_2=(0.1, 0.0, 0.0) saved under ./experiments/classic/results/hadley_halvorsen/vec_4/init_2
+[2026-01-18 21:45:05,665] INFO: [vec 4] features done for init_2=(0.1, 0.0, 0.0): ID=2.1359, KY=1.3714, spectrum=[ 0.30745355 -0.82793462 -1.46060077]
+[2026-01-18 21:45:05,665] INFO: [vec 4] features summary saved: {'n_success': 3, 'intrinsic_dimension_twonn_mean': 2.501526644803024, 'intrinsic_dimension_twonn_std': 0.2890963152892635, 'kaplan_yorke_dimension_mean': 1.5525171685569008, 'kaplan_yorke_dimension_std': 0.13476093203856682, 'lyapunov_spectrum_mean': array([ 0.49477817, -0.88755652, -1.61911665]), 'lyapunov_spectrum_std': array([0.13440683, 0.04861729, 0.1678831 ])}
+[2026-01-18 21:45:06,417] INFO: Saved per-init feature figure to ./experiments/classic/results/hadley_halvorsen/init_0_features.png
+[2026-01-18 21:45:07,107] INFO: Saved per-init feature figure to ./experiments/classic/results/hadley_halvorsen/init_1_features.png
+[2026-01-18 21:45:07,777] INFO: Saved per-init feature figure to ./experiments/classic/results/hadley_halvorsen/init_2_features.png

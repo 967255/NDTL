@@ -1,0 +1,1 @@
+pair_index,pair_id,status,train_batches,best_loss,final_loss,final_lr,recon_mse_a,recon_mse_b,recon_mse_max,issue,model_path

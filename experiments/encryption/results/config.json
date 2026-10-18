@@ -1,0 +1,89 @@
+{
+  "vec_path": "outputs/encryption/fields/vecs.npy",
+  "fusion_summary_root": "experiments/classic/results/content_style",
+  "out_dir": "experiments/encryption/results",
+  "image_names": [
+    "camera",
+    "moon",
+    "astronaut"
+  ],
+  "image_size": 512,
+  "dt": 0.01,
+  "burn_in": 1000,
+  "init": [
+    0.3,
+    0.3,
+    0.5
+  ],
+  "key_perturb": 1e-14,
+  "ideal_npcr": 99.609375,
+  "ideal_uaci": 33.4635,
+  "sources": [
+    {
+      "source_name": "lorenz_unit_nv",
+      "source_kind": "parent",
+      "candidate_index": null,
+      "lyapunov_max_prior": 0.7350469658088958
+    },
+    {
+      "source_name": "chen_unit_nv",
+      "source_kind": "parent",
+      "candidate_index": null,
+      "lyapunov_max_prior": 0.5264393168897294
+    },
+    {
+      "source_name": "fusion_vec_0",
+      "source_kind": "fusion",
+      "candidate_index": 0,
+      "lyapunov_max_prior": -2.9404888513001124
+    },
+    {
+      "source_name": "fusion_vec_1",
+      "source_kind": "fusion",
+      "candidate_index": 1,
+      "lyapunov_max_prior": 5.298475680412066e-05
+    },
+    {
+      "source_name": "fusion_vec_2",
+      "source_kind": "fusion",
+      "candidate_index": 2,
+      "lyapunov_max_prior": 0.2919706671301526
+    },
+    {
+      "source_name": "fusion_vec_3",
+      "source_kind": "fusion",
+      "candidate_index": 3,
+      "lyapunov_max_prior": 0.32110637233741857
+    },
+    {
+      "source_name": "fusion_vec_4",
+      "source_kind": "fusion",
+      "candidate_index": 4,
+      "lyapunov_max_prior": 0.31824769143419157
+    },
+    {
+      "source_name": "fusion_vec_5",
+      "source_kind": "fusion",
+      "candidate_index": 5,
+      "lyapunov_max_prior": 0.30475849030065216
+    },
+    {
+      "source_name": "fusion_vec_6",
+      "source_kind": "fusion",
+      "candidate_index": 6,
+      "lyapunov_max_prior": 0.37024613812939644
+    },
+    {
+      "source_name": "fusion_vec_7",
+      "source_kind": "fusion",
+      "candidate_index": 7,
+      "lyapunov_max_prior": 0.33191129970938654
+    },
+    {
+      "source_name": "fusion_vec_8",
+      "source_kind": "fusion",
+      "candidate_index": 8,
+      "lyapunov_max_prior": 0.3341271565946721
+    }
+  ]
+}

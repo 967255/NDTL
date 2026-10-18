@@ -1,0 +1,4491 @@
+{
+  "report": "experiments/hp/results/main/report.json",
+  "line": "stable_to_chaotic",
+  "alpha": 0.5,
+  "domain": [
+    [
+      0.0,
+      2.0
+    ],
+    [
+      0.0,
+      2.0
+    ],
+    [
+      0.0,
+      15.0
+    ]
+  ],
+  "initial_condition_grid": [
+    [
+      0.2,
+      0.05,
+      7.5
+    ],
+    [
+      0.2,
+      0.05,
+      9.5
+    ],
+    [
+      0.2,
+      0.05,
+      13.0
+    ],
+    [
+      0.2,
+      0.18,
+      7.5
+    ],
+    [
+      0.2,
+      0.18,
+      9.5
+    ],
+    [
+      0.2,
+      0.18,
+      13.0
+    ],
+    [
+      0.2,
+      0.36,
+      7.5
+    ],
+    [
+      0.2,
+      0.36,
+      9.5
+    ],
+    [
+      0.2,
+      0.36,
+      13.0
+    ],
+    [
+      0.5,
+      0.05,
+      7.5
+    ],
+    [
+      0.5,
+      0.05,
+      9.5
+    ],
+    [
+      0.5,
+      0.05,
+      13.0
+    ],
+    [
+      0.5,
+      0.18,
+      7.5
+    ],
+    [
+      0.5,
+      0.18,
+      9.5
+    ],
+    [
+      0.5,
+      0.18,
+      13.0
+    ],
+    [
+      0.5,
+      0.36,
+      7.5
+    ],
+    [
+      0.5,
+      0.36,
+      9.5
+    ],
+    [
+      0.5,
+      0.36,
+      13.0
+    ],
+    [
+      0.9,
+      0.05,
+      7.5
+    ],
+    [
+      0.9,
+      0.05,
+      9.5
+    ],
+    [
+      0.9,
+      0.05,
+      13.0
+    ],
+    [
+      0.9,
+      0.18,
+      7.5
+    ],
+    [
+      0.9,
+      0.18,
+      9.5
+    ],
+    [
+      0.9,
+      0.18,
+      13.0
+    ],
+    [
+      0.9,
+      0.36,
+      7.5
+    ],
+    [
+      0.9,
+      0.36,
+      9.5
+    ],
+    [
+      0.9,
+      0.36,
+      13.0
+    ]
+  ],
+  "integration": {
+    "steps": 90000,
+    "keep": 20000,
+    "dt": 0.05
+  },
+  "systems": [
+    {
+      "name": "stable_parent_exact",
+      "summary": {
+        "n_initial_conditions": 27,
+        "n_persistent": 27,
+        "n_oscillatory_by_c_peaks": 0,
+        "std_norm_median": 3.412927197459835e-12,
+        "peak_count_c_median": 0.0,
+        "within_trajectory_peak_interval_cv_median": null,
+        "within_trajectory_peak_height_cv_median": null,
+        "across_ic_peak_interval_mean_cv": null,
+        "across_ic_peak_height_mean_cv": null
+      },
+      "per_initial_condition": [
+        {
+          "ic_index": 0,
+          "initial_condition": [
+            0.2,
+            0.05,
+            7.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.7499999999995793,
+              0.125000000000269,
+              13.750000000008678
+            ],
+            "mean_tail": [
+              0.7499999999998773,
+              0.12500000000027794,
+              13.750000000005306
+            ],
+            "std_tail": [
+              2.97983859809392e-13,
+              8.93729534823251e-15,
+              3.3715252811816754e-12
+            ],
+            "max_tail": [
+              0.7499999999995793,
+              0.125000000000269,
+              13.750000000008678
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 1,
+          "initial_condition": [
+            0.2,
+            0.05,
+            9.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.7499999999995882,
+              0.12500000000026545,
+              13.750000000008688
+            ],
+            "mean_tail": [
+              0.7499999999998775,
+              0.1250000000002778,
+              13.750000000005306
+            ],
+            "std_tail": [
+              2.893241202173158e-13,
+              1.2351231148954867e-14,
+              3.382183422218077e-12
+            ],
+            "max_tail": [
+              0.7499999999995882,
+              0.12500000000026545,
+              13.750000000008688
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 2,
+          "initial_condition": [
+            0.2,
+            0.05,
+            13.0
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.7499999999996015,
+              0.12500000000026013,
+              13.750000000008704
+            ],
+            "mean_tail": [
+              0.7499999999998778,
+              0.12500000000027736,
+              13.750000000005306
+            ],
+            "std_tail": [
+              2.7622348852673895e-13,
+              1.7236212457305555e-14,
+              3.398170633772679e-12
+            ],
+            "max_tail": [
+              0.7499999999996015,
+              0.12500000000026013,
+              13.750000000008704
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 3,
+          "initial_condition": [
+            0.2,
+            0.18,
+            7.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.7499999999995882,
+              0.12500000000026545,
+              13.750000000008688
+            ],
+            "mean_tail": [
+              0.7499999999998775,
+              0.1250000000002778,
+              13.750000000005306
+            ],
+            "std_tail": [
+              2.893241202173158e-13,
+              1.2351231148954867e-14,
+              3.382183422218077e-12
+            ],
+            "max_tail": [
+              0.7499999999995882,
+              0.12500000000026545,
+              13.750000000008688
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 4,
+          "initial_condition": [
+            0.2,
+            0.18,
+            9.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.7499999999996064,
+              0.12500000000025815,
+              13.750000000008711
+            ],
+            "mean_tail": [
+              0.7499999999998817,
+              0.12500000000027725,
+              13.750000000005306
+            ],
+            "std_tail": [
+              2.752242878045763e-13,
+              1.9095836023552692e-14,
+              3.40527606113028e-12
+            ],
+            "max_tail": [
+              0.7499999999996064,
+              0.12500000000025815,
+              13.750000000008711
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 5,
+          "initial_condition": [
+            0.2,
+            0.18,
+            13.0
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.7499999999996072,
+              0.1250000000002564,
+              13.750000000008741
+            ],
+            "mean_tail": [
+              0.7499999999998817,
+              0.12500000000027722,
+              13.750000000005306
+            ],
+            "std_tail": [
+              2.744471316873387e-13,
+              2.0816681711721685e-14,
+              3.4354741274000844e-12
+            ],
+            "max_tail": [
+              0.7499999999996072,
+              0.1250000000002564,
+              13.750000000008741
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 6,
+          "initial_condition": [
+            0.2,
+            0.36,
+            7.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.7499999999996444,
+              0.12500000000024153,
+              13.750000000008786
+            ],
+            "mean_tail": [
+              0.7499999999998832,
+              0.1250000000002692,
+              13.750000000005306
+            ],
+            "std_tail": [
+              2.3880897259687117e-13,
+              2.7672308888782027e-14,
+              3.4798830483850907e-12
+            ],
+            "max_tail": [
+              0.7499999999996444,
+              0.12500000000024153,
+              13.750000000008786
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 7,
+          "initial_condition": [
+            0.2,
+            0.36,
+            9.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.7499999999996216,
+              0.12500000000025063,
+              13.75000000000876
+            ],
+            "mean_tail": [
+              0.749999999999882,
+              0.12500000000027126,
+              13.750000000005306
+            ],
+            "std_tail": [
+              2.603472992745992e-13,
+              2.0622392682412283e-14,
+              3.453237695794087e-12
+            ],
+            "max_tail": [
+              0.7499999999996216,
+              0.12500000000025063,
+              13.75000000000876
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 8,
+          "initial_condition": [
+            0.2,
+            0.36,
+            13.0
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.7499999999995882,
+              0.12500000000026545,
+              13.750000000008688
+            ],
+            "mean_tail": [
+              0.7499999999998775,
+              0.1250000000002778,
+              13.750000000005306
+            ],
+            "std_tail": [
+              2.893241202173158e-13,
+              1.2351231148954867e-14,
+              3.382183422218077e-12
+            ],
+            "max_tail": [
+              0.7499999999995882,
+              0.12500000000026545,
+              13.750000000008688
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 9,
+          "initial_condition": [
+            0.5,
+            0.05,
+            7.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.7499999999996093,
+              0.12500000000025557,
+              13.750000000008745
+            ],
+            "mean_tail": [
+              0.7499999999998817,
+              0.1250000000002714,
+              13.750000000005306
+            ],
+            "std_tail": [
+              2.723377079405509e-13,
+              1.582067810090848e-14,
+              3.439026841078885e-12
+            ],
+            "max_tail": [
+              0.7499999999996093,
+              0.12500000000025557,
+              13.750000000008745
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 10,
+          "initial_condition": [
+            0.5,
+            0.05,
+            9.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.7499999999995882,
+              0.12500000000026545,
+              13.750000000008688
+            ],
+            "mean_tail": [
+              0.7499999999998775,
+              0.1250000000002778,
+              13.750000000005306
+            ],
+            "std_tail": [
+              2.893241202173158e-13,
+              1.2351231148954867e-14,
+              3.382183422218077e-12
+            ],
+            "max_tail": [
+              0.7499999999995882,
+              0.12500000000026545,
+              13.750000000008688
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 11,
+          "initial_condition": [
+            0.5,
+            0.05,
+            13.0
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.7499999999995838,
+              0.12500000000026723,
+              13.750000000008683
+            ],
+            "mean_tail": [
+              0.7499999999998774,
+              0.1250000000002779,
+              13.750000000005306
+            ],
+            "std_tail": [
+              2.936539900133539e-13,
+              1.0658141036401503e-14,
+              3.376854351699876e-12
+            ],
+            "max_tail": [
+              0.7499999999995838,
+              0.12500000000026723,
+              13.750000000008683
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 12,
+          "initial_condition": [
+            0.5,
+            0.18,
+            7.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.7499999999995971,
+              0.1250000000002619,
+              13.750000000008699
+            ],
+            "mean_tail": [
+              0.7499999999998778,
+              0.1250000000002774,
+              13.750000000005306
+            ],
+            "std_tail": [
+              2.8066438062523957e-13,
+              1.5487611193520934e-14,
+              3.3928415632544784e-12
+            ],
+            "max_tail": [
+              0.7499999999995971,
+              0.1250000000002619,
+              13.750000000008699
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 13,
+          "initial_condition": [
+            0.5,
+            0.18,
+            9.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.7499999999996126,
+              0.12500000000025568,
+              13.750000000008718
+            ],
+            "mean_tail": [
+              0.7499999999998818,
+              0.1250000000002714,
+              13.750000000005306
+            ],
+            "std_tail": [
+              2.6911806116913795e-13,
+              1.5709655798445965e-14,
+              3.412381488487881e-12
+            ],
+            "max_tail": [
+              0.7499999999996126,
+              0.12500000000025568,
+              13.750000000008718
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 14,
+          "initial_condition": [
+            0.5,
+            0.18,
+            13.0
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.7499999999996072,
+              0.1250000000002564,
+              13.750000000008741
+            ],
+            "mean_tail": [
+              0.7499999999998817,
+              0.12500000000027722,
+              13.750000000005306
+            ],
+            "std_tail": [
+              2.744471316873387e-13,
+              2.0816681711721685e-14,
+              3.4354741274000844e-12
+            ],
+            "max_tail": [
+              0.7499999999996072,
+              0.1250000000002564,
+              13.750000000008741
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 15,
+          "initial_condition": [
+            0.5,
+            0.36,
+            7.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.7499999999995971,
+              0.1250000000002619,
+              13.750000000008699
+            ],
+            "mean_tail": [
+              0.7499999999998778,
+              0.1250000000002774,
+              13.750000000005306
+            ],
+            "std_tail": [
+              2.8066438062523957e-13,
+              1.5487611193520934e-14,
+              3.3928415632544784e-12
+            ],
+            "max_tail": [
+              0.7499999999995971,
+              0.1250000000002619,
+              13.750000000008699
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 16,
+          "initial_condition": [
+            0.5,
+            0.36,
+            9.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.749999999999606,
+              0.12500000000025835,
+              13.750000000008708
+            ],
+            "mean_tail": [
+              0.7499999999998817,
+              0.12500000000027725,
+              13.750000000005306
+            ],
+            "std_tail": [
+              2.7566837701442637e-13,
+              1.890154699424329e-14,
+              3.4017233474514796e-12
+            ],
+            "max_tail": [
+              0.749999999999606,
+              0.12500000000025835,
+              13.750000000008708
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 17,
+          "initial_condition": [
+            0.5,
+            0.36,
+            13.0
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.7499999999996511,
+              0.12500000000023886,
+              13.750000000008795
+            ],
+            "mean_tail": [
+              0.7499999999998835,
+              0.1250000000002692,
+              13.750000000005306
+            ],
+            "std_tail": [
+              2.324807013565078e-13,
+              3.03368441478824e-14,
+              3.488764832582092e-12
+            ],
+            "max_tail": [
+              0.7499999999996511,
+              0.12500000000023886,
+              13.750000000008795
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 18,
+          "initial_condition": [
+            0.9,
+            0.05,
+            7.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.7499999999996444,
+              0.12500000000024153,
+              13.750000000008786
+            ],
+            "mean_tail": [
+              0.7499999999998832,
+              0.1250000000002692,
+              13.750000000005306
+            ],
+            "std_tail": [
+              2.3880897259687117e-13,
+              2.7672308888782027e-14,
+              3.4798830483850907e-12
+            ],
+            "max_tail": [
+              0.7499999999996444,
+              0.12500000000024153,
+              13.750000000008786
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 19,
+          "initial_condition": [
+            0.9,
+            0.05,
+            9.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.7499999999996072,
+              0.1250000000002564,
+              13.750000000008741
+            ],
+            "mean_tail": [
+              0.7499999999998817,
+              0.12500000000027722,
+              13.750000000005306
+            ],
+            "std_tail": [
+              2.744471316873387e-13,
+              2.0816681711721685e-14,
+              3.4354741274000844e-12
+            ],
+            "max_tail": [
+              0.7499999999996072,
+              0.1250000000002564,
+              13.750000000008741
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 20,
+          "initial_condition": [
+            0.9,
+            0.05,
+            13.0
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.7499999999996444,
+              0.12500000000024153,
+              13.750000000008786
+            ],
+            "mean_tail": [
+              0.7499999999998832,
+              0.1250000000002692,
+              13.750000000005306
+            ],
+            "std_tail": [
+              2.3880897259687117e-13,
+              2.7672308888782027e-14,
+              3.4798830483850907e-12
+            ],
+            "max_tail": [
+              0.7499999999996444,
+              0.12500000000024153,
+              13.750000000008786
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 21,
+          "initial_condition": [
+            0.9,
+            0.18,
+            7.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.7499999999996216,
+              0.12500000000025063,
+              13.75000000000876
+            ],
+            "mean_tail": [
+              0.749999999999882,
+              0.12500000000027126,
+              13.750000000005306
+            ],
+            "std_tail": [
+              2.603472992745992e-13,
+              2.0622392682412283e-14,
+              3.453237695794087e-12
+            ],
+            "max_tail": [
+              0.7499999999996216,
+              0.12500000000025063,
+              13.75000000000876
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 22,
+          "initial_condition": [
+            0.9,
+            0.18,
+            9.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.749999999999606,
+              0.12500000000025835,
+              13.750000000008708
+            ],
+            "mean_tail": [
+              0.7499999999998817,
+              0.12500000000027725,
+              13.750000000005306
+            ],
+            "std_tail": [
+              2.7566837701442637e-13,
+              1.890154699424329e-14,
+              3.4017233474514796e-12
+            ],
+            "max_tail": [
+              0.749999999999606,
+              0.12500000000025835,
+              13.750000000008708
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 23,
+          "initial_condition": [
+            0.9,
+            0.18,
+            13.0
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.7499999999996715,
+              0.1250000000002307,
+              13.75000000000882
+            ],
+            "mean_tail": [
+              0.7499999999998992,
+              0.12500000000026854,
+              13.750000000005306
+            ],
+            "std_tail": [
+              2.277067423506196e-13,
+              3.783084956410221e-14,
+              3.5136338283336954e-12
+            ],
+            "max_tail": [
+              0.7499999999996715,
+              0.1250000000002307,
+              13.75000000000882
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 24,
+          "initial_condition": [
+            0.9,
+            0.36,
+            7.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.7499999999995838,
+              0.12500000000026723,
+              13.750000000008683
+            ],
+            "mean_tail": [
+              0.7499999999998774,
+              0.1250000000002779,
+              13.750000000005306
+            ],
+            "std_tail": [
+              2.936539900133539e-13,
+              1.0658141036401503e-14,
+              3.376854351699876e-12
+            ],
+            "max_tail": [
+              0.7499999999995838,
+              0.12500000000026723,
+              13.750000000008683
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 25,
+          "initial_condition": [
+            0.9,
+            0.36,
+            9.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.749999999999606,
+              0.12500000000025835,
+              13.750000000008708
+            ],
+            "mean_tail": [
+              0.7499999999998817,
+              0.12500000000027725,
+              13.750000000005306
+            ],
+            "std_tail": [
+              2.7566837701442637e-13,
+              1.890154699424329e-14,
+              3.4017233474514796e-12
+            ],
+            "max_tail": [
+              0.749999999999606,
+              0.12500000000025835,
+              13.750000000008708
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 26,
+          "initial_condition": [
+            0.9,
+            0.36,
+            13.0
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.7499999999996015,
+              0.12500000000026013,
+              13.750000000008704
+            ],
+            "mean_tail": [
+              0.7499999999998778,
+              0.12500000000027736,
+              13.750000000005306
+            ],
+            "std_tail": [
+              2.7622348852673895e-13,
+              1.7236212457305555e-14,
+              3.398170633772679e-12
+            ],
+            "max_tail": [
+              0.7499999999996015,
+              0.12500000000026013,
+              13.750000000008704
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        }
+      ],
+      "lyapunov_checks": [
+        {
+          "ic_index": 0,
+          "initial_condition": [
+            0.2,
+            0.05,
+            7.5
+          ],
+          "lyapunov": [
+            -0.01774607516059171,
+            -0.01786554609179178,
+            -0.2966540978069836
+          ]
+        },
+        {
+          "ic_index": 1,
+          "initial_condition": [
+            0.2,
+            0.05,
+            9.5
+          ],
+          "lyapunov": [
+            -0.015028571562493511,
+            -0.016496570828996904,
+            -0.350015314554365
+          ]
+        },
+        {
+          "ic_index": 2,
+          "initial_condition": [
+            0.2,
+            0.05,
+            13.0
+          ],
+          "lyapunov": [
+            -0.015056476722407968,
+            -0.016546980170174547,
+            -0.3497279474224917
+          ]
+        },
+        {
+          "ic_index": 3,
+          "initial_condition": [
+            0.2,
+            0.18,
+            7.5
+          ],
+          "lyapunov": [
+            -0.01862712937177899,
+            -0.019407848420554912,
+            -0.32840797537775546
+          ]
+        },
+        {
+          "ic_index": 4,
+          "initial_condition": [
+            0.2,
+            0.18,
+            9.5
+          ],
+          "lyapunov": [
+            -0.015057924130270371,
+            -0.016554218644218386,
+            -0.3496549226153639
+          ]
+        }
+      ]
+    },
+    {
+      "name": "chaotic_parent_exact",
+      "summary": {
+        "n_initial_conditions": 27,
+        "n_persistent": 27,
+        "n_oscillatory_by_c_peaks": 27,
+        "std_norm_median": 0.9044170345230197,
+        "peak_count_c_median": 22.0,
+        "within_trajectory_peak_interval_cv_median": 0.39099767468171676,
+        "within_trajectory_peak_height_cv_median": 0.1027405995504986,
+        "across_ic_peak_interval_mean_cv": 0.028725808450955577,
+        "across_ic_peak_height_mean_cv": 0.007160314572273753
+      },
+      "per_initial_condition": [
+        {
+          "ic_index": 0,
+          "initial_condition": [
+            0.2,
+            0.05,
+            7.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.15262065498139502,
+              0.015336615475099106,
+              7.46503380877985
+            ],
+            "mean_tail": [
+              0.7338823934805423,
+              0.1434058420191171,
+              9.017994462452195
+            ],
+            "std_tail": [
+              0.21301800611407445,
+              0.09813526361292016,
+              0.8734775162774482
+            ],
+            "max_tail": [
+              0.9804680253363955,
+              0.4290141509313749,
+              10.447770478754574
+            ],
+            "peak_count_c": 21,
+            "peak_interval_mean": 46.86000000000001,
+            "peak_interval_cv": 0.390039644184278,
+            "peak_height_mean": 9.073987938136105,
+            "peak_height_cv": 0.10353464293410794
+          }
+        },
+        {
+          "ic_index": 1,
+          "initial_condition": [
+            0.2,
+            0.05,
+            9.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.15387327087224986,
+              0.01560957106051457,
+              7.476607079117063
+            ],
+            "mean_tail": [
+              0.7357889898149303,
+              0.14218600666628534,
+              9.03348712015131
+            ],
+            "std_tail": [
+              0.2131687799653184,
+              0.09876075964574979,
+              0.8969337632780062
+            ],
+            "max_tail": [
+              0.980115197764426,
+              0.4281011039459242,
+              10.441561112572892
+            ],
+            "peak_count_c": 21,
+            "peak_interval_mean": 45.207499999999996,
+            "peak_interval_cv": 0.4238025367448728,
+            "peak_height_mean": 9.078942189331798,
+            "peak_height_cv": 0.1061438413209428
+          }
+        },
+        {
+          "ic_index": 2,
+          "initial_condition": [
+            0.2,
+            0.05,
+            13.0
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.1528784222614418,
+              0.01617799560519024,
+              7.4674745664249915
+            ],
+            "mean_tail": [
+              0.7384501057977149,
+              0.1414775451876206,
+              9.010784344378806
+            ],
+            "std_tail": [
+              0.212173772660638,
+              0.09743423567865896,
+              0.8713672171648058
+            ],
+            "max_tail": [
+              0.9793798919559793,
+              0.42882544558303426,
+              10.428922541630577
+            ],
+            "peak_count_c": 22,
+            "peak_interval_mean": 44.76428571428571,
+            "peak_interval_cv": 0.41266709844557814,
+            "peak_height_mean": 9.073888914613555,
+            "peak_height_cv": 0.10022444004514265
+          }
+        },
+        {
+          "ic_index": 3,
+          "initial_condition": [
+            0.2,
+            0.18,
+            7.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.15211276330112514,
+              0.015229767426347313,
+              7.4604659871137695
+            ],
+            "mean_tail": [
+              0.735588296063108,
+              0.14231242199235924,
+              9.059932534446178
+            ],
+            "std_tail": [
+              0.21168709023448393,
+              0.09751934082651552,
+              0.8816919533819472
+            ],
+            "max_tail": [
+              0.9806060974516301,
+              0.42937093628525097,
+              10.450195431147216
+            ],
+            "peak_count_c": 22,
+            "peak_interval_mean": 46.97380952380953,
+            "peak_interval_cv": 0.37937704840801784,
+            "peak_height_mean": 9.152835688632884,
+            "peak_height_cv": 0.1046361518050155
+          }
+        },
+        {
+          "ic_index": 4,
+          "initial_condition": [
+            0.2,
+            0.18,
+            9.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.15306570310300613,
+              0.015435555677722118,
+              7.469242303252186
+            ],
+            "mean_tail": [
+              0.7490197428574287,
+              0.1375538654429477,
+              9.083415048741186
+            ],
+            "std_tail": [
+              0.20658449927861716,
+              0.09539519890383535,
+              0.8365097143877087
+            ],
+            "max_tail": [
+              0.9803401930102775,
+              0.4286637973731538,
+              10.44545402255685
+            ],
+            "peak_count_c": 21,
+            "peak_interval_mean": 48.557500000000005,
+            "peak_interval_cv": 0.3547195476296236,
+            "peak_height_mean": 9.214546124348823,
+            "peak_height_cv": 0.09704505051085288
+          }
+        },
+        {
+          "ic_index": 5,
+          "initial_condition": [
+            0.2,
+            0.18,
+            13.0
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.15231703341918673,
+              0.015273005481810601,
+              7.462315732461022
+            ],
+            "mean_tail": [
+              0.7506734363828174,
+              0.13631075499376596,
+              9.109215368858033
+            ],
+            "std_tail": [
+              0.20490015294467193,
+              0.09465271193422445,
+              0.8504295110627881
+            ],
+            "max_tail": [
+              0.9805502442945977,
+              0.42921623619291405,
+              10.449235726850008
+            ],
+            "peak_count_c": 21,
+            "peak_interval_mean": 47.5975,
+            "peak_interval_cv": 0.3589270676744774,
+            "peak_height_mean": 9.215666796167536,
+            "peak_height_cv": 0.09917725871552668
+          }
+        },
+        {
+          "ic_index": 6,
+          "initial_condition": [
+            0.2,
+            0.36,
+            7.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.152155918419851,
+              0.015238978110564561,
+              7.460859926751049
+            ],
+            "mean_tail": [
+              0.7329274414778653,
+              0.1434740710014193,
+              9.014697215135389
+            ],
+            "std_tail": [
+              0.21433616426876662,
+              0.09868401548265274,
+              0.8727987934416679
+            ],
+            "max_tail": [
+              0.9805942072312313,
+              0.42933427041028566,
+              10.450021748909391
+            ],
+            "peak_count_c": 22,
+            "peak_interval_mean": 45.38095238095238,
+            "peak_interval_cv": 0.4104530501803842,
+            "peak_height_mean": 9.054934106038967,
+            "peak_height_cv": 0.1027405995504986
+          }
+        },
+        {
+          "ic_index": 7,
+          "initial_condition": [
+            0.2,
+            0.36,
+            9.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.1512279217534082,
+              0.015036300430854388,
+              7.452156726098685
+            ],
+            "mean_tail": [
+              0.7530528356399636,
+              0.13501591028803134,
+              9.087017076033515
+            ],
+            "std_tail": [
+              0.20723083095200379,
+              0.09631105592103892,
+              0.8838159209045174
+            ],
+            "max_tail": [
+              0.980855979204171,
+              0.43003776545225103,
+              10.454722690352646
+            ],
+            "peak_count_c": 21,
+            "peak_interval_mean": 46.410000000000004,
+            "peak_interval_cv": 0.39099767468171676,
+            "peak_height_mean": 9.193157834590888,
+            "peak_height_cv": 0.10399828728898383
+          }
+        },
+        {
+          "ic_index": 8,
+          "initial_condition": [
+            0.2,
+            0.36,
+            13.0
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.15122448938298186,
+              0.015036651116104024,
+              7.452169580059948
+            ],
+            "mean_tail": [
+              0.7446537547696744,
+              0.1373621029233866,
+              8.985360005021743
+            ],
+            "std_tail": [
+              0.21573559497578604,
+              0.09939326114581142,
+              0.8839991886934304
+            ],
+            "max_tail": [
+              0.980855558469549,
+              0.4300181273308044,
+              10.439451683726366
+            ],
+            "peak_count_c": 22,
+            "peak_interval_mean": 45.15714285714286,
+            "peak_interval_cv": 0.41237167747693076,
+            "peak_height_mean": 9.052931487806953,
+            "peak_height_cv": 0.10269172986031114
+          }
+        },
+        {
+          "ic_index": 9,
+          "initial_condition": [
+            0.5,
+            0.05,
+            7.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.15241449306439017,
+              0.015294848909326145,
+              7.463249359441924
+            ],
+            "mean_tail": [
+              0.7516916345410003,
+              0.13646405403636042,
+              9.10782114242141
+            ],
+            "std_tail": [
+              0.2029508270007955,
+              0.0935411670905275,
+              0.8366556117168411
+            ],
+            "max_tail": [
+              0.9805219952593847,
+              0.4291573287819544,
+              10.448688463038366
+            ],
+            "peak_count_c": 20,
+            "peak_interval_mean": 49.439473684210526,
+            "peak_interval_cv": 0.3267021089191155,
+            "peak_height_mean": 9.245419326993717,
+            "peak_height_cv": 0.09779071278670697
+          }
+        },
+        {
+          "ic_index": 10,
+          "initial_condition": [
+            0.5,
+            0.05,
+            9.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.15110073686086148,
+              0.015010830966252688,
+              7.451058260797852
+            ],
+            "mean_tail": [
+              0.7496584225978249,
+              0.1361860358622058,
+              9.070227575898151
+            ],
+            "std_tail": [
+              0.20942157633079536,
+              0.09733583968919995,
+              0.8866897081173302
+            ],
+            "max_tail": [
+              0.9808888837069124,
+              0.4301201961473901,
+              10.45533396331627
+            ],
+            "peak_count_c": 21,
+            "peak_interval_mean": 46.449999999999996,
+            "peak_interval_cv": 0.3930166290979403,
+            "peak_height_mean": 9.174105469129588,
+            "peak_height_cv": 0.10573952916400077
+          }
+        },
+        {
+          "ic_index": 11,
+          "initial_condition": [
+            0.5,
+            0.05,
+            13.0
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.1511110071283626,
+              0.015012908963704032,
+              7.4511459967787985
+            ],
+            "mean_tail": [
+              0.7497370266579609,
+              0.13503412613568438,
+              8.997566585134582
+            ],
+            "std_tail": [
+              0.2146493375715076,
+              0.09934164300335518,
+              0.8970365570272577
+            ],
+            "max_tail": [
+              0.9808862219369023,
+              0.4301024306779454,
+              10.455278328562457
+            ],
+            "peak_count_c": 21,
+            "peak_interval_mean": 44.680000000000014,
+            "peak_interval_cv": 0.41972908849911195,
+            "peak_height_mean": 9.071123373877393,
+            "peak_height_cv": 0.10572907455415757
+          }
+        },
+        {
+          "ic_index": 12,
+          "initial_condition": [
+            0.5,
+            0.18,
+            7.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.15452796862857315,
+              0.01575323154243314,
+              7.482654464671432
+            ],
+            "mean_tail": [
+              0.733667807376823,
+              0.14209723021509335,
+              8.99463821305782
+            ],
+            "std_tail": [
+              0.2172102087866676,
+              0.10014235336100026,
+              0.8960993278699939
+            ],
+            "max_tail": [
+              0.979929450664434,
+              0.4276006242577693,
+              10.43827390488307
+            ],
+            "peak_count_c": 22,
+            "peak_interval_mean": 45.6547619047619,
+            "peak_interval_cv": 0.41339209516738123,
+            "peak_height_mean": 9.045388122658641,
+            "peak_height_cv": 0.10626760891206055
+          }
+        },
+        {
+          "ic_index": 13,
+          "initial_condition": [
+            0.5,
+            0.18,
+            9.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.15240922916221858,
+              0.01529366773715951,
+              7.463198661848345
+            ],
+            "mean_tail": [
+              0.749455979767226,
+              0.13788429013395026,
+              9.106015672980458
+            ],
+            "std_tail": [
+              0.20392928296294613,
+              0.0941560283929839,
+              0.8248481245669994
+            ],
+            "max_tail": [
+              0.9805234977017107,
+              0.4291456579203872,
+              10.44871517574775
+            ],
+            "peak_count_c": 20,
+            "peak_interval_mean": 50.00263157894737,
+            "peak_interval_cv": 0.32887708641438207,
+            "peak_height_mean": 9.2395787022481,
+            "peak_height_cv": 0.0969097519668621
+          }
+        },
+        {
+          "ic_index": 14,
+          "initial_condition": [
+            0.5,
+            0.18,
+            13.0
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.1515338363004087,
+              0.015104322849117535,
+              7.455084951426031
+            ],
+            "mean_tail": [
+              0.7462923742873038,
+              0.13696856643481828,
+              9.00300551721051
+            ],
+            "std_tail": [
+              0.21436978782121419,
+              0.09881377995288744,
+              0.8832176518107263
+            ],
+            "max_tail": [
+              0.9807681129075819,
+              0.42979116440378334,
+              10.453121654377334
+            ],
+            "peak_count_c": 22,
+            "peak_interval_mean": 45.24047619047619,
+            "peak_interval_cv": 0.4100316353111057,
+            "peak_height_mean": 9.067535258310915,
+            "peak_height_cv": 0.10198891037370311
+          }
+        },
+        {
+          "ic_index": 15,
+          "initial_condition": [
+            0.5,
+            0.36,
+            7.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.15176484565678072,
+              0.015153588112487305,
+              7.457201624669599
+            ],
+            "mean_tail": [
+              0.7493695116975375,
+              0.1363157971025519,
+              9.072759607318154
+            ],
+            "std_tail": [
+              0.20944401232837226,
+              0.09728677733233304,
+              0.8829154271496561
+            ],
+            "max_tail": [
+              0.9807044872148871,
+              0.42961914263746664,
+              10.45200077421845
+            ],
+            "peak_count_c": 21,
+            "peak_interval_mean": 46.675,
+            "peak_interval_cv": 0.3895180636820717,
+            "peak_height_mean": 9.177208521301585,
+            "peak_height_cv": 0.1048144237047731
+          }
+        },
+        {
+          "ic_index": 16,
+          "initial_condition": [
+            0.5,
+            0.36,
+            9.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.1510891331636626,
+              0.015005855322065813,
+              7.450841758463677
+            ],
+            "mean_tail": [
+              0.7496135134838259,
+              0.1361287537693415,
+              9.051632876041097
+            ],
+            "std_tail": [
+              0.20994424759932603,
+              0.09667311261937771,
+              0.8697798946973939
+            ],
+            "max_tail": [
+              0.9808953012767321,
+              0.43013413031166653,
+              10.455447719396401
+            ],
+            "peak_count_c": 22,
+            "peak_interval_mean": 46.845238095238095,
+            "peak_interval_cv": 0.3851535055801591,
+            "peak_height_mean": 9.164679121573727,
+            "peak_height_cv": 0.10097924287592158
+          }
+        },
+        {
+          "ic_index": 17,
+          "initial_condition": [
+            0.5,
+            0.36,
+            13.0
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.1511023102367018,
+              0.01501107815286218,
+              7.451069636489891
+            ],
+            "mean_tail": [
+              0.7393338008625635,
+              0.14219034540770337,
+              9.079860790360119
+            ],
+            "std_tail": [
+              0.20667713352630526,
+              0.09496605383993495,
+              0.8632684388275957
+            ],
+            "max_tail": [
+              0.9808885536172094,
+              0.4301209797482157,
+              10.455328063723341
+            ],
+            "peak_count_c": 22,
+            "peak_interval_mean": 46.326190476190476,
+            "peak_interval_cv": 0.37984336865289425,
+            "peak_height_mean": 9.175398724807307,
+            "peak_height_cv": 0.09985459809762813
+          }
+        },
+        {
+          "ic_index": 18,
+          "initial_condition": [
+            0.9,
+            0.05,
+            7.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.15112366573226066,
+              0.015013886626362164,
+              7.451189625132714
+            ],
+            "mean_tail": [
+              0.7488035332841847,
+              0.136955786712416,
+              9.098152303211956
+            ],
+            "std_tail": [
+              0.2074306033955191,
+              0.0960659434249314,
+              0.8736223236967624
+            ],
+            "max_tail": [
+              0.9808849139522529,
+              0.4301144087159243,
+              10.455261179410195
+            ],
+            "peak_count_c": 21,
+            "peak_interval_mean": 46.1875,
+            "peak_interval_cv": 0.39361958145642023,
+            "peak_height_mean": 9.190464782640175,
+            "peak_height_cv": 0.10306864695610733
+          }
+        },
+        {
+          "ic_index": 19,
+          "initial_condition": [
+            0.9,
+            0.05,
+            9.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.15380376522157135,
+              0.015593678680671613,
+              7.475937194440492
+            ],
+            "mean_tail": [
+              0.738138136214673,
+              0.14075125330741692,
+              9.040447539420699
+            ],
+            "std_tail": [
+              0.212523579001474,
+              0.09830773544352288,
+              0.9108505503275025
+            ],
+            "max_tail": [
+              0.9801357569757708,
+              0.4281480292402677,
+              10.447240032148649
+            ],
+            "peak_count_c": 22,
+            "peak_interval_mean": 45.62380952380952,
+            "peak_interval_cv": 0.4124794475414575,
+            "peak_height_mean": 9.133835358860782,
+            "peak_height_cv": 0.10853419169077011
+          }
+        },
+        {
+          "ic_index": 20,
+          "initial_condition": [
+            0.9,
+            0.05,
+            13.0
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.151154669017418,
+              0.015019988117105375,
+              7.45145166655055
+            ],
+            "mean_tail": [
+              0.7329899847963712,
+              0.1428789933381317,
+              9.02963556982109
+            ],
+            "std_tail": [
+              0.2138817826240551,
+              0.09781945700003036,
+              0.8780654540036159
+            ],
+            "max_tail": [
+              0.9808770562993886,
+              0.43008607976930274,
+              10.455109187972456
+            ],
+            "peak_count_c": 22,
+            "peak_interval_mean": 45.17619047619048,
+            "peak_interval_cv": 0.4137643983946888,
+            "peak_height_mean": 9.051836271206946,
+            "peak_height_cv": 0.1036827365893553
+          }
+        },
+        {
+          "ic_index": 21,
+          "initial_condition": [
+            0.9,
+            0.18,
+            7.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.15115377743856656,
+              0.015020163955035085,
+              7.451459127314584
+            ],
+            "mean_tail": [
+              0.7507608277347878,
+              0.13481992427312547,
+              9.022245541800684
+            ],
+            "std_tail": [
+              0.21310913920821464,
+              0.098511688284098,
+              0.8978966555225425
+            ],
+            "max_tail": [
+              0.9808768320932454,
+              0.43008363478847444,
+              10.455105173797753
+            ],
+            "peak_count_c": 22,
+            "peak_interval_mean": 47.300000000000004,
+            "peak_interval_cv": 0.38431238788240357,
+            "peak_height_mean": 9.13562768612596,
+            "peak_height_cv": 0.10638679988049908
+          }
+        },
+        {
+          "ic_index": 22,
+          "initial_condition": [
+            0.9,
+            0.18,
+            9.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.1529227987539141,
+              0.01540192166430152,
+              7.46781324273003
+            ],
+            "mean_tail": [
+              0.751809465921834,
+              0.13663934747995998,
+              9.091050357147589
+            ],
+            "std_tail": [
+              0.20478830689552774,
+              0.0946003508691039,
+              0.8424266463582026
+            ],
+            "max_tail": [
+              0.9803836212973039,
+              0.42879602193374533,
+              10.446224555993131
+            ],
+            "peak_count_c": 22,
+            "peak_interval_mean": 46.4,
+            "peak_interval_cv": 0.38307199094465966,
+            "peak_height_mean": 9.202857612776043,
+            "peak_height_cv": 0.09534112154132843
+          }
+        },
+        {
+          "ic_index": 23,
+          "initial_condition": [
+            0.9,
+            0.18,
+            13.0
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.15140739564297323,
+              0.015076667558485605,
+              7.453897879007628
+            ],
+            "mean_tail": [
+              0.7370591278836213,
+              0.14123318662569703,
+              8.980392222772961
+            ],
+            "std_tail": [
+              0.21599054790189162,
+              0.09935709054960239,
+              0.8825902893687079
+            ],
+            "max_tail": [
+              0.9808038455763155,
+              0.4298996632154671,
+              10.453771683412787
+            ],
+            "peak_count_c": 22,
+            "peak_interval_mean": 45.228571428571435,
+            "peak_interval_cv": 0.412209950647164,
+            "peak_height_mean": 9.052585066302651,
+            "peak_height_cv": 0.10288840601749957
+          }
+        },
+        {
+          "ic_index": 24,
+          "initial_condition": [
+            0.9,
+            0.36,
+            7.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.15176942391995882,
+              0.015155365588070874,
+              7.457277835432804
+            ],
+            "mean_tail": [
+              0.7478376208806174,
+              0.13808806431368995,
+              9.105768130063666
+            ],
+            "std_tail": [
+              0.20505837367323662,
+              0.09484409481720708,
+              0.8561219147491251
+            ],
+            "max_tail": [
+              0.9807022067281141,
+              0.42961973182932117,
+              10.451960197487637
+            ],
+            "peak_count_c": 21,
+            "peak_interval_mean": 45.825,
+            "peak_interval_cv": 0.391578619809763,
+            "peak_height_mean": 9.20063591958703,
+            "peak_height_cv": 0.09999639297283365
+          }
+        },
+        {
+          "ic_index": 25,
+          "initial_condition": [
+            0.9,
+            0.36,
+            9.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.15108797159451381,
+              0.015005181899785261,
+              7.450812792037056
+            ],
+            "mean_tail": [
+              0.7420703422064852,
+              0.1398491213948792,
+              9.093012524895187
+            ],
+            "std_tail": [
+              0.20792524714546337,
+              0.09531025611170042,
+              0.8636544677037815
+            ],
+            "max_tail": [
+              0.9808961676139698,
+              0.43013821612825315,
+              10.45546219420979
+            ],
+            "peak_count_c": 22,
+            "peak_interval_mean": 46.416666666666664,
+            "peak_interval_cv": 0.37930823909217365,
+            "peak_height_mean": 9.171404113014946,
+            "peak_height_cv": 0.09966116798213862
+          }
+        },
+        {
+          "ic_index": 26,
+          "initial_condition": [
+            0.9,
+            0.36,
+            13.0
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.1510873283771421,
+              0.01500523471466967,
+              7.450815023035976
+            ],
+            "mean_tail": [
+              0.7433311469676616,
+              0.14014478563166644,
+              9.101273001234993
+            ],
+            "std_tail": [
+              0.20640008968384535,
+              0.09522548085172165,
+              0.8557818877271598
+            ],
+            "max_tail": [
+              0.9808961007699505,
+              0.43013726760117754,
+              10.455460813750936
+            ],
+            "peak_count_c": 21,
+            "peak_interval_mean": 48.095,
+            "peak_interval_cv": 0.3572294006425067,
+            "peak_height_mean": 9.195947384292973,
+            "peak_height_cv": 0.10001683640351725
+          }
+        }
+      ],
+      "lyapunov_checks": [
+        {
+          "ic_index": 0,
+          "initial_condition": [
+            0.2,
+            0.05,
+            7.5
+          ],
+          "lyapunov": [
+            0.00849413249228743,
+            0.004157901988796027,
+            -0.479934839784954
+          ]
+        },
+        {
+          "ic_index": 1,
+          "initial_condition": [
+            0.2,
+            0.05,
+            9.5
+          ],
+          "lyapunov": [
+            0.010088922063438909,
+            0.0014892094804273128,
+            -0.49147522506034624
+          ]
+        },
+        {
+          "ic_index": 2,
+          "initial_condition": [
+            0.2,
+            0.05,
+            13.0
+          ],
+          "lyapunov": [
+            0.01104758583043225,
+            0.002351290835803542,
+            -0.4168612934842893
+          ]
+        },
+        {
+          "ic_index": 3,
+          "initial_condition": [
+            0.2,
+            0.18,
+            7.5
+          ],
+          "lyapunov": [
+            0.004135006686412034,
+            0.0012845284948405902,
+            -0.47699954993866495
+          ]
+        },
+        {
+          "ic_index": 4,
+          "initial_condition": [
+            0.2,
+            0.18,
+            9.5
+          ],
+          "lyapunov": [
+            0.004217164750378476,
+            -0.0008494439967249054,
+            -0.4352690885534828
+          ]
+        }
+      ]
+    },
+    {
+      "name": "fused_alpha0p50_ndtl_field",
+      "summary": {
+        "n_initial_conditions": 27,
+        "n_persistent": 23,
+        "n_oscillatory_by_c_peaks": 7,
+        "std_norm_median": NaN,
+        "peak_count_c_median": 0.0,
+        "within_trajectory_peak_interval_cv_median": 0.5003416768455756,
+        "within_trajectory_peak_height_cv_median": 0.015652264858157672,
+        "across_ic_peak_interval_mean_cv": 0.21533633478944925,
+        "across_ic_peak_height_mean_cv": 0.17220252666978167
+      },
+      "per_initial_condition": [
+        {
+          "ic_index": 0,
+          "initial_condition": [
+            0.2,
+            0.05,
+            7.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.039929003553061074,
+              0.03982518615102184,
+              6.129621363110422
+            ],
+            "mean_tail": [
+              0.4142286258626888,
+              0.19802488407901134,
+              6.34546825151143
+            ],
+            "std_tail": [
+              0.2891149029384059,
+              0.16536453966237555,
+              0.11088336116282073
+            ],
+            "max_tail": [
+              0.8339390428585816,
+              0.5528443749008968,
+              6.521345478330422
+            ],
+            "peak_count_c": 1241,
+            "peak_interval_mean": 0.8048387096774193,
+            "peak_interval_cv": 0.4995188467281626,
+            "peak_height_mean": 6.372629752079857,
+            "peak_height_cv": 0.015652264858157672
+          }
+        },
+        {
+          "ic_index": 1,
+          "initial_condition": [
+            0.2,
+            0.05,
+            9.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.1233549384198695,
+              0.024657904203775057,
+              8.754043405086716
+            ],
+            "mean_tail": [
+              0.5792050894455558,
+              0.1627690743725545,
+              9.218738607468234
+            ],
+            "std_tail": [
+              0.28687816343700145,
+              0.13454994595960543,
+              0.3019837166953536
+            ],
+            "max_tail": [
+              0.936075859253856,
+              0.42783267576155937,
+              9.786670878812112
+            ],
+            "peak_count_c": 772,
+            "peak_interval_mean": 1.293190661478599,
+            "peak_interval_cv": 0.6470913704821898,
+            "peak_height_mean": 9.286591168009677,
+            "peak_height_cv": 0.03316120421697374
+          }
+        },
+        {
+          "ic_index": 2,
+          "initial_condition": [
+            0.2,
+            0.05,
+            13.0
+          ],
+          "stats": {
+            "status": "negative",
+            "persistent": false,
+            "min_tail": [
+              NaN,
+              NaN,
+              NaN
+            ],
+            "mean_tail": [
+              NaN,
+              NaN,
+              NaN
+            ],
+            "std_tail": [
+              NaN,
+              NaN,
+              NaN
+            ],
+            "max_tail": [
+              NaN,
+              NaN,
+              NaN
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 3,
+          "initial_condition": [
+            0.2,
+            0.18,
+            7.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.18823193605789582,
+              0.10135785710060906,
+              8.1154736490692
+            ],
+            "mean_tail": [
+              0.44060148915031766,
+              0.22004733233592355,
+              8.341325857468286
+            ],
+            "std_tail": [
+              0.17670113145798738,
+              0.08900514933475928,
+              0.12664625306764224
+            ],
+            "max_tail": [
+              0.694357191042029,
+              0.37320966379868653,
+              8.481990670862457
+            ],
+            "peak_count_c": 933,
+            "peak_interval_mean": 1.0714592274678114,
+            "peak_interval_cv": 0.4648682214741227,
+            "peak_height_mean": 8.36544843146283,
+            "peak_height_cv": 0.015527514059928929
+          }
+        },
+        {
+          "ic_index": 4,
+          "initial_condition": [
+            0.2,
+            0.18,
+            9.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.805650999984103,
+              0.11439764674829042,
+              9.14937245840907
+            ],
+            "mean_tail": [
+              0.805650999984202,
+              0.11439764674831956,
+              9.149372458408052
+            ],
+            "std_tail": [
+              9.903189379656396e-14,
+              2.914335439641036e-14,
+              1.0178524689763435e-12
+            ],
+            "max_tail": [
+              0.805650999984103,
+              0.11439764674829042,
+              9.14937245840907
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 5,
+          "initial_condition": [
+            0.2,
+            0.18,
+            13.0
+          ],
+          "stats": {
+            "status": "negative",
+            "persistent": false,
+            "min_tail": [
+              NaN,
+              NaN,
+              NaN
+            ],
+            "mean_tail": [
+              NaN,
+              NaN,
+              NaN
+            ],
+            "std_tail": [
+              NaN,
+              NaN,
+              NaN
+            ],
+            "max_tail": [
+              NaN,
+              NaN,
+              NaN
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 6,
+          "initial_condition": [
+            0.2,
+            0.36,
+            7.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.8056509999841034,
+              0.11439764674829118,
+              9.149372458409099
+            ],
+            "mean_tail": [
+              0.805650999984202,
+              0.11439764674831968,
+              9.149372458408052
+            ],
+            "std_tail": [
+              9.85878045867139e-14,
+              2.849109836944308e-14,
+              1.0462741784067475e-12
+            ],
+            "max_tail": [
+              0.8056509999841034,
+              0.11439764674829118,
+              9.149372458409099
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 7,
+          "initial_condition": [
+            0.2,
+            0.36,
+            9.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.8087176029809162,
+              0.11093125749754588,
+              10.379646136847228
+            ],
+            "mean_tail": [
+              0.8087176029806911,
+              0.11093125749751075,
+              10.379646136842075
+            ],
+            "std_tail": [
+              2.298896111188848e-13,
+              3.9253619039045196e-14,
+              5.153211191100127e-12
+            ],
+            "max_tail": [
+              0.8087176029809257,
+              0.11093125749755395,
+              10.379646136847228
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 8,
+          "initial_condition": [
+            0.2,
+            0.36,
+            13.0
+          ],
+          "stats": {
+            "status": "negative",
+            "persistent": false,
+            "min_tail": [
+              NaN,
+              NaN,
+              NaN
+            ],
+            "mean_tail": [
+              NaN,
+              NaN,
+              NaN
+            ],
+            "std_tail": [
+              NaN,
+              NaN,
+              NaN
+            ],
+            "max_tail": [
+              NaN,
+              NaN,
+              NaN
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 9,
+          "initial_condition": [
+            0.5,
+            0.05,
+            7.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.039929003553061074,
+              0.03982518615102184,
+              6.129621363110422
+            ],
+            "mean_tail": [
+              0.41495812741032395,
+              0.1979769187393241,
+              6.345266579819019
+            ],
+            "std_tail": [
+              0.28890867683842447,
+              0.1654043490833675,
+              0.11083361779911206
+            ],
+            "max_tail": [
+              0.8339390428585816,
+              0.5528443749008968,
+              6.521345478330422
+            ],
+            "peak_count_c": 1244,
+            "peak_interval_mean": 0.8040627514078842,
+            "peak_interval_cv": 0.49981561765072696,
+            "peak_height_mean": 6.3723951051998595,
+            "peak_height_cv": 0.01563862804577865
+          }
+        },
+        {
+          "ic_index": 10,
+          "initial_condition": [
+            0.5,
+            0.05,
+            9.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.1233549384198695,
+              0.024657904203775057,
+              8.754043405086716
+            ],
+            "mean_tail": [
+              0.5797582809396726,
+              0.16292678838930555,
+              9.217570772955918
+            ],
+            "std_tail": [
+              0.28697375926701285,
+              0.1344752221782446,
+              0.30197047361954876
+            ],
+            "max_tail": [
+              0.936075859253856,
+              0.42783267576155937,
+              9.786670878812112
+            ],
+            "peak_count_c": 770,
+            "peak_interval_mean": 1.296033810143043,
+            "peak_interval_cv": 0.64686026555246,
+            "peak_height_mean": 9.284560027620639,
+            "peak_height_cv": 0.033174111565136735
+          }
+        },
+        {
+          "ic_index": 11,
+          "initial_condition": [
+            0.5,
+            0.05,
+            13.0
+          ],
+          "stats": {
+            "status": "negative",
+            "persistent": false,
+            "min_tail": [
+              NaN,
+              NaN,
+              NaN
+            ],
+            "mean_tail": [
+              NaN,
+              NaN,
+              NaN
+            ],
+            "std_tail": [
+              NaN,
+              NaN,
+              NaN
+            ],
+            "max_tail": [
+              NaN,
+              NaN,
+              NaN
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 12,
+          "initial_condition": [
+            0.5,
+            0.18,
+            7.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.8056509999841035,
+              0.1143976467482913,
+              9.149372458409099
+            ],
+            "mean_tail": [
+              0.805650999984202,
+              0.11439764674831968,
+              9.149372458408052
+            ],
+            "std_tail": [
+              9.847678228425139e-14,
+              2.8380076066980564e-14,
+              1.0462741784067475e-12
+            ],
+            "max_tail": [
+              0.8056509999841035,
+              0.1143976467482913,
+              9.149372458409099
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 13,
+          "initial_condition": [
+            0.5,
+            0.18,
+            9.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.8087176029809162,
+              0.11093125749754588,
+              10.379646136847228
+            ],
+            "mean_tail": [
+              0.8087176029806911,
+              0.11093125749751073,
+              10.379646136842075
+            ],
+            "std_tail": [
+              2.2989063944042335e-13,
+              3.927839754874743e-14,
+              5.153211191100127e-12
+            ],
+            "max_tail": [
+              0.8087176029809257,
+              0.11093125749755392,
+              10.379646136847228
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 14,
+          "initial_condition": [
+            0.5,
+            0.18,
+            13.0
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.9859522070916776,
+              0.023820834414800793,
+              11.973104149411588
+            ],
+            "mean_tail": [
+              0.9859522070913374,
+              0.02382083441479227,
+              11.973104149415809
+            ],
+            "std_tail": [
+              3.402833570476105e-13,
+              8.52443116095003e-15,
+              4.220623850414995e-12
+            ],
+            "max_tail": [
+              0.9859522070916776,
+              0.023820834414800793,
+              11.973104149411588
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 15,
+          "initial_condition": [
+            0.5,
+            0.36,
+            7.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.8056509999841034,
+              0.11439764674829124,
+              9.149372458409099
+            ],
+            "mean_tail": [
+              0.805650999984202,
+              0.11439764674831968,
+              9.149372458408052
+            ],
+            "std_tail": [
+              9.85878045867139e-14,
+              2.843558721821182e-14,
+              1.0462741784067475e-12
+            ],
+            "max_tail": [
+              0.8056509999841034,
+              0.11439764674829124,
+              9.149372458409099
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 16,
+          "initial_condition": [
+            0.5,
+            0.36,
+            9.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.8056509999841034,
+              0.11439764674829124,
+              9.149372458409099
+            ],
+            "mean_tail": [
+              0.805650999984202,
+              0.11439764674831968,
+              9.149372458408052
+            ],
+            "std_tail": [
+              9.85878045867139e-14,
+              2.843558721821182e-14,
+              1.0462741784067475e-12
+            ],
+            "max_tail": [
+              0.8056509999841034,
+              0.11439764674829124,
+              9.149372458409099
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 17,
+          "initial_condition": [
+            0.5,
+            0.36,
+            13.0
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.9859522070916776,
+              0.023820834414800793,
+              11.973104149411588
+            ],
+            "mean_tail": [
+              0.9859522070913374,
+              0.02382083441479227,
+              11.973104149415809
+            ],
+            "std_tail": [
+              3.402833570476105e-13,
+              8.52443116095003e-15,
+              4.220623850414995e-12
+            ],
+            "max_tail": [
+              0.9859522070916776,
+              0.023820834414800793,
+              11.973104149411588
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 18,
+          "initial_condition": [
+            0.9,
+            0.05,
+            7.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.8056509999841034,
+              0.11439764674829124,
+              9.149372458409099
+            ],
+            "mean_tail": [
+              0.805650999984202,
+              0.11439764674831968,
+              9.149372458408052
+            ],
+            "std_tail": [
+              9.85878045867139e-14,
+              2.843558721821182e-14,
+              1.0462741784067475e-12
+            ],
+            "max_tail": [
+              0.8056509999841034,
+              0.11439764674829124,
+              9.149372458409099
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 19,
+          "initial_condition": [
+            0.9,
+            0.05,
+            9.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.8027371760971078,
+              0.1195597418351396,
+              11.115159276572511
+            ],
+            "mean_tail": [
+              0.8027371760967842,
+              0.11955974183516518,
+              11.11515927657499
+            ],
+            "std_tail": [
+              3.2363001167823313e-13,
+              2.5590640717609858e-14,
+              2.4797941478027496e-12
+            ],
+            "max_tail": [
+              0.8027371760971078,
+              0.1195597418351396,
+              11.115159276572511
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 20,
+          "initial_condition": [
+            0.9,
+            0.05,
+            13.0
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.9279811720829224,
+              0.043127627999792355,
+              13.25510846184549
+            ],
+            "mean_tail": [
+              0.9279811720828768,
+              0.043127627999779206,
+              13.255108461838864
+            ],
+            "std_tail": [
+              4.5630166312093934e-14,
+              1.3149203947904198e-14,
+              6.625811010962934e-12
+            ],
+            "max_tail": [
+              0.9279811720829224,
+              0.043127627999792355,
+              13.25510846184549
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 21,
+          "initial_condition": [
+            0.9,
+            0.18,
+            7.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.8056509999841034,
+              0.11439764674829124,
+              9.149372458409099
+            ],
+            "mean_tail": [
+              0.805650999984202,
+              0.11439764674831968,
+              9.149372458408052
+            ],
+            "std_tail": [
+              9.85878045867139e-14,
+              2.843558721821182e-14,
+              1.0462741784067475e-12
+            ],
+            "max_tail": [
+              0.8056509999841034,
+              0.11439764674829124,
+              9.149372458409099
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 22,
+          "initial_condition": [
+            0.9,
+            0.18,
+            9.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.8087176029809162,
+              0.11093125749754588,
+              10.379646136847228
+            ],
+            "mean_tail": [
+              0.8087176029806911,
+              0.11093125749751075,
+              10.379646136842075
+            ],
+            "std_tail": [
+              2.298892703609058e-13,
+              3.92529274920845e-14,
+              5.153211191100127e-12
+            ],
+            "max_tail": [
+              0.8087176029809257,
+              0.11093125749755395,
+              10.379646136847228
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 23,
+          "initial_condition": [
+            0.9,
+            0.18,
+            13.0
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.8392513053963494,
+              0.10482148031346127,
+              13.47731150518469
+            ],
+            "mean_tail": [
+              0.839251305396452,
+              0.10482148031342638,
+              13.477311505180824
+            ],
+            "std_tail": [
+              1.0258460747536446e-13,
+              3.4888758548845544e-14,
+              3.867128839374345e-12
+            ],
+            "max_tail": [
+              0.8392513053963494,
+              0.10482148031346127,
+              13.47731150518469
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        },
+        {
+          "ic_index": 24,
+          "initial_condition": [
+            0.9,
+            0.36,
+            7.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.039929003553061046,
+              0.039825186151021895,
+              6.129621363110425
+            ],
+            "mean_tail": [
+              0.41473339218103455,
+              0.19884434390928016,
+              6.345423674056001
+            ],
+            "std_tail": [
+              0.28890914686625047,
+              0.16576722502990762,
+              0.11084565123402496
+            ],
+            "max_tail": [
+              0.8339390428585817,
+              0.5528443749008974,
+              6.521345478330422
+            ],
+            "peak_count_c": 1244,
+            "peak_interval_mean": 0.804223652453741,
+            "peak_interval_cv": 0.5003416768455756,
+            "peak_height_mean": 6.372649211655974,
+            "peak_height_cv": 0.015638324263473523
+          }
+        },
+        {
+          "ic_index": 25,
+          "initial_condition": [
+            0.9,
+            0.36,
+            9.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.1233549384198695,
+              0.024657904203775057,
+              8.754043405086716
+            ],
+            "mean_tail": [
+              0.5761560738601931,
+              0.1645200540882343,
+              9.219348091499441
+            ],
+            "std_tail": [
+              0.28722038318597604,
+              0.13489586217559113,
+              0.3016052902738656
+            ],
+            "max_tail": [
+              0.936075859253856,
+              0.42783267576155937,
+              9.786670878812112
+            ],
+            "peak_count_c": 773,
+            "peak_interval_mean": 1.2913212435233161,
+            "peak_interval_cv": 0.648291724830292,
+            "peak_height_mean": 9.28486824341875,
+            "peak_height_cv": 0.03309473880507129
+          }
+        },
+        {
+          "ic_index": 26,
+          "initial_condition": [
+            0.9,
+            0.36,
+            13.0
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.9859522070916776,
+              0.023820834414800793,
+              11.973104149411588
+            ],
+            "mean_tail": [
+              0.9859522070913374,
+              0.02382083441479227,
+              11.973104149415809
+            ],
+            "std_tail": [
+              3.402833570476105e-13,
+              8.52443116095003e-15,
+              4.220623850414995e-12
+            ],
+            "max_tail": [
+              0.9859522070916776,
+              0.023820834414800793,
+              11.973104149411588
+            ],
+            "peak_count_c": 0,
+            "peak_interval_mean": null,
+            "peak_interval_cv": null,
+            "peak_height_mean": null,
+            "peak_height_cv": null
+          }
+        }
+      ],
+      "lyapunov_checks": [
+        {
+          "ic_index": 0,
+          "initial_condition": [
+            0.2,
+            0.05,
+            7.5
+          ],
+          "lyapunov": [
+            -0.019828207215895483,
+            -0.19578702138756476,
+            -0.983261529163951
+          ]
+        },
+        {
+          "ic_index": 1,
+          "initial_condition": [
+            0.2,
+            0.05,
+            9.5
+          ],
+          "lyapunov": [
+            -0.02543203670569226,
+            -0.27222777020939853,
+            -0.7732541520833149
+          ]
+        },
+        {
+          "ic_index": 2,
+          "initial_condition": [
+            0.2,
+            0.05,
+            13.0
+          ],
+          "lyapunov": [
+            -0.49095730633609785,
+            -1.9603632990662971,
+            -3.803068824129564
+          ]
+        },
+        {
+          "ic_index": 3,
+          "initial_condition": [
+            0.2,
+            0.18,
+            7.5
+          ],
+          "lyapunov": [
+            -0.010208922699114293,
+            -0.22286053125512353,
+            -0.979881788623192
+          ]
+        },
+        {
+          "ic_index": 4,
+          "initial_condition": [
+            0.2,
+            0.18,
+            9.5
+          ],
+          "lyapunov": [
+            -1.06800434793432,
+            -1.0913876150631594,
+            -1.0945085242955441
+          ]
+        }
+      ]
+    },
+    {
+      "name": "fused_alpha0p50_holling_fit",
+      "summary": {
+        "n_initial_conditions": 27,
+        "n_persistent": 27,
+        "n_oscillatory_by_c_peaks": 27,
+        "std_norm_median": 0.2705921512673673,
+        "peak_count_c_median": 15.0,
+        "within_trajectory_peak_interval_cv_median": 0.0003838771593089993,
+        "within_trajectory_peak_height_cv_median": 4.5143644677223204e-05,
+        "across_ic_peak_interval_mean_cv": 2.5432312763865625e-05,
+        "across_ic_peak_height_mean_cv": 2.430743977055657e-06
+      },
+      "per_initial_condition": [
+        {
+          "ic_index": 0,
+          "initial_condition": [
+            0.2,
+            0.05,
+            7.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.6226032218102815,
+              0.08695246722750387,
+              11.776148003510018
+            ],
+            "mean_tail": [
+              0.7731688698576346,
+              0.12741782618518668,
+              12.178347284443056
+            ],
+            "std_tail": [
+              0.07598859427696757,
+              0.034413334051853386,
+              0.25744194662599695
+            ],
+            "max_tail": [
+              0.8580839000081228,
+              0.1941086267824095,
+              12.503476960873805
+            ],
+            "peak_count_c": 16,
+            "peak_interval_mean": 65.12333333333333,
+            "peak_interval_cv": 0.0005512785798366677,
+            "peak_height_mean": 12.502738674608299,
+            "peak_height_cv": 4.242133170515158e-05
+          }
+        },
+        {
+          "ic_index": 1,
+          "initial_condition": [
+            0.2,
+            0.05,
+            9.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.6225482094817741,
+              0.08692908771158783,
+              11.775758118849708
+            ],
+            "mean_tail": [
+              0.7754850716953434,
+              0.12644059870488883,
+              12.175644592481671
+            ],
+            "std_tail": [
+              0.07574191221293519,
+              0.03446948138197394,
+              0.25624585140660067
+            ],
+            "max_tail": [
+              0.8581265063491234,
+              0.19415014052601423,
+              12.503515692617421
+            ],
+            "peak_count_c": 15,
+            "peak_interval_mean": 65.12857142857142,
+            "peak_interval_cv": 0.0004780542820290005,
+            "peak_height_mean": 12.502714295323987,
+            "peak_height_cv": 4.553508232512882e-05
+          }
+        },
+        {
+          "ic_index": 2,
+          "initial_condition": [
+            0.2,
+            0.05,
+            13.0
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.6225837260093575,
+              0.0869368080031228,
+              11.775886630677507
+            ],
+            "mean_tail": [
+              0.772629573495507,
+              0.12788641093292902,
+              12.168403667787413
+            ],
+            "std_tail": [
+              0.07658299760112264,
+              0.03480291261881864,
+              0.2576034051030771
+            ],
+            "max_tail": [
+              0.8581123834032778,
+              0.19413649638065456,
+              12.50356638383087
+            ],
+            "peak_count_c": 15,
+            "peak_interval_mean": 65.12857142857142,
+            "peak_interval_cv": 0.0006300244183524868,
+            "peak_height_mean": 12.502793104680457,
+            "peak_height_cv": 4.579351802184283e-05
+          }
+        },
+        {
+          "ic_index": 3,
+          "initial_condition": [
+            0.2,
+            0.18,
+            7.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.622437019851561,
+              0.0869047012189669,
+              11.7753505597677
+            ],
+            "mean_tail": [
+              0.7757976870956959,
+              0.12636775670169714,
+              12.168521988662157
+            ],
+            "std_tail": [
+              0.07594535035314058,
+              0.034525718911552546,
+              0.2568884249091192
+            ],
+            "max_tail": [
+              0.8581708794971442,
+              0.19419313096681726,
+              12.503639543582729
+            ],
+            "peak_count_c": 15,
+            "peak_interval_mean": 65.12857142857142,
+            "peak_interval_cv": 0.0004780542820290005,
+            "peak_height_mean": 12.50270763817012,
+            "peak_height_cv": 5.294899653844772e-05
+          }
+        },
+        {
+          "ic_index": 4,
+          "initial_condition": [
+            0.2,
+            0.18,
+            9.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.6225511506059318,
+              0.08692969270816056,
+              11.775767964037616
+            ],
+            "mean_tail": [
+              0.7752608576683497,
+              0.12670830419405255,
+              12.165967993705687
+            ],
+            "std_tail": [
+              0.07576492453453519,
+              0.034462902284667425,
+              0.25827437809910025
+            ],
+            "max_tail": [
+              0.8581254802273043,
+              0.194148872587603,
+              12.503512917875355
+            ],
+            "peak_count_c": 15,
+            "peak_interval_mean": 65.12857142857142,
+            "peak_interval_cv": 0.00037991901898854554,
+            "peak_height_mean": 12.502714452710538,
+            "peak_height_cv": 4.5359359407090356e-05
+          }
+        },
+        {
+          "ic_index": 5,
+          "initial_condition": [
+            0.2,
+            0.18,
+            13.0
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.6230996627063816,
+              0.08704973820735483,
+              11.777770968546855
+            ],
+            "mean_tail": [
+              0.7735651383046771,
+              0.12725184477753976,
+              12.178728295709893
+            ],
+            "std_tail": [
+              0.0757370120486599,
+              0.03433634348268313,
+              0.2577069519900726
+            ],
+            "max_tail": [
+              0.8579073825711367,
+              0.19393602767918366,
+              12.502923711710297
+            ],
+            "peak_count_c": 16,
+            "peak_interval_mean": 65.12666666666667,
+            "peak_interval_cv": 0.00038301334699290904,
+            "peak_height_mean": 12.502750838285262,
+            "peak_height_cv": 9.908539168951467e-06
+          }
+        },
+        {
+          "ic_index": 6,
+          "initial_condition": [
+            0.2,
+            0.36,
+            7.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.6223968726594188,
+              0.08689590045015867,
+              11.775202943027544
+            ],
+            "mean_tail": [
+              0.7758283333663126,
+              0.12630048030827626,
+              12.172127607287914
+            ],
+            "std_tail": [
+              0.07596211446636542,
+              0.03456259493268624,
+              0.255868860123408
+            ],
+            "max_tail": [
+              0.8581867032036644,
+              0.19420910323475946,
+              12.503683522234315
+            ],
+            "peak_count_c": 15,
+            "peak_interval_mean": 65.125,
+            "peak_interval_cv": 0.0003838771593089993,
+            "peak_height_mean": 12.502705451272988,
+            "peak_height_cv": 5.559957393000926e-05
+          }
+        },
+        {
+          "ic_index": 7,
+          "initial_condition": [
+            0.2,
+            0.36,
+            9.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.6225634820477652,
+              0.08693241425147939,
+              11.775813407724419
+            ],
+            "mean_tail": [
+              0.7755995598877459,
+              0.126502937887612,
+              12.16702686700006
+            ],
+            "std_tail": [
+              0.07584849580176195,
+              0.03447820376555375,
+              0.25765715489848284
+            ],
+            "max_tail": [
+              0.8581204032207673,
+              0.1941443039329594,
+              12.503498538324287
+            ],
+            "peak_count_c": 15,
+            "peak_interval_mean": 65.12857142857142,
+            "peak_interval_cv": 0.0006300244183524868,
+            "peak_height_mean": 12.502715266879985,
+            "peak_height_cv": 4.4518658439360885e-05
+          }
+        },
+        {
+          "ic_index": 8,
+          "initial_condition": [
+            0.2,
+            0.36,
+            13.0
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.6229345214687091,
+              0.08701351942000438,
+              11.777166547068973
+            ],
+            "mean_tail": [
+              0.77248268611361,
+              0.12774697957871434,
+              12.17675777319265
+            ],
+            "std_tail": [
+              0.07647683478306418,
+              0.034649544000946185,
+              0.25692472158283497
+            ],
+            "max_tail": [
+              0.8579731543878928,
+              0.19400002295034086,
+              12.503129841786006
+            ],
+            "peak_count_c": 16,
+            "peak_interval_mean": 65.12666666666667,
+            "peak_interval_cv": 0.0003830133469929091,
+            "peak_height_mean": 12.502761656912359,
+            "peak_height_cv": 2.0747656532492803e-05
+          }
+        },
+        {
+          "ic_index": 9,
+          "initial_condition": [
+            0.5,
+            0.05,
+            7.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.622395394274372,
+              0.0868955826145097,
+              11.775197644071113
+            ],
+            "mean_tail": [
+              0.7746888545064827,
+              0.12679367727939184,
+              12.178375455281435
+            ],
+            "std_tail": [
+              0.07546687149411424,
+              0.034317113118031435,
+              0.25757950108973515
+            ],
+            "max_tail": [
+              0.8581872747520495,
+              0.19420967300208675,
+              12.503801102620827
+            ],
+            "peak_count_c": 16,
+            "peak_interval_mean": 65.13,
+            "peak_interval_cv": 0.00046906962433651463,
+            "peak_height_mean": 12.502773850509255,
+            "peak_height_cv": 5.7949370503563285e-05
+          }
+        },
+        {
+          "ic_index": 10,
+          "initial_condition": [
+            0.5,
+            0.05,
+            9.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.6226256000708421,
+              0.08694601367273645,
+              11.776040971663807
+            ],
+            "mean_tail": [
+              0.7754872596249193,
+              0.1265760500121073,
+              12.166586980145286
+            ],
+            "std_tail": [
+              0.07579161879773977,
+              0.03446037780949389,
+              0.2579248892040699
+            ],
+            "max_tail": [
+              0.85809578290464,
+              0.19412007707496184,
+              12.503514348767618
+            ],
+            "peak_count_c": 15,
+            "peak_interval_mean": 65.12857142857142,
+            "peak_interval_cv": 0.00037991901898854554,
+            "peak_height_mean": 12.5027905405568,
+            "peak_height_cv": 4.284643387374462e-05
+          }
+        },
+        {
+          "ic_index": 11,
+          "initial_condition": [
+            0.5,
+            0.05,
+            13.0
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.6228708705476717,
+              0.0869993900661092,
+              11.776931247285237
+            ],
+            "mean_tail": [
+              0.773562924898015,
+              0.12725240718282857,
+              12.178696783382323
+            ],
+            "std_tail": [
+              0.0757472488202144,
+              0.03434094829193316,
+              0.2577440080192634
+            ],
+            "max_tail": [
+              0.8579986489903172,
+              0.19402508485674205,
+              12.503209582908983
+            ],
+            "peak_count_c": 16,
+            "peak_interval_mean": 65.12666666666667,
+            "peak_interval_cv": 0.0003830133469929091,
+            "peak_height_mean": 12.50276309969958,
+            "peak_height_cv": 2.5194522765448774e-05
+          }
+        },
+        {
+          "ic_index": 12,
+          "initial_condition": [
+            0.5,
+            0.18,
+            7.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.6227887570324916,
+              0.08699252035156226,
+              11.776636949321725
+            ],
+            "mean_tail": [
+              0.7748183206734593,
+              0.12695271298879685,
+              12.165464733904837
+            ],
+            "std_tail": [
+              0.0757774944340388,
+              0.0345101324763712,
+              0.25856863753764514
+            ],
+            "max_tail": [
+              0.8580309510951456,
+              0.19405674916904928,
+              12.503249268303776
+            ],
+            "peak_count_c": 15,
+            "peak_interval_mean": 65.12857142857142,
+            "peak_interval_cv": 0.00037991901898854554,
+            "peak_height_mean": 12.502728494036182,
+            "peak_height_cv": 2.9572491189632626e-05
+          }
+        },
+        {
+          "ic_index": 13,
+          "initial_condition": [
+            0.5,
+            0.18,
+            9.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.6225166588121275,
+              0.08692198831421306,
+              11.775638450412718
+            ],
+            "mean_tail": [
+              0.7721450155420959,
+              0.12803293800201873,
+              12.171576082980344
+            ],
+            "std_tail": [
+              0.07665669675936247,
+              0.034824405166490054,
+              0.25691859675209205
+            ],
+            "max_tail": [
+              0.8581394687561341,
+              0.19416241243127622,
+              12.503651193757245
+            ],
+            "peak_count_c": 15,
+            "peak_interval_mean": 65.12857142857142,
+            "peak_interval_cv": 0.00037991901898854554,
+            "peak_height_mean": 12.502797068203456,
+            "peak_height_cv": 5.057924057705123e-05
+          }
+        },
+        {
+          "ic_index": 14,
+          "initial_condition": [
+            0.5,
+            0.18,
+            13.0
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.6224878495722965,
+              0.08691582344293221,
+              11.77553595196234
+            ],
+            "mean_tail": [
+              0.7756632842786063,
+              0.1263640323091811,
+              12.17446040944054
+            ],
+            "std_tail": [
+              0.0758212771211235,
+              0.03450793898293044,
+              0.25586474134953324
+            ],
+            "max_tail": [
+              0.8581504667874874,
+              0.1941737477487886,
+              12.503685859347703
+            ],
+            "peak_count_c": 15,
+            "peak_interval_mean": 65.12857142857142,
+            "peak_interval_cv": 0.0004780542820290005,
+            "peak_height_mean": 12.502798762539676,
+            "peak_height_cv": 5.254155500405324e-05
+          }
+        },
+        {
+          "ic_index": 15,
+          "initial_condition": [
+            0.5,
+            0.36,
+            7.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.6224811647255245,
+              0.08691436681800528,
+              11.775511629212268
+            ],
+            "mean_tail": [
+              0.7757702867295703,
+              0.12631992687412824,
+              12.173111451478517
+            ],
+            "std_tail": [
+              0.07592064290420253,
+              0.03454861932898489,
+              0.2558282979710405
+            ],
+            "max_tail": [
+              0.8581531157798954,
+              0.19417633845007237,
+              12.503589670312996
+            ],
+            "peak_count_c": 15,
+            "peak_interval_mean": 65.125,
+            "peak_interval_cv": 0.0003838771593089993,
+            "peak_height_mean": 12.502710502978239,
+            "peak_height_cv": 4.998787609708323e-05
+          }
+        },
+        {
+          "ic_index": 16,
+          "initial_condition": [
+            0.5,
+            0.36,
+            9.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.622541409644347,
+              0.08692743749802836,
+              11.775729762273876
+            ],
+            "mean_tail": [
+              0.774055806624523,
+              0.1273234481318943,
+              12.16562243542184
+            ],
+            "std_tail": [
+              0.07602635387769402,
+              0.03465094535737473,
+              0.2585097230047409
+            ],
+            "max_tail": [
+              0.8581294240211635,
+              0.19415301395346066,
+              12.503619468110253
+            ],
+            "peak_count_c": 15,
+            "peak_interval_mean": 65.125,
+            "peak_interval_cv": 0.0003838771593089993,
+            "peak_height_mean": 12.50279568177565,
+            "peak_height_cv": 4.880602612592234e-05
+          }
+        },
+        {
+          "ic_index": 17,
+          "initial_condition": [
+            0.5,
+            0.36,
+            13.0
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.6225411316107207,
+              0.08694435643935872,
+              11.776012939063765
+            ],
+            "mean_tail": [
+              0.7723611547900087,
+              0.1278137223191469,
+              12.17633812223188
+            ],
+            "std_tail": [
+              0.07653824571544587,
+              0.0346907691649641,
+              0.2567508474734894
+            ],
+            "max_tail": [
+              0.8580987220749645,
+              0.1941528795211502,
+              12.503523560368619
+            ],
+            "peak_count_c": 16,
+            "peak_interval_mean": 65.12666666666667,
+            "peak_interval_cv": 0.00047464522957801095,
+            "peak_height_mean": 12.502737533016244,
+            "peak_height_cv": 4.5143644677223204e-05
+          }
+        },
+        {
+          "ic_index": 18,
+          "initial_condition": [
+            0.9,
+            0.05,
+            7.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.6223925389208163,
+              0.08689495315001589,
+              11.775187617449783
+            ],
+            "mean_tail": [
+              0.7750164976721985,
+              0.12665054893912786,
+              12.177654957286885
+            ],
+            "std_tail": [
+              0.07553789990131954,
+              0.034363816082357924,
+              0.25714432275023463
+            ],
+            "max_tail": [
+              0.8581885913846891,
+              0.1942103682020704,
+              12.50380539114849
+            ],
+            "peak_count_c": 16,
+            "peak_interval_mean": 65.13000000000001,
+            "peak_interval_cv": 0.0004690696243365145,
+            "peak_height_mean": 12.502773748008513,
+            "peak_height_cv": 5.817647678980859e-05
+          }
+        },
+        {
+          "ic_index": 19,
+          "initial_condition": [
+            0.9,
+            0.05,
+            9.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.6228274042643673,
+              0.08699539575910624,
+              11.776777034369557
+            ],
+            "mean_tail": [
+              0.774877090432964,
+              0.12692168721166536,
+              12.165500745139681
+            ],
+            "std_tail": [
+              0.07576830580188337,
+              0.034501107167187704,
+              0.2585488047437482
+            ],
+            "max_tail": [
+              0.8580155950124745,
+              0.19404185462637952,
+              12.503206251428743
+            ],
+            "peak_count_c": 15,
+            "peak_interval_mean": 65.12857142857142,
+            "peak_interval_cv": 0.00037991901898854554,
+            "peak_height_mean": 12.502730728088725,
+            "peak_height_cv": 2.7020647128270118e-05
+          }
+        },
+        {
+          "ic_index": 20,
+          "initial_condition": [
+            0.9,
+            0.05,
+            13.0
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.6228708227497816,
+              0.08699966280217115,
+              11.776935840392865
+            ],
+            "mean_tail": [
+              0.7753564320451183,
+              0.12649924362603998,
+              12.176450175670398
+            ],
+            "std_tail": [
+              0.07565452352714556,
+              0.0344281232946351,
+              0.25644693255456985
+            ],
+            "max_tail": [
+              0.8579983635831079,
+              0.19402485296995875,
+              12.503208872131756
+            ],
+            "peak_count_c": 16,
+            "peak_interval_mean": 65.12666666666667,
+            "peak_interval_cv": 0.0003830133469929091,
+            "peak_height_mean": 12.502744696754597,
+            "peak_height_cv": 2.6637901834705146e-05
+          }
+        },
+        {
+          "ic_index": 21,
+          "initial_condition": [
+            0.9,
+            0.18,
+            7.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.622390637438498,
+              0.08689449578730381,
+              11.775179384484064
+            ],
+            "mean_tail": [
+              0.7751583102530726,
+              0.12658716117812055,
+              12.177194178883584
+            ],
+            "std_tail": [
+              0.075588289567288,
+              0.034391522711741944,
+              0.25689824701802216
+            ],
+            "max_tail": [
+              0.8581893009797438,
+              0.1942115527405345,
+              12.503807247204332
+            ],
+            "peak_count_c": 16,
+            "peak_interval_mean": 65.12666666666667,
+            "peak_interval_cv": 0.0003830133469929091,
+            "peak_height_mean": 12.502773913243114,
+            "peak_height_cv": 5.829752661650424e-05
+          }
+        },
+        {
+          "ic_index": 22,
+          "initial_condition": [
+            0.9,
+            0.18,
+            9.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.6227928523387661,
+              0.08699330366696528,
+              11.776651399937542
+            ],
+            "mean_tail": [
+              0.7739873416763637,
+              0.12735375809765537,
+              12.165635662287675
+            ],
+            "std_tail": [
+              0.07605593385428322,
+              0.03466019739188608,
+              0.2584946591532504
+            ],
+            "max_tail": [
+              0.8580097782215185,
+              0.1940552381554741,
+              12.503244548719925
+            ],
+            "peak_count_c": 15,
+            "peak_interval_mean": 65.12857142857142,
+            "peak_interval_cv": 0.00037991901898854554,
+            "peak_height_mean": 12.50272870950741,
+            "peak_height_cv": 2.930461598482566e-05
+          }
+        },
+        {
+          "ic_index": 23,
+          "initial_condition": [
+            0.9,
+            0.18,
+            13.0
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.6226234641185928,
+              0.08694554401155927,
+              11.776033174684262
+            ],
+            "mean_tail": [
+              0.7731882825326785,
+              0.12740917340658706,
+              12.178301072274405
+            ],
+            "std_tail": [
+              0.0759944191540439,
+              0.03441900134343932,
+              0.25754592678918103
+            ],
+            "max_tail": [
+              0.8580966452905504,
+              0.19412089089902912,
+              12.503517050289553
+            ],
+            "peak_count_c": 16,
+            "peak_interval_mean": 65.13,
+            "peak_interval_cv": 0.00037609239103071385,
+            "peak_height_mean": 12.502768634049215,
+            "peak_height_cv": 4.218870565821504e-05
+          }
+        },
+        {
+          "ic_index": 24,
+          "initial_condition": [
+            0.9,
+            0.36,
+            7.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.6226809886320966,
+              0.0869715409970442,
+              11.776466641189328
+            ],
+            "mean_tail": [
+              0.7720770179130282,
+              0.1280156239470246,
+              12.17365275103865
+            ],
+            "std_tail": [
+              0.07666233048499002,
+              0.03481259068052866,
+              0.2566169881308203
+            ],
+            "max_tail": [
+              0.8580492791283518,
+              0.19409869695756943,
+              12.50336839055884
+            ],
+            "peak_count_c": 15,
+            "peak_interval_mean": 65.12857142857142,
+            "peak_interval_cv": 0.0004780542820290005,
+            "peak_height_mean": 12.502722159424712,
+            "peak_height_cv": 3.6727584879959395e-05
+          }
+        },
+        {
+          "ic_index": 25,
+          "initial_condition": [
+            0.9,
+            0.36,
+            9.5
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.6226136296109953,
+              0.08694334592382631,
+              11.77599584655762
+            ],
+            "mean_tail": [
+              0.7750096217905258,
+              0.12665533639327228,
+              12.177785283510723
+            ],
+            "std_tail": [
+              0.07550855993217623,
+              0.034351365041347726,
+              0.2570625626211739
+            ],
+            "max_tail": [
+              0.8581005106380698,
+              0.19412488584732632,
+              12.503529134925355
+            ],
+            "peak_count_c": 16,
+            "peak_interval_mean": 65.12666666666667,
+            "peak_interval_cv": 0.0006184382215986503,
+            "peak_height_mean": 12.502737450810672,
+            "peak_height_cv": 4.547847628703625e-05
+          }
+        },
+        {
+          "ic_index": 26,
+          "initial_condition": [
+            0.9,
+            0.36,
+            13.0
+          ],
+          "stats": {
+            "status": "normal",
+            "persistent": true,
+            "min_tail": [
+              0.6228419540134006,
+              0.08699334158757611,
+              11.77683009160352
+            ],
+            "mean_tail": [
+              0.7745040540386825,
+              0.1271132229854006,
+              12.165426794608381
+            ],
+            "std_tail": [
+              0.0758515633759936,
+              0.03456654460023339,
+              0.25859728170874924
+            ],
+            "max_tail": [
+              0.858009862135708,
+              0.19403603436218855,
+              12.503244917852076
+            ],
+            "peak_count_c": 15,
+            "peak_interval_mean": 65.12857142857142,
+            "peak_interval_cv": 0.00037991901898854554,
+            "peak_height_mean": 12.502777950286266,
+            "peak_height_cv": 2.7629058418344468e-05
+          }
+        }
+      ],
+      "lyapunov_checks": [
+        {
+          "ic_index": 0,
+          "initial_condition": [
+            0.2,
+            0.05,
+            7.5
+          ],
+          "lyapunov": [
+            0.0005720884504544825,
+            -0.0017389465800743643,
+            -0.45166843795191897
+          ]
+        },
+        {
+          "ic_index": 1,
+          "initial_condition": [
+            0.2,
+            0.05,
+            9.5
+          ],
+          "lyapunov": [
+            0.0002552799686953491,
+            -0.0021716888240112435,
+            -0.46162680402976014
+          ]
+        },
+        {
+          "ic_index": 2,
+          "initial_condition": [
+            0.2,
+            0.05,
+            13.0
+          ],
+          "lyapunov": [
+            -0.0012653231963356147,
+            -0.004184464112624418,
+            -0.4478108482950107
+          ]
+        },
+        {
+          "ic_index": 3,
+          "initial_condition": [
+            0.2,
+            0.18,
+            7.5
+          ],
+          "lyapunov": [
+            0.0003415123846649543,
+            -0.0032594270756833884,
+            -0.461520946693781
+          ]
+        },
+        {
+          "ic_index": 4,
+          "initial_condition": [
+            0.2,
+            0.18,
+            9.5
+          ],
+          "lyapunov": [
+            -0.00013164400002317373,
+            -0.0017007244800769721,
+            -0.46055574230861807
+          ]
+        }
+      ]
+    }
+  ]
+}

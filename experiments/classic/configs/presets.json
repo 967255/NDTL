@@ -1,0 +1,117 @@
+{
+  "lorenz_chen_lv": {
+    "systems": [
+      "lorenz",
+      "chen",
+      "lv"
+    ],
+    "normalized": true,
+    "checkpoint": "checkpoints/lorenz_like/lorenz_chen_lv.pt",
+    "grid_limits": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ]
+  },
+  "lorenz_chen_lv_original": {
+    "systems": [
+      "lorenz",
+      "chen",
+      "lv"
+    ],
+    "normalized": false,
+    "checkpoint": "checkpoints/lorenz_like/lorenz_chen_lv_original.pt",
+    "grid_limits": [
+      [
+        -25,
+        25
+      ],
+      [
+        -25,
+        25
+      ],
+      [
+        0,
+        50
+      ]
+    ]
+  },
+  "lorenz_lv_rossler": {
+    "systems": [
+      "lorenz",
+      "lv",
+      "rossler"
+    ],
+    "normalized": true,
+    "checkpoint": "checkpoints/lorenz_like/lorenz_lv_rossler.pt",
+    "grid_limits": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ]
+  },
+  "lorenz_hadley_halvorsen": {
+    "systems": [
+      "lorenz",
+      "hadley",
+      "halvorsen"
+    ],
+    "normalized": true,
+    "checkpoint": "checkpoints/lorenz_like/lorenz_hadley_halvorsen.pt",
+    "grid_limits": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ]
+  },
+  "lorenz_nose_hoover_rucklidge": {
+    "systems": [
+      "lorenz",
+      "nose_hoover",
+      "rucklidge"
+    ],
+    "normalized": true,
+    "checkpoint": "checkpoints/lorenz_like/lorenz_nose_hoover_rucklidge.pt",
+    "grid_limits": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ]
+  }
+}

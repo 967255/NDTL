@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated article."
+title: "Dynamics creation through neural dynamical transfer learning"
+type: software
+authors:
+  - family-names: Ma
+    given-names: He
+  - family-names: Ge
+    given-names: Qiyang
+  - family-names: Meng
+    given-names: Yu
+  - family-names: Grebogi
+    given-names: Celso
+  - family-names: Lin
+    given-names: Wei
+repository-code: "https://github.com/967255/NDTL"
+preferred-citation:
+  type: article
+  title: "Dynamics creation through neural dynamical transfer learning"
+  authors:
+    - family-names: Ma
+      given-names: He
+    - family-names: Ge
+      given-names: Qiyang
+    - family-names: Meng
+      given-names: Yu
+    - family-names: Grebogi
+      given-names: Celso
+    - family-names: Lin
+      given-names: Wei
+  journal: "Physical Review Research"
+  volume: 8
+  issue: 3
+  start: "033337"
+  year: 2026
+  doi: "10.1103/ccgv-hgjb"

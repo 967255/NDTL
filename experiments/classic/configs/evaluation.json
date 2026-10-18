@@ -1,0 +1,134 @@
+{
+  "E01": {
+    "name": "Lorenz-Lv content fusion",
+    "source_arrays": [
+      "outputs/classic/e01/vecs.npy"
+    ],
+    "evaluation_results": [
+      "experiments/classic/results/lorenz_lv"
+    ],
+    "fusion_weights": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ]
+  },
+  "E02": {
+    "name": "Lorenz-Chen content fusion",
+    "source_arrays": [
+      "outputs/classic/e02/vecs.npy"
+    ],
+    "evaluation_results": [
+      "experiments/classic/results/lorenz_chen"
+    ],
+    "fusion_weights": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ]
+  },
+  "E03": {
+    "name": "Lorenz-Halvorsen content fusion",
+    "source_arrays": [
+      "outputs/classic/e03/vecs.npy"
+    ],
+    "evaluation_results": [
+      "experiments/classic/results/lorenz_halvorsen"
+    ],
+    "fusion_weights": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ]
+  },
+  "E04": {
+    "name": "Lorenz-Nose-Hoover content fusion",
+    "source_arrays": [
+      "outputs/classic/e04/vecs.npy"
+    ],
+    "evaluation_results": [
+      "experiments/classic/results/lorenz_nose_hoover"
+    ],
+    "fusion_weights": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ]
+  },
+  "E05": {
+    "name": "Lv-Rossler content fusion",
+    "source_arrays": [
+      "outputs/classic/e05/vecs.npy"
+    ],
+    "evaluation_results": [
+      "experiments/classic/results/lv_rossler"
+    ],
+    "fusion_weights": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ]
+  },
+  "E06": {
+    "name": "Hadley-Halvorsen content fusion",
+    "source_arrays": [
+      "outputs/classic/e06/vecs.npy"
+    ],
+    "evaluation_results": [
+      "experiments/classic/results/hadley_halvorsen"
+    ],
+    "fusion_weights": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ]
+  },
+  "E07": {
+    "name": "Nose-Hoover-Rucklidge content fusion",
+    "source_arrays": [
+      "outputs/classic/e07/vecs.npy"
+    ],
+    "evaluation_results": [
+      "experiments/classic/results/nose_hoover_rucklidge"
+    ],
+    "fusion_weights": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ]
+  },
+  "E08": {
+    "name": "Lorenz content and Chen style weight scan",
+    "source_arrays": [
+      "outputs/classic/e08/vecs.npy"
+    ],
+    "evaluation_results": [
+      "experiments/classic/results/content_style"
+    ],
+    "fusion_weights": [
+      0,
+      0.01,
+      0.1,
+      0.25,
+      0.5,
+      0.75,
+      0.9,
+      0.99,
+      1
+    ]
+  }
+}

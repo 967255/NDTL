@@ -1,0 +1,38 @@
+{
+  "profile": {
+    "name": "main64",
+    "grid_size": 64,
+    "depth": 96,
+    "strides": [
+      2,
+      2,
+      2
+    ],
+    "kernels": [
+      5,
+      3,
+      3
+    ],
+    "batch_size": 4,
+    "train_steps": 5000,
+    "fusion_steps": 3000,
+    "train_samples": 256,
+    "fit_samples": 12000
+  },
+  "domain_mode": "fixed02",
+  "domain": [
+    [
+      0.0,
+      2.0
+    ],
+    [
+      0.0,
+      2.0
+    ],
+    [
+      0.0,
+      15.0
+    ]
+  ],
+  "device": "cuda"
+}

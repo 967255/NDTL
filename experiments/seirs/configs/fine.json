@@ -1,0 +1,19 @@
+{
+  "content_weights": [
+    0.001,
+    0.0009,
+    0.0008,
+    0.0007,
+    0.0006,
+    0.0005,
+    0.0004,
+    0.0003,
+    0.0002,
+    0.0001
+  ],
+  "other_content_weights": [
+    0.0
+  ],
+  "style_weight": 0.01,
+  "both_style": false
+}

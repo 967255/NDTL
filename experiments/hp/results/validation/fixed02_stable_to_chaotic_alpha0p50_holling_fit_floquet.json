@@ -1,0 +1,27 @@
+{
+  "system": "fixed02 stable_to_chaotic alpha=0.50 Holling profile fit",
+  "period": 65.13486228834128,
+  "closure_norm": 0.00034381660186060225,
+  "c_peak_section_Hstar": 0.1253360026962062,
+  "cycle_point_x0": [
+    0.773346499701405,
+    0.1253360026962062,
+    12.502931164492832
+  ],
+  "cycle_point_x1": [
+    0.7733674216357974,
+    0.1253360026962062,
+    12.50258798505234
+  ],
+  "raw_floquet_multipliers": [
+    -0.9443638349118534,
+    -1.4249712521063884e-13,
+    0.9983619644849876
+  ],
+  "abs_floquet_multipliers": [
+    0.9443638349118534,
+    1.4249712521063884e-13,
+    0.9983619644849876
+  ],
+  "interpretation": "one multiplier near 1 is the neutral phase direction; remaining magnitudes below 1 support a transversely stable limit cycle numerically"
+}

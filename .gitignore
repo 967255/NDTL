@@ -1,0 +1,31 @@
+__pycache__/
+*.py[cod]
+.cache/
+**/.cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+.env
+outputs/
+*.pt
+*.pth
+*.npy
+*.npz
+*.pkl
+*.log
+*.pid
+*.tar.gz
+*.zip
+
+# Only the selected publication CAEs are tracked.
+!checkpoints/hp/cae.pt
+!checkpoints/seirs/cae.pt
+!checkpoints/lorenz_like/lorenz_chen_lv.pt
+!checkpoints/lorenz_like/lorenz_chen_lv_original.pt
+!checkpoints/lorenz_like/lorenz_lv_rossler.pt
+!checkpoints/lorenz_like/lorenz_hadley_halvorsen.pt
+!checkpoints/lorenz_like/lorenz_nose_hoover_rucklidge.pt
+
+# Interactive sessions are kept outside the publication source.
+*.ipynb

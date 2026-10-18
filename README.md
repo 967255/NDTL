@@ -1,105 +1,72 @@
-# Neural Dynamical Transfer Learning (NDTL)
+# Neural Dynamical Transfer Learning
 
-This code implements “Dynamics Creation through Neural Dynamical Transfer Learning,” enabling the creation of new dynamics through the fusion of several parent systems.
+Code for *Dynamics creation through neural dynamical transfer learning*.
+Publication: [Physical Review Research](https://doi.org/10.1103/ccgv-hgjb).
 
----
+## Install
 
-## 📖 Overview
-
-- **Paper**: "Dynamics Creation through Neural Dynamical Transfer Learning" (under review, 2025)
-- **Authors**: He Ma*, Qiyang Ge*, Yu Meng, Celso Grebogi, and Wei Lin†.
-- **DOI**: To appear.
-
----
-
-## 🛠️ Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/967255/NDTL.git
-   cd NDTL
-   ```
-
-
-2. Create a virtual environment (optional but recommended):
-
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate  # Linux/Mac
-   venv\Scripts\activate     # Windows
-   ```
-3. Install dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
----
-
-## ⚙️ Usage
+Use Python 3.9 and install the pinned scientific dependencies:
 
 ```bash
-# Training:
-python src/train.py --config configs/experiment.yaml
-
-# Evaluate:
-python src/evaluate.py --checkpoint checkpoints/model.pth
-
-# Notebook:
-jupyter notebook notebooks/demo.ipynb
+python -m pip install -r requirements.txt
+python -m experiments doctor
+python -m experiments check-results
 ```
 
----
+A CUDA-enabled PyTorch installation can be used for training. CPU execution is
+supported with `--device cpu` where available. The optional approximate TwoNN
+mode additionally requires `hnswlib`; the default experiment settings use exact
+nearest neighbors. The selected seven CAE checkpoints
+are included; see [CHECKPOINTS.md](docs/CHECKPOINTS.md).
 
-## 📂 Project Structure
+## Layout
 
-```NDTL
-├── README.md         
-├── LICENSE                             
-├── Lorenz_like/             
-│   ├── ode.py
-│   ├── pre-train.py
-│   └── ...
-├── RCP/             
-│   ├── ode.py
-│   ├── pre_train.py
-│   └── ...
-├── SEIRS/             
-│   ├── ode.py
-│   ├── pre-train.py
-│   └── ...     
-└── docs/      
+```text
+ndtl/                       Reusable CAE, training, fields, systems, sampling, metrics
+experiments/
+  catalog.json              Paper experiment and source index
+  cli.py                    Common launcher and run records
+  classic/                  Classical-system fusion, reconstruction, evaluation
+  classification/           20- and 52-system classification and clustering
+  hp/                       Hastings-Powell ecology and model projection
+  seirs/                    Epidemic transfer, reconstruction, and analysis
+  encryption/               Chaotic image encryption
+  perturbation/             Layer perturbations and feature transformations
+checkpoints/                Seven selected publication CAEs
+third_party/dysts/          Licensed attractor reference definitions
+outputs/                    Generated runs, figures, arrays, and checkpoints (ignored)
+docs/                       Experiment mapping and complete running instructions
 ```
 
----
+Each experiment family owns its implementation and recorded small result tables.
+Explicit presets and fixed metadata are under that family's `configs/` directory.
+The `ndtl/` package contains shared numerical components. All new artifacts go to
+`outputs/`; generated raw fields and per-pair classification checkpoints are not
+included in this repository. There is no separate data download.
 
-## 📝 Examples & Results
+## Run
 
+Run commands from the repository root. The launcher records arguments and exit
+status in `run.json` and requires a new output directory for each run.
 
-![Result Example](docs/rcp.png)
-
----
-
-## 🎓 Citation
-
-If you use this repository, please cite:
-
-```bibtex
-@misc{ge2025ndtl,
-  author       = {He Ma, Qiyang Ge, Yu Meng, Celso Grebogi, and Wei Lin},
-  title        = {{NDTL: Code for “Dynamics Creation through Neural Dynamical Transfer Learning”}},
-  year         = {2025},
-  howpublished = {\url{https://github.com/967255/NDTL}},
-  note         = {}
-}
+```bash
+python -m experiments list
+python -m experiments show E20
+python -m experiments run fig5 --output outputs/classification/fig5
+python -m experiments run classic-fuse --output outputs/classic/e01 -- --systems lorenz lv
+python -m experiments run hp-generate --output outputs/hp/main
 ```
 
+See [RUNNING.md](docs/RUNNING.md) for every experiment family and
+[EXPERIMENTS.md](docs/EXPERIMENTS.md) for the paper figure/table mapping.
+The source uses Python scripts with explicit inputs and outputs.
 
----
+## Reference results
 
-## 📄 License
+Small recorded metrics are kept in `experiments/<family>/results/`. Plotting jobs
+can use the included classification, classic, HP, and encryption metrics. New
+optimization runs may produce different values and should retain their own run
+configuration. No full paper training rerun is implied by the provided checkpoints.
 
-This project is licensed under the MIT License. See LICENSE for details.
-
-```
-```
+See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for the DYSTS attribution and
+[CITATION.cff](CITATION.cff) for citation metadata.

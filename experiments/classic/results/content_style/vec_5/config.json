@@ -1,0 +1,42 @@
+{
+  "VEC_PATH": "outputs/classic/e08/vecs.npy",
+  "CAE_INFO": "lorenz_chen_lv_spec_exp",
+  "META_INFO": "lorenz_c+chen_s",
+  "grid_shape": [
+    48,
+    48,
+    48
+  ],
+  "grid_limits": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "vec_index": 5,
+  "init_points": [
+    [
+      0.3,
+      0.3,
+      0.5
+    ],
+    [
+      0.1,
+      0.2,
+      0.8
+    ],
+    [
+      0.1,
+      0.0,
+      0.0
+    ]
+  ]
+}

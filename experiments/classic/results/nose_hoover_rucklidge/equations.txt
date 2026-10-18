@@ -1,0 +1,187 @@
+[2025-12-07 21:33:30,478] INFO: vecs.shape = (5, 1, 48, 48, 48, 3)
+[2025-12-07 21:33:30,478] INFO: num_vecs = 5
+[2025-12-07 21:33:30,478] INFO: === start vec index 0 ===
+[2025-12-07 21:33:30,479] INFO: vec[0].shape = (1, 48, 48, 48, 3)
+[2025-12-07 21:33:30,569] INFO: [vec 0] config saved to ./experiments/classic/results/nose_hoover_rucklidge/vec_0/config.json
+[2025-12-07 21:33:30,570] INFO: [vec 0] ode_hat info: dx/dt = -3.848 + -5.068x + 11.3y + 18.13z + 0.618xx + 0.926xy + 0.499xz + 0.811yy + -37.142yz + 0.553zz
+dy/dt = -1.031 + 2.291x + -0.43y + 0.355z + -0.164xx + -0.047xy + -0.047xz + 0.406yy + 0.131yz + -0.418zz
+dz/dt = 10.448 + -0.246x + -39.658y + -3.416z + -0.119xx + 0.215xy + 0.324xz + 38.551yy + 1.356yz + 0.556zz
+name = ode_hat_0
+grid_limits = None
+system_velocity(avg) = None
+[2025-12-07 21:33:30,570] INFO: [vec 0] ode info saved to ./experiments/classic/results/nose_hoover_rucklidge/vec_0/ode_info.txt
+[2025-12-07 21:33:36,356] INFO: [vec 0] figure for init_0=(0.3, 0.3, 0.5) saved under ./experiments/classic/results/nose_hoover_rucklidge/vec_0/init_0
+[2025-12-07 21:33:41,917] INFO: [vec 0] figure for init_1=(0.1, 0.2, 0.8) saved under ./experiments/classic/results/nose_hoover_rucklidge/vec_0/init_1
+[2025-12-07 21:33:47,449] INFO: [vec 0] figure for init_2=(0.1, 0.0, 0.0) saved under ./experiments/classic/results/nose_hoover_rucklidge/vec_0/init_2
+[2025-12-07 21:33:47,450] INFO: === start vec index 1 ===
+[2025-12-07 21:33:47,450] INFO: vec[1].shape = (1, 48, 48, 48, 3)
+[2025-12-07 21:33:47,534] INFO: [vec 1] config saved to ./experiments/classic/results/nose_hoover_rucklidge/vec_1/config.json
+[2025-12-07 21:33:47,535] INFO: [vec 1] ode_hat info: dx/dt = -5.387 + -3.168x + 13.938y + 14.211z + 0.629xx + 0.003xy + 0.218xz + -1.572yy + -30.86yz + 1.723zz
+dy/dt = 2.491 + 0.374x + -5.52y + -4.613z + -0.279xx + 0.257xy + -0.099xz + -0.037yy + 10.55yz + -0.579zz
+dz/dt = 5.954 + -0.387x + -21.185y + -3.491z + 0.566xx + -0.126xy + -0.116xz + 20.613yy + 1.591yz + 1.459zz
+name = ode_hat_1
+grid_limits = None
+system_velocity(avg) = None
+[2025-12-07 21:33:47,535] INFO: [vec 1] ode info saved to ./experiments/classic/results/nose_hoover_rucklidge/vec_1/ode_info.txt
+[2025-12-07 21:33:48,720] INFO: [vec 1] figure for init_0=(0.3, 0.3, 0.5) saved under ./experiments/classic/results/nose_hoover_rucklidge/vec_1/init_0
+[2025-12-07 21:33:49,737] INFO: [vec 1] figure for init_1=(0.1, 0.2, 0.8) saved under ./experiments/classic/results/nose_hoover_rucklidge/vec_1/init_1
+[2025-12-07 21:33:50,790] INFO: [vec 1] figure for init_2=(0.1, 0.0, 0.0) saved under ./experiments/classic/results/nose_hoover_rucklidge/vec_1/init_2
+[2025-12-07 21:33:50,791] INFO: === start vec index 2 ===
+[2025-12-07 21:33:50,791] INFO: vec[2].shape = (1, 48, 48, 48, 3)
+[2025-12-07 21:33:50,875] INFO: [vec 2] config saved to ./experiments/classic/results/nose_hoover_rucklidge/vec_2/config.json
+[2025-12-07 21:33:50,876] INFO: [vec 2] ode_hat info: dx/dt = -6.137 + -1.976x + 15.144y + 10.853z + 0.885xx + -0.407xy + -0.306xz + -2.897yy + -24.447yz + 1.98zz
+dy/dt = 5.607 + -1.341x + -8.783y + -10.372z + -0.154xx + -0.015xy + -0.37xz + -2.198yy + 22.015yz + -0.334zz
+dz/dt = 0.493 + 1.184x + -0.585y + -3.266z + -0.082xx + -0.811xy + -0.282xz + 1.058yy + 0.987yz + 2.127zz
+name = ode_hat_2
+grid_limits = None
+system_velocity(avg) = None
+[2025-12-07 21:33:50,876] INFO: [vec 2] ode info saved to ./experiments/classic/results/nose_hoover_rucklidge/vec_2/ode_info.txt
+[2025-12-07 21:33:52,755] INFO: [vec 2] figure for init_0=(0.3, 0.3, 0.5) saved under ./experiments/classic/results/nose_hoover_rucklidge/vec_2/init_0
+[2025-12-07 21:33:53,813] INFO: [vec 2] figure for init_1=(0.1, 0.2, 0.8) saved under ./experiments/classic/results/nose_hoover_rucklidge/vec_2/init_1
+[2025-12-07 21:33:55,861] INFO: [vec 2] figure for init_2=(0.1, 0.0, 0.0) saved under ./experiments/classic/results/nose_hoover_rucklidge/vec_2/init_2
+[2025-12-07 21:33:55,861] INFO: === start vec index 3 ===
+[2025-12-07 21:33:55,861] INFO: vec[3].shape = (1, 48, 48, 48, 3)
+[2025-12-07 21:33:55,943] INFO: [vec 3] config saved to ./experiments/classic/results/nose_hoover_rucklidge/vec_3/config.json
+[2025-12-07 21:33:55,943] INFO: [vec 3] ode_hat info: dx/dt = -4.389 + -0.77x + 10.221y + 5.936z + 0.355xx + -0.185xy + -0.256xz + -1.664yy + -12.071yz + 0.103zz
+dy/dt = 9.655 + -3.441x + -15.424y + -15.762z + -0.104xx + 0.178xy + 0.136xz + -0.602yy + 31.415yz + -0.149zz
+dz/dt = -4.566 + 0.218x + 20.505y + -1.011z + 0.364xx + 0.125xy + -0.418xz + -20.319yy + -0.146yz + 0.984zz
+name = ode_hat_3
+grid_limits = None
+system_velocity(avg) = None
+[2025-12-07 21:33:55,943] INFO: [vec 3] ode info saved to ./experiments/classic/results/nose_hoover_rucklidge/vec_3/ode_info.txt
+[2025-12-07 21:34:01,623] INFO: [vec 3] figure for init_0=(0.3, 0.3, 0.5) saved under ./experiments/classic/results/nose_hoover_rucklidge/vec_3/init_0
+[2025-12-07 21:34:07,201] INFO: [vec 3] figure for init_1=(0.1, 0.2, 0.8) saved under ./experiments/classic/results/nose_hoover_rucklidge/vec_3/init_1
+[2025-12-07 21:34:12,816] INFO: [vec 3] figure for init_2=(0.1, 0.0, 0.0) saved under ./experiments/classic/results/nose_hoover_rucklidge/vec_3/init_2
+[2025-12-07 21:34:12,816] INFO: === start vec index 4 ===
+[2025-12-07 21:34:12,816] INFO: vec[4].shape = (1, 48, 48, 48, 3)
+[2025-12-07 21:34:12,890] INFO: [vec 4] config saved to ./experiments/classic/results/nose_hoover_rucklidge/vec_4/config.json
+[2025-12-07 21:34:12,891] INFO: [vec 4] ode_hat info: dx/dt = -2.725 + 0.443x + 5.663y + 0.249z + -0.109xx + -0.396xy + -0.296xz + -0.524yy + -0.124yz + -0.094zz
+dy/dt = 12.969 + -5.856x + -20.131y + -20.441z + 0.592xx + 0.216xy + 0.071xz + -0.439yy + 40.489yz + -0.061zz
+dz/dt = -9.257 + -0.385x + 39.959y + 0.451z + 0.518xx + 0.232xy + 0.025xz + -39.719yy + -0.023yz + -0.348zz
+name = ode_hat_4
+grid_limits = None
+system_velocity(avg) = None
+[2025-12-07 21:34:12,891] INFO: [vec 4] ode info saved to ./experiments/classic/results/nose_hoover_rucklidge/vec_4/ode_info.txt
+[2025-12-07 21:34:18,522] INFO: [vec 4] figure for init_0=(0.3, 0.3, 0.5) saved under ./experiments/classic/results/nose_hoover_rucklidge/vec_4/init_0
+[2025-12-07 21:34:24,177] INFO: [vec 4] figure for init_1=(0.1, 0.2, 0.8) saved under ./experiments/classic/results/nose_hoover_rucklidge/vec_4/init_1
+[2025-12-07 21:34:29,792] INFO: [vec 4] figure for init_2=(0.1, 0.0, 0.0) saved under ./experiments/classic/results/nose_hoover_rucklidge/vec_4/init_2
+[2026-01-18 22:53:20,638] INFO: vecs.shape = (5, 1, 48, 48, 48, 3)
+[2026-01-18 22:53:20,639] INFO: num_vecs = 5
+[2026-01-18 22:53:20,639] INFO: === start vec index 0 ===
+[2026-01-18 22:53:20,639] INFO: vec[0].shape = (1, 48, 48, 48, 3)
+[2026-01-18 22:53:20,725] INFO: [vec 0] config saved to ./experiments/classic/results/nose_hoover_rucklidge/vec_0/config.json
+[2026-01-18 22:53:20,726] INFO: [vec 0] ode_hat info: dx/dt = -3.848 + -5.068x + 11.3y + 18.13z + 0.618xx + 0.926xy + 0.499xz + 0.811yy + -37.142yz + 0.553zz
+dy/dt = -1.031 + 2.291x + -0.43y + 0.355z + -0.164xx + -0.047xy + -0.047xz + 0.406yy + 0.131yz + -0.418zz
+dz/dt = 10.448 + -0.246x + -39.658y + -3.416z + -0.119xx + 0.215xy + 0.324xz + 38.551yy + 1.356yz + 0.556zz
+name = ode_hat_0
+grid_limits = None
+system_velocity(avg) = None
+[2026-01-18 22:53:20,726] INFO: [vec 0] ode info saved to ./experiments/classic/results/nose_hoover_rucklidge/vec_0/ode_info.txt
+[2026-01-18 22:53:26,430] INFO: [vec 0] trajectory for init_0=(0.3, 0.3, 0.5) saved under ./experiments/classic/results/nose_hoover_rucklidge/vec_0/init_0
+[2026-01-18 22:53:44,069] INFO: [vec 0] features done for init_0=(0.3, 0.3, 0.5): ID=3.4283, KY=2.0073, spectrum=[ 0.20181586 -0.15669863 -6.21433067]
+[2026-01-18 22:53:49,660] INFO: [vec 0] trajectory for init_1=(0.1, 0.2, 0.8) saved under ./experiments/classic/results/nose_hoover_rucklidge/vec_0/init_1
+[2026-01-18 22:54:07,202] INFO: [vec 0] features done for init_1=(0.1, 0.2, 0.8): ID=2.6908, KY=1.9803, spectrum=[ 0.14163981 -0.14448003 -6.17621636]
+[2026-01-18 22:54:12,771] INFO: [vec 0] trajectory for init_2=(0.1, 0.0, 0.0) saved under ./experiments/classic/results/nose_hoover_rucklidge/vec_0/init_2
+[2026-01-18 22:54:30,376] INFO: [vec 0] features done for init_2=(0.1, 0.0, 0.0): ID=2.8734, KY=1.7667, spectrum=[ 0.16500745 -0.21520639 -6.015212  ]
+[2026-01-18 22:54:30,377] INFO: [vec 0] features summary saved: {'n_success': 3, 'intrinsic_dimension_twonn_mean': 2.9975045222294914, 'intrinsic_dimension_twonn_std': 0.31360973344411935, 'kaplan_yorke_dimension_mean': 1.9181141321815787, 'kaplan_yorke_dimension_std': 0.10760000238566303, 'lyapunov_spectrum_mean': array([ 0.1694877 , -0.17212835, -6.13525301]), 'lyapunov_spectrum_std': array([0.0247702 , 0.0308665 , 0.08629623])}
+[2026-01-18 22:54:30,377] INFO: === start vec index 1 ===
+[2026-01-18 22:54:30,377] INFO: vec[1].shape = (1, 48, 48, 48, 3)
+[2026-01-18 22:54:30,453] INFO: [vec 1] config saved to ./experiments/classic/results/nose_hoover_rucklidge/vec_1/config.json
+[2026-01-18 22:54:30,453] INFO: [vec 1] ode_hat info: dx/dt = -5.387 + -3.168x + 13.938y + 14.211z + 0.629xx + 0.003xy + 0.218xz + -1.572yy + -30.86yz + 1.723zz
+dy/dt = 2.491 + 0.374x + -5.52y + -4.613z + -0.279xx + 0.257xy + -0.099xz + -0.037yy + 10.55yz + -0.579zz
+dz/dt = 5.954 + -0.387x + -21.185y + -3.491z + 0.566xx + -0.126xy + -0.116xz + 20.613yy + 1.591yz + 1.459zz
+name = ode_hat_1
+grid_limits = None
+system_velocity(avg) = None
+[2026-01-18 22:54:30,454] INFO: [vec 1] ode info saved to ./experiments/classic/results/nose_hoover_rucklidge/vec_1/ode_info.txt
+[2026-01-18 22:54:31,628] INFO: [vec 1] trajectory for init_0=(0.3, 0.3, 0.5) saved under ./experiments/classic/results/nose_hoover_rucklidge/vec_1/init_0
+[2026-01-18 22:54:31,765] ERROR: [vec 1] features FAILED for init_0=(0.3, 0.3, 0.5): Trajectory ended early (len=152) with status=Exploded on variable x!
+Traceback (most recent call last):
+  File "eval_fusion.py", line 154, in <module>
+    res = compute_system_features(
+  File "utils_eval.py", line 664, in compute_system_features
+    raise RuntimeError(f"Trajectory ended early (len={traj.shape[0]}) with status={status}")
+RuntimeError: Trajectory ended early (len=152) with status=Exploded on variable x!
+[2026-01-18 22:54:32,784] INFO: [vec 1] trajectory for init_1=(0.1, 0.2, 0.8) saved under ./experiments/classic/results/nose_hoover_rucklidge/vec_1/init_1
+[2026-01-18 22:54:32,809] ERROR: [vec 1] features FAILED for init_1=(0.1, 0.2, 0.8): Trajectory ended early (len=28) with status=Exploded on variable x!
+Traceback (most recent call last):
+  File "eval_fusion.py", line 154, in <module>
+    res = compute_system_features(
+  File "utils_eval.py", line 664, in compute_system_features
+    raise RuntimeError(f"Trajectory ended early (len={traj.shape[0]}) with status={status}")
+RuntimeError: Trajectory ended early (len=28) with status=Exploded on variable x!
+[2026-01-18 22:54:33,863] INFO: [vec 1] trajectory for init_2=(0.1, 0.0, 0.0) saved under ./experiments/classic/results/nose_hoover_rucklidge/vec_1/init_2
+[2026-01-18 22:54:33,907] ERROR: [vec 1] features FAILED for init_2=(0.1, 0.0, 0.0): Trajectory ended early (len=49) with status=Exploded on variable x!
+Traceback (most recent call last):
+  File "eval_fusion.py", line 154, in <module>
+    res = compute_system_features(
+  File "utils_eval.py", line 664, in compute_system_features
+    raise RuntimeError(f"Trajectory ended early (len={traj.shape[0]}) with status={status}")
+RuntimeError: Trajectory ended early (len=49) with status=Exploded on variable x!
+[2026-01-18 22:54:33,908] INFO: [vec 1] features summary saved: {'n_success': 0}
+[2026-01-18 22:54:33,908] INFO: === start vec index 2 ===
+[2026-01-18 22:54:33,908] INFO: vec[2].shape = (1, 48, 48, 48, 3)
+[2026-01-18 22:54:33,984] INFO: [vec 2] config saved to ./experiments/classic/results/nose_hoover_rucklidge/vec_2/config.json
+[2026-01-18 22:54:33,985] INFO: [vec 2] ode_hat info: dx/dt = -6.137 + -1.976x + 15.144y + 10.853z + 0.885xx + -0.407xy + -0.306xz + -2.897yy + -24.447yz + 1.98zz
+dy/dt = 5.607 + -1.341x + -8.783y + -10.372z + -0.154xx + -0.015xy + -0.37xz + -2.198yy + 22.015yz + -0.334zz
+dz/dt = 0.493 + 1.184x + -0.585y + -3.266z + -0.082xx + -0.811xy + -0.282xz + 1.058yy + 0.987yz + 2.127zz
+name = ode_hat_2
+grid_limits = None
+system_velocity(avg) = None
+[2026-01-18 22:54:33,985] INFO: [vec 2] ode info saved to ./experiments/classic/results/nose_hoover_rucklidge/vec_2/ode_info.txt
+[2026-01-18 22:54:35,788] INFO: [vec 2] trajectory for init_0=(0.3, 0.3, 0.5) saved under ./experiments/classic/results/nose_hoover_rucklidge/vec_2/init_0
+[2026-01-18 22:54:36,459] ERROR: [vec 2] features FAILED for init_0=(0.3, 0.3, 0.5): Trajectory ended early (len=742) with status=Exploded on variable x!
+Traceback (most recent call last):
+  File "eval_fusion.py", line 154, in <module>
+    res = compute_system_features(
+  File "utils_eval.py", line 664, in compute_system_features
+    raise RuntimeError(f"Trajectory ended early (len={traj.shape[0]}) with status={status}")
+RuntimeError: Trajectory ended early (len=742) with status=Exploded on variable x!
+[2026-01-18 22:54:37,523] INFO: [vec 2] trajectory for init_1=(0.1, 0.2, 0.8) saved under ./experiments/classic/results/nose_hoover_rucklidge/vec_2/init_1
+[2026-01-18 22:54:37,558] ERROR: [vec 2] features FAILED for init_1=(0.1, 0.2, 0.8): Trajectory ended early (len=39) with status=Exploded on variable y!
+Traceback (most recent call last):
+  File "eval_fusion.py", line 154, in <module>
+    res = compute_system_features(
+  File "utils_eval.py", line 664, in compute_system_features
+    raise RuntimeError(f"Trajectory ended early (len={traj.shape[0]}) with status={status}")
+RuntimeError: Trajectory ended early (len=39) with status=Exploded on variable y!
+[2026-01-18 22:54:39,490] INFO: [vec 2] trajectory for init_2=(0.1, 0.0, 0.0) saved under ./experiments/classic/results/nose_hoover_rucklidge/vec_2/init_2
+[2026-01-18 22:54:43,568] INFO: [vec 2] features done for init_2=(0.1, 0.0, 0.0): ID=14.7676, KY=0.0000, spectrum=[ -6.25535388  -9.97717242 -10.13181804]
+[2026-01-18 22:54:43,569] INFO: [vec 2] features summary saved: {'n_success': 1, 'intrinsic_dimension_twonn_mean': 14.767642503699873, 'intrinsic_dimension_twonn_std': 0.0, 'kaplan_yorke_dimension_mean': 0.0, 'kaplan_yorke_dimension_std': 0.0, 'lyapunov_spectrum_mean': array([ -6.25535388,  -9.97717242, -10.13181804]), 'lyapunov_spectrum_std': array([0., 0., 0.])}
+[2026-01-18 22:54:43,569] INFO: === start vec index 3 ===
+[2026-01-18 22:54:43,569] INFO: vec[3].shape = (1, 48, 48, 48, 3)
+[2026-01-18 22:54:43,655] INFO: [vec 3] config saved to ./experiments/classic/results/nose_hoover_rucklidge/vec_3/config.json
+[2026-01-18 22:54:43,656] INFO: [vec 3] ode_hat info: dx/dt = -4.389 + -0.77x + 10.221y + 5.936z + 0.355xx + -0.185xy + -0.256xz + -1.664yy + -12.071yz + 0.103zz
+dy/dt = 9.655 + -3.441x + -15.424y + -15.762z + -0.104xx + 0.178xy + 0.136xz + -0.602yy + 31.415yz + -0.149zz
+dz/dt = -4.566 + 0.218x + 20.505y + -1.011z + 0.364xx + 0.125xy + -0.418xz + -20.319yy + -0.146yz + 0.984zz
+name = ode_hat_3
+grid_limits = None
+system_velocity(avg) = None
+[2026-01-18 22:54:43,656] INFO: [vec 3] ode info saved to ./experiments/classic/results/nose_hoover_rucklidge/vec_3/ode_info.txt
+[2026-01-18 22:54:49,333] INFO: [vec 3] trajectory for init_0=(0.3, 0.3, 0.5) saved under ./experiments/classic/results/nose_hoover_rucklidge/vec_3/init_0
+[2026-01-18 22:55:06,906] INFO: [vec 3] features done for init_0=(0.3, 0.3, 0.5): ID=2.4458, KY=1.7975, spectrum=[ 0.23602637 -0.29597183 -0.79495746]
+[2026-01-18 22:55:12,518] INFO: [vec 3] trajectory for init_1=(0.1, 0.2, 0.8) saved under ./experiments/classic/results/nose_hoover_rucklidge/vec_3/init_1
+[2026-01-18 22:55:30,034] INFO: [vec 3] features done for init_1=(0.1, 0.2, 0.8): ID=1.4998, KY=2.0266, spectrum=[ 0.0446598  -0.01725088 -1.03019367]
+[2026-01-18 22:55:35,658] INFO: [vec 3] trajectory for init_2=(0.1, 0.0, 0.0) saved under ./experiments/classic/results/nose_hoover_rucklidge/vec_3/init_2
+[2026-01-18 22:55:53,229] INFO: [vec 3] features done for init_2=(0.1, 0.0, 0.0): ID=3.1243, KY=1.5313, spectrum=[ 0.16306621 -0.30691579 -0.78600931]
+[2026-01-18 22:55:53,230] INFO: [vec 3] features summary saved: {'n_success': 3, 'intrinsic_dimension_twonn_mean': 2.356647378669537, 'intrinsic_dimension_twonn_std': 0.6662195137270871, 'kaplan_yorke_dimension_mean': 1.785124638327888, 'kaplan_yorke_dimension_std': 0.20239330411975665, 'lyapunov_spectrum_mean': array([ 0.14791746, -0.20671283, -0.87038681]), 'lyapunov_spectrum_std': array([0.078856  , 0.13404431, 0.11305954])}
+[2026-01-18 22:55:53,230] INFO: === start vec index 4 ===
+[2026-01-18 22:55:53,230] INFO: vec[4].shape = (1, 48, 48, 48, 3)
+[2026-01-18 22:55:53,317] INFO: [vec 4] config saved to ./experiments/classic/results/nose_hoover_rucklidge/vec_4/config.json
+[2026-01-18 22:55:53,317] INFO: [vec 4] ode_hat info: dx/dt = -2.725 + 0.443x + 5.663y + 0.249z + -0.109xx + -0.396xy + -0.296xz + -0.524yy + -0.124yz + -0.094zz
+dy/dt = 12.969 + -5.856x + -20.131y + -20.441z + 0.592xx + 0.216xy + 0.071xz + -0.439yy + 40.489yz + -0.061zz
+dz/dt = -9.257 + -0.385x + 39.959y + 0.451z + 0.518xx + 0.232xy + 0.025xz + -39.719yy + -0.023yz + -0.348zz
+name = ode_hat_4
+grid_limits = None
+system_velocity(avg) = None
+[2026-01-18 22:55:53,318] INFO: [vec 4] ode info saved to ./experiments/classic/results/nose_hoover_rucklidge/vec_4/ode_info.txt
+[2026-01-18 22:55:58,973] INFO: [vec 4] trajectory for init_0=(0.3, 0.3, 0.5) saved under ./experiments/classic/results/nose_hoover_rucklidge/vec_4/init_0
+[2026-01-18 22:56:16,542] INFO: [vec 4] features done for init_0=(0.3, 0.3, 0.5): ID=4.5831, KY=1.3922, spectrum=[ 0.16524952 -0.42132272 -0.62318845]
+[2026-01-18 22:56:22,368] INFO: [vec 4] trajectory for init_1=(0.1, 0.2, 0.8) saved under ./experiments/classic/results/nose_hoover_rucklidge/vec_4/init_1
+[2026-01-18 22:56:40,144] INFO: [vec 4] features done for init_1=(0.1, 0.2, 0.8): ID=1.0269, KY=1.5406, spectrum=[ 0.37567583 -0.69495833 -0.7505857 ]
+[2026-01-18 22:56:45,792] INFO: [vec 4] trajectory for init_2=(0.1, 0.0, 0.0) saved under ./experiments/classic/results/nose_hoover_rucklidge/vec_4/init_2
+[2026-01-18 22:57:03,343] INFO: [vec 4] features done for init_2=(0.1, 0.0, 0.0): ID=0.8002, KY=1.5191, spectrum=[ 0.37009961 -0.71298648 -0.87529725]
+[2026-01-18 22:57:03,343] INFO: [vec 4] features summary saved: {'n_success': 3, 'intrinsic_dimension_twonn_mean': 2.136736196475804, 'intrinsic_dimension_twonn_std': 1.732304779800815, 'kaplan_yorke_dimension_mean': 1.4839576076805805, 'kaplan_yorke_dimension_std': 0.06546163954162847, 'lyapunov_spectrum_mean': array([ 0.30367499, -0.60975584, -0.74969047]), 'lyapunov_spectrum_std': array([0.09790806, 0.13344546, 0.10292493])}
+[2026-01-18 22:57:04,114] INFO: Saved per-init feature figure to ./experiments/classic/results/nose_hoover_rucklidge/init_0_features.png
+[2026-01-18 22:57:04,819] INFO: Saved per-init feature figure to ./experiments/classic/results/nose_hoover_rucklidge/init_1_features.png
+[2026-01-18 22:57:05,518] INFO: Saved per-init feature figure to ./experiments/classic/results/nose_hoover_rucklidge/init_2_features.png

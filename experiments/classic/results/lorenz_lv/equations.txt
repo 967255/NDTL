@@ -1,0 +1,157 @@
+[2025-12-07 21:44:20,132] INFO: vecs.shape = (5, 1, 48, 48, 48, 3)
+[2025-12-07 21:44:20,132] INFO: num_vecs = 5
+[2025-12-07 21:44:20,132] INFO: === start vec index 0 ===
+[2025-12-07 21:44:20,133] INFO: vec[0].shape = (1, 48, 48, 48, 3)
+[2025-12-07 21:44:20,222] INFO: [vec 0] config saved to ./experiments/classic/results/lorenz_lv/vec_0/config.json
+[2025-12-07 21:44:20,222] INFO: [vec 0] ode_hat info: dx/dt = 0.118 + -11.684x + 11.225y + -0.127z + 0.793xx + 0.555xy + 0.963xz + -0.892yy + -0.853yz + 0.074zz
+dy/dt = -4.018 + -1.152x + 9.129y + 7.074z + 0.862xx + -0.078xy + -13.578xz + -0.822yy + -0.643yz + 0.085zz
+dz/dt = 3.515 + -7.271x + -6.638y + -0.859z + -0.262xx + 14.147xy + 0.244xz + 0.069yy + -0.379yz + 0.07zz
+name = ode_hat_0
+grid_limits = None
+system_velocity(avg) = None
+[2025-12-07 21:44:20,222] INFO: [vec 0] ode info saved to ./experiments/classic/results/lorenz_lv/vec_0/ode_info.txt
+[2025-12-07 21:44:26,011] INFO: [vec 0] figure for init_0=(0.3, 0.3, 0.5) saved under ./experiments/classic/results/lorenz_lv/vec_0/init_0
+[2025-12-07 21:44:31,648] INFO: [vec 0] figure for init_1=(0.1, 0.2, 0.8) saved under ./experiments/classic/results/lorenz_lv/vec_0/init_1
+[2025-12-07 21:44:37,247] INFO: [vec 0] figure for init_2=(0.1, 0.0, 0.0) saved under ./experiments/classic/results/lorenz_lv/vec_0/init_2
+[2025-12-07 21:44:37,247] INFO: === start vec index 1 ===
+[2025-12-07 21:44:37,247] INFO: vec[1].shape = (1, 48, 48, 48, 3)
+[2025-12-07 21:44:37,334] INFO: [vec 1] config saved to ./experiments/classic/results/lorenz_lv/vec_1/config.json
+[2025-12-07 21:44:37,335] INFO: [vec 1] ode_hat info: dx/dt = 0.18 + -10.856x + 10.276y + -0.267z + 0.692xx + 0.766xy + 0.836xz + -0.853yy + -0.757yz + 0.217zz
+dy/dt = -5.505 + 4.038x + 6.788y + 9.851z + 0.648xx + 0.099xy + -19.152xz + -0.74yy + -0.423yz + 0.041zz
+dz/dt = 4.879 + -10.102x + -9.042y + -1.227z + -0.04xx + 19.383xy + 0.288xz + -0.152yy + -0.505yz + 0.178zz
+name = ode_hat_1
+grid_limits = None
+system_velocity(avg) = None
+[2025-12-07 21:44:37,335] INFO: [vec 1] ode info saved to ./experiments/classic/results/lorenz_lv/vec_1/ode_info.txt
+[2025-12-07 21:44:42,978] INFO: [vec 1] figure for init_0=(0.3, 0.3, 0.5) saved under ./experiments/classic/results/lorenz_lv/vec_1/init_0
+[2025-12-07 21:44:48,611] INFO: [vec 1] figure for init_1=(0.1, 0.2, 0.8) saved under ./experiments/classic/results/lorenz_lv/vec_1/init_1
+[2025-12-07 21:44:54,238] INFO: [vec 1] figure for init_2=(0.1, 0.0, 0.0) saved under ./experiments/classic/results/lorenz_lv/vec_1/init_2
+[2025-12-07 21:44:54,238] INFO: === start vec index 2 ===
+[2025-12-07 21:44:54,238] INFO: vec[2].shape = (1, 48, 48, 48, 3)
+[2025-12-07 21:44:54,331] INFO: [vec 2] config saved to ./experiments/classic/results/lorenz_lv/vec_2/config.json
+[2025-12-07 21:44:54,332] INFO: [vec 2] ode_hat info: dx/dt = 0.193 + -10.083x + 9.529y + -0.22z + 0.706xx + 0.802xy + 0.834xz + -0.945yy + -0.692yz + 0.125zz
+dy/dt = -6.925 + 9.323x + 4.289y + 12.524z + 0.4xx + 0.274xy + -24.697xz + -0.618yy + -0.161yz + 0.057zz
+dz/dt = 6.171 + -12.813x + -11.596y + -1.359z + -0.035xx + 24.629xy + 0.375xz + -0.107yy + -0.7yz + 0.111zz
+name = ode_hat_2
+grid_limits = None
+system_velocity(avg) = None
+[2025-12-07 21:44:54,332] INFO: [vec 2] ode info saved to ./experiments/classic/results/lorenz_lv/vec_2/ode_info.txt
+[2025-12-07 21:44:59,935] INFO: [vec 2] figure for init_0=(0.3, 0.3, 0.5) saved under ./experiments/classic/results/lorenz_lv/vec_2/init_0
+[2025-12-07 21:45:05,529] INFO: [vec 2] figure for init_1=(0.1, 0.2, 0.8) saved under ./experiments/classic/results/lorenz_lv/vec_2/init_1
+[2025-12-07 21:45:11,243] INFO: [vec 2] figure for init_2=(0.1, 0.0, 0.0) saved under ./experiments/classic/results/lorenz_lv/vec_2/init_2
+[2025-12-07 21:45:11,244] INFO: === start vec index 3 ===
+[2025-12-07 21:45:11,244] INFO: vec[3].shape = (1, 48, 48, 48, 3)
+[2025-12-07 21:45:11,337] INFO: [vec 3] config saved to ./experiments/classic/results/lorenz_lv/vec_3/config.json
+[2025-12-07 21:45:11,337] INFO: [vec 3] ode_hat info: dx/dt = 0.192 + -9.225x + 8.761y + -0.272z + 0.71xx + 0.771xy + 0.8xz + -1.004yy + -0.604yz + 0.129zz
+dy/dt = -8.316 + 14.621x + 1.764y + 15.119z + 0.217xx + 0.247xy + -30.145xz + -0.333yy + -0.045yz + 0.138zz
+dz/dt = 7.566 + -15.277x + -14.529y + -1.862z + -0.089xx + 29.841xy + 0.219xz + 0.064yy + -0.502yz + 0.313zz
+name = ode_hat_3
+grid_limits = None
+system_velocity(avg) = None
+[2025-12-07 21:45:11,337] INFO: [vec 3] ode info saved to ./experiments/classic/results/lorenz_lv/vec_3/ode_info.txt
+[2025-12-07 21:45:16,993] INFO: [vec 3] figure for init_0=(0.3, 0.3, 0.5) saved under ./experiments/classic/results/lorenz_lv/vec_3/init_0
+[2025-12-07 21:45:22,634] INFO: [vec 3] figure for init_1=(0.1, 0.2, 0.8) saved under ./experiments/classic/results/lorenz_lv/vec_3/init_1
+[2025-12-07 21:45:28,205] INFO: [vec 3] figure for init_2=(0.1, 0.0, 0.0) saved under ./experiments/classic/results/lorenz_lv/vec_3/init_2
+[2025-12-07 21:45:28,205] INFO: === start vec index 4 ===
+[2025-12-07 21:45:28,205] INFO: vec[4].shape = (1, 48, 48, 48, 3)
+[2025-12-07 21:45:28,290] INFO: [vec 4] config saved to ./experiments/classic/results/lorenz_lv/vec_4/config.json
+[2025-12-07 21:45:28,291] INFO: [vec 4] ode_hat info: dx/dt = 0.228 + -8.517x + 7.613y + -0.224z + 0.729xx + 0.953xy + 0.716xz + -0.794yy + -0.423yz + 0.074zz
+dy/dt = -9.722 + 19.903x + -0.69y + 17.712z + 0.122xx + 0.178xy + -35.607xz + -0.076yy + 0.026yz + 0.202zz
+dz/dt = 8.898 + -17.535x + -17.721y + -2.082z + -0.312xx + 35.243xy + -0.068xz + 0.206yy + -0.109yz + 0.312zz
+name = ode_hat_4
+grid_limits = None
+system_velocity(avg) = None
+[2025-12-07 21:45:28,291] INFO: [vec 4] ode info saved to ./experiments/classic/results/lorenz_lv/vec_4/ode_info.txt
+[2025-12-07 21:45:33,972] INFO: [vec 4] figure for init_0=(0.3, 0.3, 0.5) saved under ./experiments/classic/results/lorenz_lv/vec_4/init_0
+[2025-12-07 21:45:39,609] INFO: [vec 4] figure for init_1=(0.1, 0.2, 0.8) saved under ./experiments/classic/results/lorenz_lv/vec_4/init_1
+[2025-12-07 21:45:45,190] INFO: [vec 4] figure for init_2=(0.1, 0.0, 0.0) saved under ./experiments/classic/results/lorenz_lv/vec_4/init_2
+[2026-01-18 22:19:22,037] INFO: vecs.shape = (5, 1, 48, 48, 48, 3)
+[2026-01-18 22:19:22,037] INFO: num_vecs = 5
+[2026-01-18 22:19:22,037] INFO: === start vec index 0 ===
+[2026-01-18 22:19:22,037] INFO: vec[0].shape = (1, 48, 48, 48, 3)
+[2026-01-18 22:19:22,128] INFO: [vec 0] config saved to ./experiments/classic/results/lorenz_lv/vec_0/config.json
+[2026-01-18 22:19:22,128] INFO: [vec 0] ode_hat info: dx/dt = 0.118 + -11.684x + 11.225y + -0.127z + 0.793xx + 0.555xy + 0.963xz + -0.892yy + -0.853yz + 0.074zz
+dy/dt = -4.018 + -1.152x + 9.129y + 7.074z + 0.862xx + -0.078xy + -13.578xz + -0.822yy + -0.643yz + 0.085zz
+dz/dt = 3.515 + -7.271x + -6.638y + -0.859z + -0.262xx + 14.147xy + 0.244xz + 0.069yy + -0.379yz + 0.07zz
+name = ode_hat_0
+grid_limits = None
+system_velocity(avg) = None
+[2026-01-18 22:19:22,128] INFO: [vec 0] ode info saved to ./experiments/classic/results/lorenz_lv/vec_0/ode_info.txt
+[2026-01-18 22:19:27,784] INFO: [vec 0] trajectory for init_0=(0.3, 0.3, 0.5) saved under ./experiments/classic/results/lorenz_lv/vec_0/init_0
+[2026-01-18 22:19:45,218] INFO: [vec 0] features done for init_0=(0.3, 0.3, 0.5): ID=2.9258, KY=2.1248, spectrum=[ 0.71888144 -0.26939292 -3.60310726]
+[2026-01-18 22:19:50,840] INFO: [vec 0] trajectory for init_1=(0.1, 0.2, 0.8) saved under ./experiments/classic/results/lorenz_lv/vec_0/init_1
+[2026-01-18 22:20:08,199] INFO: [vec 0] features done for init_1=(0.1, 0.2, 0.8): ID=2.2413, KY=2.1102, spectrum=[ 0.58565411 -0.19680898 -3.52815792]
+[2026-01-18 22:20:13,803] INFO: [vec 0] trajectory for init_2=(0.1, 0.0, 0.0) saved under ./experiments/classic/results/lorenz_lv/vec_0/init_2
+[2026-01-18 22:20:31,386] INFO: [vec 0] features done for init_2=(0.1, 0.0, 0.0): ID=3.1306, KY=2.0740, spectrum=[ 0.61561593 -0.36096726 -3.44048144]
+[2026-01-18 22:20:31,387] INFO: [vec 0] features summary saved: {'n_success': 3, 'intrinsic_dimension_twonn_mean': 2.765880643191925, 'intrinsic_dimension_twonn_std': 0.38026888520558566, 'kaplan_yorke_dimension_mean': 2.1029925349082483, 'kaplan_yorke_dimension_std': 0.021332222446232865, 'lyapunov_spectrum_mean': array([ 0.64005049, -0.27572305, -3.52391554]), 'lyapunov_spectrum_std': array([0.05706818, 0.06716665, 0.06645945])}
+[2026-01-18 22:20:31,387] INFO: === start vec index 1 ===
+[2026-01-18 22:20:31,387] INFO: vec[1].shape = (1, 48, 48, 48, 3)
+[2026-01-18 22:20:31,471] INFO: [vec 1] config saved to ./experiments/classic/results/lorenz_lv/vec_1/config.json
+[2026-01-18 22:20:31,472] INFO: [vec 1] ode_hat info: dx/dt = 0.18 + -10.856x + 10.276y + -0.267z + 0.692xx + 0.766xy + 0.836xz + -0.853yy + -0.757yz + 0.217zz
+dy/dt = -5.505 + 4.038x + 6.788y + 9.851z + 0.648xx + 0.099xy + -19.152xz + -0.74yy + -0.423yz + 0.041zz
+dz/dt = 4.879 + -10.102x + -9.042y + -1.227z + -0.04xx + 19.383xy + 0.288xz + -0.152yy + -0.505yz + 0.178zz
+name = ode_hat_1
+grid_limits = None
+system_velocity(avg) = None
+[2026-01-18 22:20:31,472] INFO: [vec 1] ode info saved to ./experiments/classic/results/lorenz_lv/vec_1/ode_info.txt
+[2026-01-18 22:20:37,136] INFO: [vec 1] trajectory for init_0=(0.3, 0.3, 0.5) saved under ./experiments/classic/results/lorenz_lv/vec_1/init_0
+[2026-01-18 22:20:54,609] INFO: [vec 1] features done for init_0=(0.3, 0.3, 0.5): ID=2.2751, KY=2.1170, spectrum=[ 0.86931027 -0.24740166 -5.31657486]
+[2026-01-18 22:21:00,244] INFO: [vec 1] trajectory for init_1=(0.1, 0.2, 0.8) saved under ./experiments/classic/results/lorenz_lv/vec_1/init_1
+[2026-01-18 22:21:17,664] INFO: [vec 1] features done for init_1=(0.1, 0.2, 0.8): ID=2.4521, KY=2.1073, spectrum=[ 0.90195466 -0.34004005 -5.23584188]
+[2026-01-18 22:21:23,349] INFO: [vec 1] trajectory for init_2=(0.1, 0.0, 0.0) saved under ./experiments/classic/results/lorenz_lv/vec_1/init_2
+[2026-01-18 22:21:40,786] INFO: [vec 1] features done for init_2=(0.1, 0.0, 0.0): ID=2.8960, KY=2.1109, spectrum=[ 0.78563731 -0.19907836 -5.28784663]
+[2026-01-18 22:21:40,786] INFO: [vec 1] features summary saved: {'n_success': 3, 'intrinsic_dimension_twonn_mean': 2.541066564598039, 'intrinsic_dimension_twonn_std': 0.26117245140311085, 'kaplan_yorke_dimension_mean': 2.1117406876738176, 'kaplan_yorke_dimension_std': 0.003983384601121247, 'lyapunov_spectrum_mean': array([ 0.85230075, -0.26217336, -5.28008779]), 'lyapunov_spectrum_std': array([0.04898588, 0.05848762, 0.0334126 ])}
+[2026-01-18 22:21:40,786] INFO: === start vec index 2 ===
+[2026-01-18 22:21:40,786] INFO: vec[2].shape = (1, 48, 48, 48, 3)
+[2026-01-18 22:21:40,869] INFO: [vec 2] config saved to ./experiments/classic/results/lorenz_lv/vec_2/config.json
+[2026-01-18 22:21:40,870] INFO: [vec 2] ode_hat info: dx/dt = 0.193 + -10.083x + 9.529y + -0.22z + 0.706xx + 0.802xy + 0.834xz + -0.945yy + -0.692yz + 0.125zz
+dy/dt = -6.925 + 9.323x + 4.289y + 12.524z + 0.4xx + 0.274xy + -24.697xz + -0.618yy + -0.161yz + 0.057zz
+dz/dt = 6.171 + -12.813x + -11.596y + -1.359z + -0.035xx + 24.629xy + 0.375xz + -0.107yy + -0.7yz + 0.111zz
+name = ode_hat_2
+grid_limits = None
+system_velocity(avg) = None
+[2026-01-18 22:21:40,870] INFO: [vec 2] ode info saved to ./experiments/classic/results/lorenz_lv/vec_2/ode_info.txt
+[2026-01-18 22:21:46,495] INFO: [vec 2] trajectory for init_0=(0.3, 0.3, 0.5) saved under ./experiments/classic/results/lorenz_lv/vec_2/init_0
+[2026-01-18 22:22:03,987] INFO: [vec 2] features done for init_0=(0.3, 0.3, 0.5): ID=2.0734, KY=2.0940, spectrum=[ 0.87758803 -0.23135489 -6.87733049]
+[2026-01-18 22:22:09,595] INFO: [vec 2] trajectory for init_1=(0.1, 0.2, 0.8) saved under ./experiments/classic/results/lorenz_lv/vec_2/init_1
+[2026-01-18 22:22:26,992] INFO: [vec 2] features done for init_1=(0.1, 0.2, 0.8): ID=3.1717, KY=2.0675, spectrum=[ 0.80683941 -0.3560589  -6.67539654]
+[2026-01-18 22:22:32,570] INFO: [vec 2] trajectory for init_2=(0.1, 0.0, 0.0) saved under ./experiments/classic/results/lorenz_lv/vec_2/init_2
+[2026-01-18 22:22:50,055] INFO: [vec 2] features done for init_2=(0.1, 0.0, 0.0): ID=2.9803, KY=2.0276, spectrum=[ 0.63336475 -0.45632    -6.41680275]
+[2026-01-18 22:22:50,056] INFO: [vec 2] features summary saved: {'n_success': 3, 'intrinsic_dimension_twonn_mean': 2.7417919462381604, 'intrinsic_dimension_twonn_std': 0.4790757623363586, 'kaplan_yorke_dimension_mean': 2.0630283833439482, 'kaplan_yorke_dimension_std': 0.02728364388823839, 'lyapunov_spectrum_mean': array([ 0.7725974 , -0.34791126, -6.65650993]), 'lyapunov_spectrum_std': array([0.10260162, 0.09202215, 0.18848338])}
+[2026-01-18 22:22:50,056] INFO: === start vec index 3 ===
+[2026-01-18 22:22:50,056] INFO: vec[3].shape = (1, 48, 48, 48, 3)
+[2026-01-18 22:22:50,131] INFO: [vec 3] config saved to ./experiments/classic/results/lorenz_lv/vec_3/config.json
+[2026-01-18 22:22:50,131] INFO: [vec 3] ode_hat info: dx/dt = 0.192 + -9.225x + 8.761y + -0.272z + 0.71xx + 0.771xy + 0.8xz + -1.004yy + -0.604yz + 0.129zz
+dy/dt = -8.316 + 14.621x + 1.764y + 15.119z + 0.217xx + 0.247xy + -30.145xz + -0.333yy + -0.045yz + 0.138zz
+dz/dt = 7.566 + -15.277x + -14.529y + -1.862z + -0.089xx + 29.841xy + 0.219xz + 0.064yy + -0.502yz + 0.313zz
+name = ode_hat_3
+grid_limits = None
+system_velocity(avg) = None
+[2026-01-18 22:22:50,131] INFO: [vec 3] ode info saved to ./experiments/classic/results/lorenz_lv/vec_3/ode_info.txt
+[2026-01-18 22:22:55,769] INFO: [vec 3] trajectory for init_0=(0.3, 0.3, 0.5) saved under ./experiments/classic/results/lorenz_lv/vec_3/init_0
+[2026-01-18 22:23:13,376] INFO: [vec 3] features done for init_0=(0.3, 0.3, 0.5): ID=2.1059, KY=2.0388, spectrum=[ 0.53901919 -0.2239613  -8.12955057]
+[2026-01-18 22:23:19,018] INFO: [vec 3] trajectory for init_1=(0.1, 0.2, 0.8) saved under ./experiments/classic/results/lorenz_lv/vec_3/init_1
+[2026-01-18 22:23:36,654] INFO: [vec 3] features done for init_1=(0.1, 0.2, 0.8): ID=1.5730, KY=2.0459, spectrum=[ 0.59782724 -0.22108365 -8.19991773]
+[2026-01-18 22:23:42,225] INFO: [vec 3] trajectory for init_2=(0.1, 0.0, 0.0) saved under ./experiments/classic/results/lorenz_lv/vec_3/init_2
+[2026-01-18 22:23:59,742] INFO: [vec 3] features done for init_2=(0.1, 0.0, 0.0): ID=2.5924, KY=2.0378, spectrum=[ 0.5019067  -0.1934433  -8.15254237]
+[2026-01-18 22:23:59,742] INFO: [vec 3] features summary saved: {'n_success': 3, 'intrinsic_dimension_twonn_mean': 2.090443672928561, 'intrinsic_dimension_twonn_std': 0.4162871415605031, 'kaplan_yorke_dimension_mean': 2.040845306372302, 'kaplan_yorke_dimension_std': 0.0036253186928819664, 'lyapunov_spectrum_mean': array([ 0.54625104, -0.21282942, -8.16067023]), 'lyapunov_spectrum_std': array([0.03949188, 0.0137583 , 0.02929654])}
+[2026-01-18 22:23:59,743] INFO: === start vec index 4 ===
+[2026-01-18 22:23:59,743] INFO: vec[4].shape = (1, 48, 48, 48, 3)
+[2026-01-18 22:23:59,825] INFO: [vec 4] config saved to ./experiments/classic/results/lorenz_lv/vec_4/config.json
+[2026-01-18 22:23:59,826] INFO: [vec 4] ode_hat info: dx/dt = 0.228 + -8.517x + 7.613y + -0.224z + 0.729xx + 0.953xy + 0.716xz + -0.794yy + -0.423yz + 0.074zz
+dy/dt = -9.722 + 19.903x + -0.69y + 17.712z + 0.122xx + 0.178xy + -35.607xz + -0.076yy + 0.026yz + 0.202zz
+dz/dt = 8.898 + -17.535x + -17.721y + -2.082z + -0.312xx + 35.243xy + -0.068xz + 0.206yy + -0.109yz + 0.312zz
+name = ode_hat_4
+grid_limits = None
+system_velocity(avg) = None
+[2026-01-18 22:23:59,826] INFO: [vec 4] ode info saved to ./experiments/classic/results/lorenz_lv/vec_4/ode_info.txt
+[2026-01-18 22:24:05,488] INFO: [vec 4] trajectory for init_0=(0.3, 0.3, 0.5) saved under ./experiments/classic/results/lorenz_lv/vec_4/init_0
+[2026-01-18 22:24:22,902] INFO: [vec 4] features done for init_0=(0.3, 0.3, 0.5): ID=3.1413, KY=2.0126, spectrum=[ 0.21233924 -0.09172644 -9.58515971]
+[2026-01-18 22:24:28,546] INFO: [vec 4] trajectory for init_1=(0.1, 0.2, 0.8) saved under ./experiments/classic/results/lorenz_lv/vec_4/init_1
+[2026-01-18 22:24:45,960] INFO: [vec 4] features done for init_1=(0.1, 0.2, 0.8): ID=2.6459, KY=2.0212, spectrum=[ 0.33766904 -0.13425939 -9.59442529]
+[2026-01-18 22:24:51,559] INFO: [vec 4] trajectory for init_2=(0.1, 0.0, 0.0) saved under ./experiments/classic/results/lorenz_lv/vec_4/init_2
+[2026-01-18 22:25:09,076] INFO: [vec 4] features done for init_2=(0.1, 0.0, 0.0): ID=2.0816, KY=2.0177, spectrum=[ 0.3145921  -0.14591996 -9.50613582]
+[2026-01-18 22:25:09,077] INFO: [vec 4] features summary saved: {'n_success': 3, 'intrinsic_dimension_twonn_mean': 2.6229284514091815, 'intrinsic_dimension_twonn_std': 0.43295790843123005, 'kaplan_yorke_dimension_mean': 2.0171758681542094, 'kaplan_yorke_dimension_std': 0.0035409147202179626, 'lyapunov_spectrum_mean': array([ 0.28820013, -0.1239686 , -9.56190694]), 'lyapunov_spectrum_std': array([0.05446278, 0.02329034, 0.03961713])}
+[2026-01-18 22:25:09,809] INFO: Saved per-init feature figure to ./experiments/classic/results/lorenz_lv/init_0_features.png
+[2026-01-18 22:25:10,480] INFO: Saved per-init feature figure to ./experiments/classic/results/lorenz_lv/init_1_features.png
+[2026-01-18 22:25:11,284] INFO: Saved per-init feature figure to ./experiments/classic/results/lorenz_lv/init_2_features.png
